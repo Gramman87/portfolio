@@ -7,6 +7,7 @@ export const projects = [
     color: "from-violet-600 to-indigo-600",
     highlight: "AI Integration",
     link: "https://fde-dashboard-orpin.vercel.app",
+    github: "https://github.com/Gramman87/fde-dashboard",
   },
   {
     title: "RAG Knowledge Agent",
@@ -16,6 +17,7 @@ export const projects = [
     color: "from-cyan-500 to-blue-600",
     highlight: "RAG Pipeline",
     link: "https://rag-agent-tau.vercel.app",
+    github: "https://github.com/Gramman87/rag-agent",
   },
   {
     title: "MCP Integration Server",
@@ -24,7 +26,8 @@ export const projects = [
     tags: ["MCP SDK", "TypeScript", "Zod", "stdio"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
-    link: "https://github.com/Gramman87/mcp-server",
+    link: null,
+    github: "https://github.com/Gramman87/mcp-server",
   },
   {
     title: "CI/CD Pipeline Optimizer",
@@ -34,6 +37,7 @@ export const projects = [
     color: "from-orange-500 to-pink-600",
     highlight: "40% faster deploys",
     link: null,
+    github: null,
   },
 ];
 
