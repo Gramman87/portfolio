@@ -6,7 +6,7 @@ export const projects = [
     tags: ["Next.js", "Claude API", "Recharts", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
     highlight: "AI Integration",
-    link: "https://github.com/Gramman87/fde-dashboard",
+    link: "https://fde-dashboard-orpin.vercel.app",
   },
   {
     title: "RAG Knowledge Agent",
@@ -15,7 +15,7 @@ export const projects = [
     tags: ["Next.js", "TF-IDF", "RAG", "TypeScript"],
     color: "from-cyan-500 to-blue-600",
     highlight: "RAG Pipeline",
-    link: "https://github.com/Gramman87/rag-agent",
+    link: "https://rag-agent-tau.vercel.app",
   },
   {
     title: "MCP Integration Server",
