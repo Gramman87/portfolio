@@ -30,6 +30,16 @@ export const projects = [
     github: "https://github.com/Gramman87/mcp-server",
   },
   {
+    title: "Preschool Enrollment Tracker",
+    description:
+      "Full-stack enrollment management tool for an early childhood academy. Parses a complex multi-sheet XLSX workbook, surfaces per-room capacity and daily attendance, predicts classroom transfers by age threshold, and manages the waitlist.",
+    tags: ["Next.js", "TypeScript", "XLSX Parsing", "Tailwind CSS"],
+    color: "from-rose-500 to-pink-600",
+    highlight: "Live Operational Tool",
+    link: "https://eca-enrollment-gramman87.vercel.app",
+    github: "https://github.com/Gramman87/eca-enrollment",
+  },
+  {
     title: "CI/CD Pipeline Optimizer",
     description:
       "Parallelized and cached GitLab CI/CD pipelines for a federal client, reducing deployment time by 40% and enabling faster iteration cycles for customer demos and prototypes.",
