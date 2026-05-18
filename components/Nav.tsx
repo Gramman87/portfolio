@@ -40,6 +40,12 @@ export default function Nav() {
           Resume
         </a>
         <a
+          href="/cover-letter"
+          className="text-xs font-semibold border border-white/10 hover:border-violet-500/50 text-gray-400 hover:text-white px-4 py-2 rounded-full transition-colors hidden md:block"
+        >
+          Cover Letter
+        </a>
+        <a
           href="#contact"
           className="text-xs font-semibold bg-violet-600 hover:bg-violet-500 text-white px-4 py-2 rounded-full transition-colors"
         >
