@@ -32,7 +32,7 @@ export default function Contact() {
               gramman87@gmail.com
             </a>
 
-            <div className="flex items-center justify-center gap-6">
+            <div className="flex items-center justify-center gap-6 flex-wrap">
               <a
                 href="https://linkedin.com/in/graham-anderson-denver"
                 target="_blank"
@@ -40,7 +40,15 @@ export default function Contact() {
                 className="flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors"
               >
                 <Link className="w-4 h-4" />
-                linkedin.com/in/graham-anderson-denver
+                LinkedIn
+              </a>
+              <span className="w-px h-4 bg-white/10" />
+              <a
+                href="/cover-letter"
+                className="flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors"
+              >
+                <GitFork className="w-4 h-4" />
+                Cover Letter
               </a>
             </div>
           </div>
