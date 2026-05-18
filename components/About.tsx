@@ -3,7 +3,7 @@ export default function About() {
     { value: "$80M+", label: "Programs delivered" },
     { value: "40%", label: "Faster CI/CD deployments" },
     { value: "13+", label: "Years leading delivery" },
-    { value: "3+", label: "Years software engineering" },
+    { value: "3", label: "AI prototypes shipped" },
   ];
 
   return (

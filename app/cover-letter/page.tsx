@@ -38,10 +38,11 @@ export default function CoverLetter() {
             <p>Dear Hiring Manager,</p>
 
             <p>
-              I am writing to express my strong interest in joining your team as a Forward Deployed
-              Engineer. My background combines hands-on enterprise software engineering with over a
-              decade of large-scale program leadership — a combination that lets me move fluidly
-              between the IDE, the architecture whiteboard, and the executive briefing room.
+              The gap between what AI can do and what most customers are actually experiencing is
+              where I want to work — and it&apos;s exactly where a Forward Deployed Engineer lives.
+              My background combines hands-on enterprise software engineering with over a decade of
+              large-scale program leadership, letting me move fluidly between the IDE, the
+              architecture whiteboard, and the executive briefing room.
             </p>
 
             <p>

@@ -3,7 +3,7 @@ export const projects = [
     title: "SaaS Command Center",
     description:
       "SaaS metrics dashboard with KPI cards, churn tracking, and a natural language query interface. AI responses are mocked to demonstrate the integration pattern — designed to wire into Claude API with an API key.",
-    tags: ["Next.js", "Mock AI", "Recharts", "TypeScript"],
+    tags: ["Next.js", "Claude API (ready)", "Recharts", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
     highlight: "AI Integration",
     link: "https://fde-dashboard-orpin.vercel.app",
