@@ -15,6 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Graham Anderson — Forward Deployed Engineer",
   description: "FDE specializing in rapid prototyping, AI integration, and enterprise solutions.",
+  metadataBase: new URL("https://grahamanderson.dev"),
+  openGraph: {
+    title: "Graham Anderson — Forward Deployed Engineer",
+    description: "FDE specializing in rapid prototyping, AI integration, and enterprise solutions.",
+    url: "https://grahamanderson.dev",
+    siteName: "Graham Anderson",
+  },
 };
 
 export default function RootLayout({

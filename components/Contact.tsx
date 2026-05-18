@@ -47,7 +47,7 @@ export default function Contact() {
         </div>
 
         <p className="text-center text-xs text-gray-700 mt-12">
-          Built with Next.js · &copy; 2026 Graham Anderson
+          grahamanderson.dev · Built with Next.js · &copy; 2026 Graham Anderson
         </p>
       </div>
     </section>
