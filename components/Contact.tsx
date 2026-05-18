@@ -44,6 +44,16 @@ export default function Contact() {
               </a>
               <span className="w-px h-4 bg-white/10" />
               <a
+                href="https://github.com/gramman87"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors"
+              >
+                <GitFork className="w-4 h-4" />
+                GitHub
+              </a>
+              <span className="w-px h-4 bg-white/10" />
+              <a
                 href="/cover-letter"
                 className="flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors"
               >
