@@ -36,7 +36,7 @@ export const projects = [
     tags: ["Next.js", "TypeScript", "XLSX Parsing", "Tailwind CSS"],
     color: "from-rose-500 to-pink-600",
     highlight: "Live Operational Tool",
-    link: "https://eca-enrollment-gramman87.vercel.app",
+    link: "https://eca-enrollment.vercel.app",
     github: "https://github.com/Gramman87/eca-enrollment",
   },
   {
