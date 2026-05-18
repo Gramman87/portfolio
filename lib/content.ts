@@ -6,7 +6,7 @@ export const projects = [
     tags: ["Next.js", "Claude API", "Recharts", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
     highlight: "AI Integration",
-    link: "http://localhost:3000",
+    link: "https://github.com/Gramman87/fde-dashboard",
   },
   {
     title: "RAG Knowledge Agent",
@@ -15,7 +15,7 @@ export const projects = [
     tags: ["Next.js", "TF-IDF", "RAG", "TypeScript"],
     color: "from-cyan-500 to-blue-600",
     highlight: "RAG Pipeline",
-    link: "http://localhost:3003",
+    link: "https://github.com/Gramman87/rag-agent",
   },
   {
     title: "MCP Integration Server",
@@ -24,7 +24,7 @@ export const projects = [
     tags: ["MCP SDK", "TypeScript", "Zod", "stdio"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
-    link: null,
+    link: "https://github.com/Gramman87/mcp-server",
   },
   {
     title: "CI/CD Pipeline Optimizer",
