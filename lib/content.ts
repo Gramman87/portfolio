@@ -2,8 +2,8 @@ export const projects = [
   {
     title: "SaaS Command Center",
     description:
-      "AI-powered analytics dashboard built with Next.js and the Claude API. Real-time KPIs, churn tracking, and natural language queries over business metrics — streamed live.",
-    tags: ["Next.js", "Claude API", "Recharts", "TypeScript"],
+      "SaaS metrics dashboard with KPI cards, churn tracking, and a natural language query interface. AI responses are mocked to demonstrate the integration pattern — designed to wire into Claude API with an API key.",
+    tags: ["Next.js", "Mock AI", "Recharts", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
     highlight: "AI Integration",
     link: "https://fde-dashboard-orpin.vercel.app",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "RAG Knowledge Agent",
     description:
-      "Retrieval-Augmented Generation pipeline that grounds LLM responses in customer documentation. Chunks, embeds, retrieves, and answers — with a lightweight eval harness to measure accuracy.",
+      "RAG pipeline with real TF-IDF cosine similarity retrieval over a 5-document corpus. Chunks, scores, and surfaces context visually. Answer generation is mocked — built to swap in a live LLM with an API key.",
     tags: ["Next.js", "TF-IDF", "RAG", "TypeScript"],
     color: "from-cyan-500 to-blue-600",
     highlight: "RAG Pipeline",
