@@ -7,17 +7,17 @@ const reasons = [
   {
     number: "02",
     title: "I'm built for ambiguity and speed",
-    body: "The best FDE work happens in the gap between a customer's half-formed problem and a working solution. I've spent my career in that gap — running complex programs with incomplete information, then pivoting to software engineering where I do the same thing in code.",
+    body: "The best FDE work happens in the gap between a customer's half-formed problem and a working solution. I've spent my career in that gap, running complex programs with incomplete information, then pivoting to software engineering where I do the same thing in code.",
   },
   {
     number: "03",
     title: "AI is where I'm placing my bets",
-    body: "I'm not waiting for AI to mature before I engage with it. I build RAG pipelines, MCP servers, and agentic prototypes now — standing up eval harnesses to measure quality and tracking the landscape so I can translate what's possible into what's valuable for a specific customer.",
+    body: "I'm not waiting for AI to mature before I engage with it. I build RAG pipelines, MCP servers, and agentic prototypes now, standing up eval harnesses to measure quality and tracking the landscape so I can translate what's possible into what's valuable for a specific customer.",
   },
   {
     number: "04",
     title: "I close the loop",
-    body: "A lot of engineers hand off to sales or customer success. I don't want to. The feedback loop between what customers need and what gets built is where leverage lives — and it's the thing I find most energizing about the FDE role.",
+    body: "A lot of engineers hand off to sales or customer success. I don't want to. The feedback loop between what customers need and what gets built is where leverage lives, and it's the thing I find most energizing about the FDE role.",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function WhyFDE() {
         </h2>
         <p className="text-gray-500 max-w-xl mb-16">
           A lot of people can write code. Fewer can embed with a customer, understand their actual problem,
-          and ship something that changes how they work — all on a short timeline.
+          and ship something that changes how they work, all on a short timeline.
           That intersection is where I operate best.
         </p>
 

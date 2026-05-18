@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PrintButton from "@/components/PrintButton";
 
 export const metadata: Metadata = {
-  title: "Cover Letter — Graham Anderson",
+  title: "Cover Letter | Graham Anderson",
 };
 
 export default function CoverLetter() {
@@ -39,7 +39,7 @@ export default function CoverLetter() {
 
             <p>
               The gap between what AI can do and what most customers are actually experiencing is
-              where I want to work — and it&apos;s exactly where a Forward Deployed Engineer lives.
+              where I want to work, and that's exactly where a Forward Deployed Engineer lives.
               My background combines hands-on enterprise software engineering with over a decade of
               large-scale program leadership, letting me move fluidly between the IDE, the
               architecture whiteboard, and the executive briefing room.
@@ -51,7 +51,7 @@ export default function CoverLetter() {
               microservice architectures and integrating them into existing enterprise infrastructure.
               I've enhanced CI/CD pipelines that reduced deployment time by 40%, implemented
               production-grade secrets management with HashiCorp Vault, and served as the feedback
-              loop between client teams and internal engineering stakeholders — exactly the kind of
+              loop between client teams and internal engineering stakeholders, the kind of
               embedded, customer-facing engineering work that defines the FDE role.
             </p>
 
@@ -67,15 +67,15 @@ export default function CoverLetter() {
             <p>
               On the AI side, I actively build production-minded proofs-of-concept with LLM APIs,
               RAG pipelines, and the Model Context Protocol (MCP). I stand up evaluation harnesses
-              to measure prototype quality, and I track the evolving agentic landscape — multi-agent
-              orchestration, agent-to-agent protocols, repeatable deployment patterns — so I can
+              to measure prototype quality, and I track the evolving agentic landscape: multi-agent
+              orchestration, agent-to-agent protocols, repeatable deployment patterns, so I can
               rapidly assemble bespoke, customer-specific demos that show tangible business value.
               These aren&apos;t side projects; they&apos;re the core craft I&apos;m bringing to this role.
             </p>
 
             <p>
               What draws me to forward-deployed work specifically is the speed and the stakes.
-              The best FDEs don&apos;t just build features — they compress the distance between a
+              The best FDEs don&apos;t just build features; they compress the distance between a
               customer&apos;s problem and a working solution. I&apos;ve spent my career getting comfortable
               in that gap, and I&apos;m ready to bring that energy to your team and your customers.
             </p>

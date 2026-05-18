@@ -26,12 +26,12 @@ export default function About() {
                 I&apos;m a solutions-focused engineer with a hybrid background in enterprise software
                 delivery and large-scale program leadership. At Accenture Federal Services I design
                 and integrate Java/Spring and TypeScript systems for federal clients. Before that,
-                I spent 13 years owning $80M+ commercial programs end-to-end — discovery, scoping,
+                I spent 13 years owning $80M+ commercial programs end-to-end: discovery, scoping,
                 executive presentations, and customer-facing delivery.
               </p>
               <p>
                 On the AI side, I build production-minded proofs-of-concept with LLM APIs, RAG
-                pipelines, and the Model Context Protocol (MCP) — and stand up evaluation harnesses
+                pipelines, and the Model Context Protocol (MCP), standing up evaluation harnesses
                 to measure prototype quality against real customer requirements.
               </p>
               <p>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PrintButton from "@/components/PrintButton";
 
 export const metadata: Metadata = {
-  title: "Resume — Graham Anderson",
+  title: "Resume | Graham Anderson",
 };
 
 export default function Resume() {
@@ -35,7 +35,7 @@ export default function Resume() {
           {/* Summary */}
           <Section title="Summary">
             <p className="text-sm text-gray-300 print:text-gray-700 leading-relaxed">
-              Solutions-focused engineer with a hybrid background in enterprise software delivery and large-scale program leadership. Combines hands-on experience designing and integrating Java/Spring and TypeScript systems for federal and enterprise clients with 13+ years leading $80M+ commercial programs end-to-end — owning discovery, scoping, executive presentations, business cases, and customer-facing delivery. Builds production-minded proofs-of-concept with LLM APIs, RAG, and the Model Context Protocol (MCP), and translates emerging agentic capabilities into measurable business outcomes. Equally comfortable embedded with a customer, in the architecture whiteboard session, and in the IDE.
+              Solutions-focused engineer with a hybrid background in enterprise software delivery and large-scale program leadership. Combines hands-on experience designing and integrating Java/Spring and TypeScript systems for federal and enterprise clients with 13+ years leading $80M+ commercial programs end-to-end: owning discovery, scoping, executive presentations, business cases, and customer-facing delivery. Builds production-minded proofs-of-concept with LLM APIs, RAG, and the Model Context Protocol (MCP), and translates emerging agentic capabilities into measurable business outcomes. Equally comfortable embedded with a customer, in the architecture whiteboard session, and in the IDE.
             </p>
           </Section>
 
@@ -45,7 +45,7 @@ export default function Resume() {
               {[
                 "Customer Discovery & Solution Design: requirements workshops, current-state analysis, architecture diagrams, technology roadmaps, business cases",
                 "Customer-Facing Communication: executive presentations to C-level sponsors, technical reviewers, and end-user audiences; navigating ambiguity across complex, cross-organizational environments",
-                "Applied AI & Agentic: production LLM patterns — prompt engineering, agent development, evaluation frameworks, RAG, MCP servers, sub-agents, and agent skills",
+                "Applied AI & Agentic: production LLM patterns (prompt engineering, agent development, evaluation frameworks, RAG, MCP servers, sub-agents, and agent skills)",
                 "Enterprise Software Delivery: Java, Spring Boot, TypeScript, JavaScript, REST APIs, microservices, systems integration, SQL, AWS; Python for AI prototyping",
                 "DevOps & Platform: Kubernetes, Docker, GitLab CI/CD, HashiCorp Vault, Agile/Scrum",
                 "Program Leadership: $80M+ portfolio ownership, forecasting, budgeting, procurement, scheduling, cross-functional stakeholder management",
@@ -67,7 +67,7 @@ export default function Resume() {
                 period="Mar 2023 – Present"
                 location="Denver, CO"
                 bullets={[
-                  "Partnered directly with federal client stakeholders to modernize legacy enterprise systems — translating ambiguous business requirements into Java/Spring Boot microservice architectures and integration patterns.",
+                  "Partnered directly with federal client stakeholders to modernize legacy enterprise systems, translating ambiguous business requirements into Java/Spring Boot microservice architectures and integration patterns.",
                   "Designed and built scalable RESTful microservices, increasing system maintainability and enabling integration with existing client infrastructure.",
                   "Enhanced GitLab CI/CD pipelines through parallelization and caching, reducing deployment time by 40% and accelerating iteration speed for client demos and prototypes.",
                   "Implemented secure secrets management with HashiCorp Vault, strengthening security posture and meeting federal compliance requirements.",
@@ -92,7 +92,7 @@ export default function Resume() {
                 location="Greenwood Village, CO"
                 bullets={[
                   "Built full-stack applications in Java, Spring Boot, and JavaScript deployed on AWS with RESTful service architectures.",
-                  "Served as Scrum Master and Database Administrator — enforcing Agile cadence, facilitating ceremonies, and driving robust schema design.",
+                  "Served as Scrum Master and Database Administrator, enforcing Agile cadence, facilitating ceremonies, and driving robust schema design.",
                 ]}
               />
               <Job
@@ -101,7 +101,7 @@ export default function Resume() {
                 period="Jan 2008 – Sep 2021"
                 location="Colorado"
                 bullets={[
-                  "Owned end-to-end delivery of $80M+ commercial and industrial programs — leading discovery, scoping, business-case development, executive presentations, and stakeholder management.",
+                  "Owned end-to-end delivery of $80M+ commercial and industrial programs, leading discovery, scoping, business-case development, executive presentations, and stakeholder management.",
                   "Built customer-specific delivery roadmaps and forecast models that quantified scope, cost, and schedule trade-offs for C-level sponsors.",
                   "Presented progress, risk, and value narratives to executive leadership on a regular cadence; routinely defended business cases under pressure.",
                   "Coordinated across procurement, engineering, manpower, and scheduling functions in complex, cross-functional environments.",
@@ -111,10 +111,10 @@ export default function Resume() {
           </Section>
 
           {/* AI Work */}
-          <Section title="Applied AI & Agentic Solutions — Independent Work">
+          <Section title="Applied AI & Agentic Solutions: Independent Work">
             <ul className="space-y-1.5">
               {[
-                "Build hands-on proofs-of-concept with LLM APIs and agent frameworks — RAG pipelines, tool/function calling, and Model Context Protocol (MCP) servers, sub-agents, and agent skills.",
+                "Build hands-on proofs-of-concept with LLM APIs and agent frameworks: RAG pipelines, tool/function calling, and Model Context Protocol (MCP) servers, sub-agents, and agent skills.",
                 "Stand up lightweight evaluation harnesses to measure prototype quality and iterate prompts and agent behavior against customer-style requirements.",
                 "Track the evolving agentic landscape (agent-to-agent protocols, multi-agent orchestration, repeatable deployment patterns) and rapidly assemble bespoke, customer-specific demos that demonstrate tangible AI value.",
               ].map((s) => (
@@ -141,9 +141,9 @@ export default function Resume() {
           <Section title="Education">
             <ul className="space-y-1">
               {[
-                "Skill Distillery — Certificate, Java Full Stack Development (2021–2022)",
-                "Emily Griffith Technical College — Certificate, Electrical Apprenticeship (2008–2012)",
-                "Metropolitan State University of Denver — Computer Science (coursework)",
+                "Skill Distillery: Certificate, Java Full Stack Development (2021–2022)",
+                "Emily Griffith Technical College: Certificate, Electrical Apprenticeship (2008–2012)",
+                "Metropolitan State University of Denver: Computer Science (coursework)",
               ].map((e) => (
                 <li key={e} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">
                   <span className="text-violet-400 print:text-gray-400 shrink-0">·</span>{e}
@@ -181,7 +181,7 @@ function Job({ title, company, period, location, bullets }: {
       <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
         <div>
           <span className="text-sm font-bold text-white print:text-black">{title}</span>
-          <span className="text-sm text-violet-400 print:text-gray-600"> — {company}</span>
+          <span className="text-sm text-violet-400 print:text-gray-600">, {company}</span>
         </div>
         <span className="text-xs text-gray-500 print:text-gray-500">{period} · {location}</span>
       </div>

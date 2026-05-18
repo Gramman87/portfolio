@@ -35,7 +35,7 @@ export default function Experience() {
                   <ul className="space-y-2.5">
                     {e.bullets.map((b, j) => (
                       <li key={j} className="flex gap-3 text-sm text-gray-400">
-                        <span className="text-violet-500 mt-0.5 shrink-0">—</span>
+                        <span className="text-violet-500 mt-0.5 shrink-0">·</span>
                         {b}
                       </li>
                     ))}

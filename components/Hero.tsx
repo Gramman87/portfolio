@@ -35,7 +35,7 @@ export default function Hero() {
         </h1>
 
         <p className="animate-fade-up-delay-2 text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed mb-10">
-          I build production-minded AI systems — RAG pipelines, MCP servers, agentic workflows — and
+          I build production-minded AI systems (RAG pipelines, MCP servers, agentic workflows) and
           translate them into measurable outcomes for real customers. Backed by 13+ years of $80M+
           program leadership and hands-on enterprise engineering at the federal level.
         </p>

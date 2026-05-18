@@ -20,7 +20,7 @@ export default function Contact() {
               something great.
             </h2>
             <p className="text-gray-400 text-lg max-w-lg mx-auto mb-12">
-              Whether you have a complex integration, a tight deadline, or just an idea — I&apos;d
+              Whether you have a complex integration, a tight deadline, or just an idea, I&apos;d
               love to hear about it.
             </p>
 
