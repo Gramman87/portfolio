@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const links = ["About", "Projects", "Experience", "Skills", "Contact"];
+const links = ["About", "Why FDE", "Projects", "Experience", "Skills", "Contact"];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +25,7 @@ export default function Nav() {
           {links.map((l) => (
             <li key={l}>
               <a
-                href={`#${l.toLowerCase()}`}
+                href={`#${l.toLowerCase().replace(" ", "-")}`}
                 className="text-sm text-gray-400 hover:text-white transition-colors"
               >
                 {l}
@@ -34,10 +34,10 @@ export default function Nav() {
           ))}
         </ul>
         <a
-          href="/cover-letter"
+          href="/resume"
           className="text-xs font-semibold border border-white/10 hover:border-violet-500/50 text-gray-400 hover:text-white px-4 py-2 rounded-full transition-colors hidden md:block"
         >
-          Cover Letter
+          Resume
         </a>
         <a
           href="#contact"
