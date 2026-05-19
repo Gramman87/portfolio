@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "HR Operations Agent",
+    description:
+      "Agentic HR workflow powered by Claude with real tool-calling. An AI agent reasons over 8 tools — employee search, compensation analysis, retention risk detection, PTO tracking, org charts, and policy search — to answer natural language HR questions with data-backed insights and recommendations.",
+    tags: ["Claude API", "Tool Use", "Agents", "Next.js", "TypeScript"],
+    color: "from-rose-500 to-pink-600",
+    highlight: "Agentic Workflow",
+    link: "https://hr-agentic-workflow.vercel.app",
+    github: "https://github.com/Gramman87/hr-agentic-workflow",
+  },
+  {
     title: "MCP Integration Server",
     description:
       "Enterprise-grade Model Context Protocol server exposing 6 agentic tools: customer database queries, support ticket surfacing, documentation search, and live metrics retrieval. Demonstrates the agent-to-tool integration pattern that powers AI-driven enterprise workflows.",
