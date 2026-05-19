@@ -24,18 +24,19 @@ export default function About() {
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
                 I&apos;m a solutions-focused engineer with a hybrid background in enterprise software
-                delivery and large-scale program leadership. At Accenture Federal Services I design
-                and integrate Java/Spring and TypeScript systems for federal clients. Before that,
-                I spent 13 years owning $80M+ commercial programs end-to-end: discovery, scoping,
-                executive presentations, and customer-facing delivery.
+                delivery and large-scale program leadership. At Accenture Federal Services I embed
+                directly with federal client stakeholders to modernize legacy systems — running discovery,
+                designing solution architectures, and presenting roadmaps to executive sponsors.
+                Before that, I spent 13 years owning $80M+ programs end-to-end.
               </p>
               <p>
-                On the AI side, I build production-minded proofs-of-concept with LLM APIs, RAG
-                pipelines, and the Model Context Protocol (MCP), standing up evaluation harnesses
-                to measure prototype quality against real customer requirements.
+                On the AI side, I build production-minded proofs-of-concept with LLMs, RAG pipelines,
+                Model Context Protocol (MCP), and agent-to-agent patterns. I stand up evaluation
+                harnesses to measure prototype quality and rapidly assemble customer-specific demos
+                that demonstrate tangible AI value.
               </p>
               <p>
-                Based in Evergreen, CO. Available for extensive travel to customer sites.
+                Based in Evergreen, CO. Available for 40%+ travel to customer sites.
               </p>
             </div>
           </div>

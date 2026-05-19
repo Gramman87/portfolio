@@ -38,51 +38,53 @@ export default function CoverLetter() {
             <p>Dear Hiring Manager,</p>
 
             <p>
-              The gap between what AI can do and what most customers are actually experiencing is
-              where I want to work, and that's exactly where a Forward Deployed Engineer lives.
-              My background combines hands-on enterprise software engineering with over a decade of
-              large-scale program leadership, letting me move fluidly between the IDE, the
-              architecture whiteboard, and the executive briefing room.
+              Workday is pushing AI from roadmap slides into live customer environments, and the
+              Forward Deployed Enterprise Architect role sits at the exact intersection where I
+              operate best: deep-dive discovery with a customer, rapid agentic POC development,
+              and executive-level value presentation. My background combines hands-on AI engineering
+              with over a decade of enterprise program leadership, letting me move fluidly between
+              the IDE, the architecture whiteboard, and the C-suite briefing room.
             </p>
 
             <p>
-              At Accenture Federal Services, I partner directly with federal clients to modernize
-              legacy systems, translating ambiguous business requirements into Java/Spring Boot
-              microservice architectures and integrating them into existing enterprise infrastructure.
-              I've enhanced CI/CD pipelines that reduced deployment time by 40%, implemented
-              production-grade secrets management with HashiCorp Vault, and served as the feedback
-              loop between client teams and internal engineering stakeholders, the kind of
-              embedded, customer-facing engineering work that defines the FDE role.
+              At Accenture Federal Services, I embed directly with federal client stakeholders to
+              modernize legacy enterprise systems — running discovery sessions, translating ambiguous
+              requirements into solution architectures, and presenting implementation roadmaps to
+              executive sponsors. I&apos;ve enhanced CI/CD pipelines that reduced deployment time by 40%,
+              and I serve as the feedback loop between client teams and internal product/architecture
+              stakeholders. This is the embedded, customer-facing technical work that the Forward
+              Deployed role demands.
             </p>
 
             <p>
-              Before pivoting into software engineering, I owned end-to-end delivery of $80M+
-              commercial and industrial programs. I built customer roadmaps, defended business cases
-              to C-level sponsors, and coordinated across procurement, engineering, and field
-              operations. That experience gave me a rare fluency: I can hold a deeply technical
-              conversation in the morning and present a value narrative to an executive audience in
-              the afternoon without losing anything in translation.
+              Before software engineering, I owned end-to-end delivery of $80M+ commercial programs.
+              I ran discovery workshops, built customer-specific roadmaps and forecast models,
+              defended business cases to C-level sponsors, and coordinated across cross-functional
+              teams. That experience gave me a rare fluency: I can lead a technical deep-dive in
+              the morning and present an AI value narrative to an executive audience in the afternoon
+              without losing anything in translation.
             </p>
 
             <p>
-              On the AI side, I actively build production-minded proofs-of-concept with LLM APIs,
-              RAG pipelines, and the Model Context Protocol (MCP). I stand up evaluation harnesses
-              to measure prototype quality, and I track the evolving agentic landscape: multi-agent
-              orchestration, agent-to-agent protocols, repeatable deployment patterns, so I can
-              rapidly assemble bespoke, customer-specific demos that show tangible business value.
-              These aren&apos;t side projects; they&apos;re the core craft I&apos;m bringing to this role.
+              On the AI side, I actively build with LLMs, RAG pipelines, Model Context Protocol
+              (MCP), and agent-to-agent patterns — the same technologies Workday is deploying
+              through Illuminate and its agentic platform. I stand up evaluation harnesses to
+              measure prototype quality and rapidly assemble bespoke, customer-specific demos
+              that show tangible business value. These aren&apos;t side projects; they&apos;re the core
+              craft I&apos;m bringing to this role.
             </p>
 
             <p>
-              What draws me to forward-deployed work specifically is the speed and the stakes.
-              The best FDEs don&apos;t just build features; they compress the distance between a
-              customer&apos;s problem and a working solution. I&apos;ve spent my career getting comfortable
-              in that gap, and I&apos;m ready to bring that energy to your team and your customers.
+              What draws me to Workday specifically is the scale of the opportunity: driving AI
+              adoption across enterprise HR and finance customers who are ready for transformation
+              but need someone to bridge the gap between what the platform can do and what their
+              business actually needs. That bridge — from Agent Test Drive to production rollout —
+              is where I want to work.
             </p>
 
             <p>
-              I would welcome the opportunity to discuss how my background aligns with what you're
-              building. Thank you for your consideration.
+              I would welcome the opportunity to discuss how my background aligns with what
+              you&apos;re building. Thank you for your consideration.
             </p>
 
             <p>Sincerely,</p>

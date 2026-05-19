@@ -35,7 +35,7 @@ export default function Resume() {
           {/* Summary */}
           <Section title="Summary">
             <p className="text-sm text-gray-300 print:text-gray-700 leading-relaxed">
-              Solutions-focused engineer with a hybrid background in enterprise software delivery and large-scale program leadership. Combines hands-on experience designing and integrating Java/Spring and TypeScript systems for federal and enterprise clients with 13+ years leading $80M+ commercial programs end-to-end: owning discovery, scoping, executive presentations, business cases, and customer-facing delivery. Builds production-minded proofs-of-concept with LLM APIs, RAG, and the Model Context Protocol (MCP), and translates emerging agentic capabilities into measurable business outcomes. Equally comfortable embedded with a customer, in the architecture whiteboard session, and in the IDE.
+              Solutions-focused engineer with a hybrid background in enterprise software delivery and large-scale program leadership. Combines hands-on experience embedding with enterprise clients — running discovery workshops, designing solution architectures, and presenting AI roadmaps to executive sponsors — with 13+ years leading $80M+ programs end-to-end. Builds production-minded agentic proofs-of-concept with LLMs, RAG, MCP, and agent-to-agent patterns, and translates emerging AI capabilities into measurable business outcomes for enterprise customers. Equally comfortable in the deep-dive discovery session, the architecture whiteboard, and the IDE.
             </p>
           </Section>
 
@@ -43,12 +43,12 @@ export default function Resume() {
           <Section title="Core Strengths">
             <ul className="space-y-1.5">
               {[
-                "Customer Discovery & Solution Design: requirements workshops, current-state analysis, architecture diagrams, technology roadmaps, business cases",
-                "Customer-Facing Communication: executive presentations to C-level sponsors, technical reviewers, and end-user audiences; navigating ambiguity across complex, cross-organizational environments",
-                "Applied AI & Agentic: production LLM patterns (prompt engineering, agent development, evaluation frameworks, RAG, MCP servers, sub-agents, and agent skills)",
-                "Enterprise Software Delivery: Java, Spring Boot, TypeScript, JavaScript, REST APIs, microservices, systems integration, SQL, AWS; Python for AI prototyping",
+                "Customer Discovery & AI Roadmapping: deep-dive discovery workshops, current-state analysis, customer-specific AI roadmaps, architecture diagrams, business cases",
+                "Executive Communication: presentations to C-level sponsors, technical reviewers, and end-user audiences; demonstrating solution value and navigating ambiguity across complex enterprise environments",
+                "Applied AI & Agentic: LLMs, Agents, RAG, MCP / A2A, prompt engineering, evaluation frameworks, rapid POC development, Agent Test Drives",
+                "Enterprise Software & Integration: Java, Spring Boot, TypeScript, Python, REST APIs, microservices, systems integration, SQL, AWS",
                 "DevOps & Platform: Kubernetes, Docker, GitLab CI/CD, HashiCorp Vault, Agile/Scrum",
-                "Program Leadership: $80M+ portfolio ownership, forecasting, budgeting, procurement, scheduling, cross-functional stakeholder management",
+                "Enterprise Transformation & Program Leadership: $80M+ portfolio delivery, forecast modeling, cross-functional coordination, stakeholder management across complex organizations",
               ].map((s) => (
                 <li key={s} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">
                   <span className="text-violet-400 print:text-gray-400 shrink-0 mt-0.5">·</span>
@@ -67,11 +67,11 @@ export default function Resume() {
                 period="Mar 2023 – Present"
                 location="Denver, CO"
                 bullets={[
-                  "Partnered directly with federal client stakeholders to modernize legacy enterprise systems, translating ambiguous business requirements into Java/Spring Boot microservice architectures and integration patterns.",
-                  "Designed and built scalable RESTful microservices, increasing system maintainability and enabling integration with existing client infrastructure.",
-                  "Enhanced GitLab CI/CD pipelines through parallelization and caching, reducing deployment time by 40% and accelerating iteration speed for client demos and prototypes.",
+                  "Embed directly with federal client stakeholders to modernize legacy enterprise systems, running discovery sessions and translating ambiguous requirements into solution architectures and Java/Spring Boot microservice implementations.",
+                  "Lead technical deep-dives and present architecture diagrams, integration patterns, and implementation roadmaps to both technical reviewers and executive sponsors.",
+                  "Enhanced GitLab CI/CD pipelines through parallelization and caching, reducing deployment time by 40% — accelerating iteration speed for customer demos and prototypes.",
                   "Implemented secure secrets management with HashiCorp Vault, strengthening security posture and meeting federal compliance requirements.",
-                  "Acted as the feedback loop between client teams and internal product/architecture stakeholders to keep solutions aligned with real-world operational needs.",
+                  "Serve as the feedback loop between client teams and internal product/architecture stakeholders, ensuring solutions stay aligned with real operational needs.",
                 ]}
               />
               <Job
@@ -101,9 +101,9 @@ export default function Resume() {
                 period="Jan 2008 – Sep 2021"
                 location="Colorado"
                 bullets={[
-                  "Owned end-to-end delivery of $80M+ commercial and industrial programs, leading discovery, scoping, business-case development, executive presentations, and stakeholder management.",
-                  "Built customer-specific delivery roadmaps and forecast models that quantified scope, cost, and schedule trade-offs for C-level sponsors.",
-                  "Presented progress, risk, and value narratives to executive leadership on a regular cadence; routinely defended business cases under pressure.",
+                  "Owned end-to-end delivery of $80M+ commercial and industrial programs, leading discovery workshops, scoping, business-case development, and executive presentations to C-level sponsors.",
+                  "Created customer-specific delivery roadmaps and forecast models that quantified scope, cost, and schedule trade-offs — the same discovery-to-roadmap process that drives enterprise transformation.",
+                  "Presented progress, risk, and value narratives to executive leadership on a regular cadence; routinely defended business cases under pressure from diverse stakeholder groups.",
                   "Coordinated across procurement, engineering, manpower, and scheduling functions in complex, cross-functional environments.",
                 ]}
               />
@@ -114,9 +114,9 @@ export default function Resume() {
           <Section title="Applied AI & Agentic Solutions: Independent Work">
             <ul className="space-y-1.5">
               {[
-                "Build hands-on proofs-of-concept with LLM APIs and agent frameworks: RAG pipelines, tool/function calling, and Model Context Protocol (MCP) servers, sub-agents, and agent skills.",
-                "Stand up lightweight evaluation harnesses to measure prototype quality and iterate prompts and agent behavior against customer-style requirements.",
-                "Track the evolving agentic landscape (agent-to-agent protocols, multi-agent orchestration, repeatable deployment patterns) and rapidly assemble bespoke, customer-specific demos that demonstrate tangible AI value.",
+                "Build hands-on agentic proofs-of-concept with LLMs, RAG pipelines, Model Context Protocol (MCP) servers, and agent-to-agent (A2A) patterns — the same technologies driving enterprise AI platforms.",
+                "Stand up evaluation harnesses to measure prototype quality and iterate agent behavior against customer-style requirements; rapidly assemble bespoke demos that demonstrate tangible AI value.",
+                "Track the evolving agentic landscape (multi-agent orchestration, A2A protocols, consumption models, repeatable deployment patterns) and translate emerging capabilities into customer-specific AI roadmaps.",
               ].map((s) => (
                 <li key={s} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">
                   <span className="text-violet-400 print:text-gray-400 shrink-0 mt-0.5">·</span>

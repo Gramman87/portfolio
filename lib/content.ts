@@ -1,41 +1,41 @@
 export const projects = [
   {
-    title: "SaaS Command Center",
-    description:
-      "SaaS metrics dashboard with KPI cards, churn tracking, and a natural language query interface. AI responses are mocked to demonstrate the integration pattern, designed to wire into Claude API with an API key.",
-    tags: ["Next.js", "Claude API (ready)", "Recharts", "TypeScript"],
-    color: "from-violet-600 to-indigo-600",
-    highlight: "AI Integration",
-    link: "https://fde-dashboard-orpin.vercel.app",
-    github: "https://github.com/Gramman87/fde-dashboard",
-  },
-  {
-    title: "RAG Knowledge Agent",
-    description:
-      "RAG pipeline with real TF-IDF cosine similarity retrieval over a 5-document corpus. Chunks, scores, and surfaces context visually. Answer generation is mocked, built to swap in a live LLM with an API key.",
-    tags: ["Next.js", "TF-IDF", "RAG", "TypeScript"],
-    color: "from-cyan-500 to-blue-600",
-    highlight: "RAG Pipeline",
-    link: "https://rag-agent-tau.vercel.app",
-    github: "https://github.com/Gramman87/rag-agent",
-  },
-  {
     title: "MCP Integration Server",
     description:
-      "Model Context Protocol server with 6 enterprise tools: query customer DB, surface support tickets, search docs, and pull live metrics. Connects directly to Claude Desktop via stdio transport.",
-    tags: ["MCP SDK", "TypeScript", "Zod", "stdio"],
+      "Enterprise-grade Model Context Protocol server exposing 6 agentic tools: customer database queries, support ticket surfacing, documentation search, and live metrics retrieval. Demonstrates the agent-to-tool integration pattern that powers AI-driven enterprise workflows.",
+    tags: ["MCP SDK", "TypeScript", "Zod", "Agent Tools"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
     link: null,
     github: "https://github.com/Gramman87/mcp-server",
   },
   {
-    title: "CI/CD Pipeline Optimizer",
+    title: "RAG Knowledge Agent",
     description:
-      "Parallelized and cached GitLab CI/CD pipelines for a federal client, reducing deployment time by 40% and enabling faster iteration cycles for customer demos and prototypes.",
+      "Retrieval-augmented generation pipeline with real TF-IDF cosine similarity over a document corpus. Chunks, scores, and surfaces relevant context visually before answer generation — the same pattern that powers enterprise knowledge assistants and AI-driven search.",
+    tags: ["RAG", "TF-IDF", "Next.js", "TypeScript"],
+    color: "from-cyan-500 to-blue-600",
+    highlight: "RAG Pipeline",
+    link: "https://rag-agent-tau.vercel.app",
+    github: "https://github.com/Gramman87/rag-agent",
+  },
+  {
+    title: "SaaS Command Center",
+    description:
+      "Executive-facing metrics dashboard with KPI cards, churn forecasting, and a natural language query interface. Built to demonstrate the discovery-to-demo pipeline: understand a customer's metrics, surface insights, and present value to leadership.",
+    tags: ["Next.js", "LLM Integration", "Recharts", "TypeScript"],
+    color: "from-violet-600 to-indigo-600",
+    highlight: "Customer Analytics",
+    link: "https://fde-dashboard-orpin.vercel.app",
+    github: "https://github.com/Gramman87/fde-dashboard",
+  },
+  {
+    title: "CI/CD Pipeline Optimization",
+    description:
+      "Parallelized and cached GitLab CI/CD pipelines for a federal enterprise client, reducing deployment time by 40%. Enabled faster iteration on customer demos and prototypes — critical when compressing the gap between discovery and a working solution.",
     tags: ["GitLab CI/CD", "Docker", "Kubernetes", "Java"],
     color: "from-orange-500 to-pink-600",
-    highlight: "40% faster deploys",
+    highlight: "40% Faster Deploys",
     link: null,
     github: null,
   },
@@ -47,10 +47,10 @@ export const experience = [
     company: "Accenture Federal Services",
     period: "Mar 2023 – Present",
     bullets: [
-      "Partner directly with federal client stakeholders to modernize legacy enterprise systems, translating ambiguous requirements into Java/Spring Boot microservice architectures.",
-      "Designed and built scalable RESTful microservices, increasing system maintainability and enabling integration with existing client infrastructure.",
-      "Enhanced GitLab CI/CD pipelines through parallelization and caching, reducing deployment time by 40% and accelerating iteration speed for client demos.",
-      "Implemented secure secrets management with HashiCorp Vault, strengthening security posture and meeting federal compliance requirements.",
+      "Embed directly with federal client stakeholders to run discovery on legacy enterprise systems, translating ambiguous requirements into solution architectures and Java/Spring Boot microservice implementations.",
+      "Lead technical deep-dives and present architecture diagrams, integration patterns, and implementation roadmaps to both technical reviewers and executive sponsors.",
+      "Enhanced CI/CD pipelines through parallelization and caching, reducing deployment time by 40% — accelerating iteration speed for customer demos and prototypes.",
+      "Serve as the feedback loop between client teams and internal product/architecture stakeholders, ensuring solutions stay aligned with real operational needs.",
     ],
   },
   {
@@ -58,8 +58,8 @@ export const experience = [
     company: "Modius",
     period: "Mar 2022 – Mar 2023",
     bullets: [
-      "Developed Java-based applications with SmartGWT/JavaScript front-ends for enterprise data-center customers on embedded/IoT devices.",
-      "Authored and consumed RESTful APIs supporting real-time device communication and integration with adjacent enterprise systems.",
+      "Built Java-based applications with SmartGWT/JavaScript front-ends deployed to enterprise data-center customers, integrating with existing infrastructure and adjacent systems.",
+      "Authored and consumed RESTful APIs supporting real-time device communication, demonstrating the end-to-end integration patterns that enterprise platforms require.",
       "Streamlined deployment workflows by optimizing integration scripts, reducing manual handoffs and release friction.",
     ],
   },
@@ -77,18 +77,19 @@ export const experience = [
     company: "Commercial & Industrial Electrical Construction",
     period: "Jan 2008 – Sep 2021",
     bullets: [
-      "Owned end-to-end delivery of $80M+ commercial and industrial programs, leading discovery, scoping, business-case development, and executive presentations.",
-      "Built customer-specific delivery roadmaps and forecast models that quantified scope, cost, and schedule trade-offs for C-level sponsors.",
-      "Coordinated across procurement, engineering, manpower, and scheduling functions, building the cross-functional collaboration muscle that directly applies to FDE work.",
+      "Owned end-to-end delivery of $80M+ commercial and industrial programs, leading discovery workshops, scoping, business-case development, and executive presentations to C-level sponsors.",
+      "Created customer-specific delivery roadmaps and forecast models that quantified scope, cost, and schedule trade-offs — the same discovery-to-roadmap process that drives enterprise AI adoption.",
+      "Presented progress, risk, and value narratives to executive leadership on a regular cadence; routinely defended business cases under pressure from diverse stakeholder groups.",
+      "Coordinated across procurement, engineering, manpower, and scheduling functions in complex, cross-functional environments — building the collaboration muscle that forward-deployed work demands.",
     ],
   },
 ];
 
 export const skills = [
-  { category: "Languages & Frameworks", items: ["Java", "Spring Boot", "TypeScript", "JavaScript", "Python", "REST APIs"] },
-  { category: "AI & Agentic", items: ["Claude API", "LLM APIs", "RAG", "MCP Servers", "Prompt Engineering", "Agent Evaluation"] },
-  { category: "Frontend", items: ["React", "Next.js", "Tailwind CSS"] },
-  { category: "Infrastructure & DevOps", items: ["AWS", "Kubernetes", "Docker", "GitLab CI/CD", "HashiCorp Vault"] },
-  { category: "Data & Integration", items: ["SQL", "Microservices", "Systems Integration", "RESTful APIs"] },
-  { category: "Leadership", items: ["Customer Discovery", "Executive Presentations", "Program Management", "Agile / Scrum"] },
+  { category: "AI & Agentic", items: ["LLMs", "Agents", "RAG", "MCP / A2A", "Prompt Engineering", "Evaluation Frameworks", "AI Roadmapping"] },
+  { category: "Enterprise Software", items: ["Java", "Spring Boot", "TypeScript", "Python", "REST APIs", "Microservices", "Systems Integration"] },
+  { category: "Customer-Facing", items: ["Discovery Workshops", "Architecture Diagrams", "Business Cases", "Executive Presentations", "Solution Design", "POC Development"] },
+  { category: "Infrastructure & DevOps", items: ["AWS", "Kubernetes", "Docker", "GitLab CI/CD", "HashiCorp Vault", "SQL"] },
+  { category: "Frontend & Prototyping", items: ["React", "Next.js", "Tailwind CSS", "Rapid Prototyping", "Data Visualization"] },
+  { category: "Program Leadership", items: ["$80M+ Portfolio Delivery", "Enterprise Transformation", "Forecast Modeling", "Cross-Functional Coordination", "Agile / Scrum"] },
 ];

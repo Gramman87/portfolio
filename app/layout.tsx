@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Graham Anderson | Forward Deployed Engineer",
-  description: "FDE specializing in rapid prototyping, AI integration, and enterprise solutions.",
+  title: "Graham Anderson | Forward Deployed Enterprise Architect",
+  description: "Enterprise architect specializing in AI adoption, agentic POCs, and customer-facing solution delivery.",
   metadataBase: new URL("https://grahamanderson.dev"),
   openGraph: {
-    title: "Graham Anderson | Forward Deployed Engineer",
-    description: "FDE specializing in rapid prototyping, AI integration, and enterprise solutions.",
+    title: "Graham Anderson | Forward Deployed Enterprise Architect",
+    description: "Enterprise architect specializing in AI adoption, agentic POCs, and customer-facing solution delivery.",
     url: "https://grahamanderson.dev",
     siteName: "Graham Anderson",
   },

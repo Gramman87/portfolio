@@ -1,23 +1,23 @@
 const reasons = [
   {
     number: "01",
-    title: "I've lived on both sides of the table",
-    body: "Thirteen years owning $80M+ programs gave me something most engineers don't have: deep fluency with how customers think, make decisions, and measure success. I know what a C-level sponsor needs to hear, and I know how to get there technically.",
+    title: "Discovery to demo is my native workflow",
+    body: "I've run hundreds of discovery sessions across 13 years of program leadership — scoping requirements, building roadmaps, and presenting business cases to C-level sponsors. Now I do the same thing with AI: deep-dive with a customer, map their pain points, and build a POC that shows measurable value.",
   },
   {
     number: "02",
-    title: "I'm built for ambiguity and speed",
-    body: "The best FDE work happens in the gap between a customer's half-formed problem and a working solution. I've spent my career in that gap, running complex programs with incomplete information, then pivoting to software engineering where I do the same thing in code.",
+    title: "I build what I present",
+    body: "I don't hand off between the whiteboard and the IDE. I build production-minded agentic solutions — RAG pipelines, MCP servers, agent workflows — and then present them to executive audiences. That end-to-end ownership compresses the distance between a customer's problem and a working solution.",
   },
   {
     number: "03",
-    title: "AI is where I'm placing my bets",
-    body: "I'm not waiting for AI to mature before I engage with it. I build RAG pipelines, MCP servers, and agentic prototypes now, standing up eval harnesses to measure quality and tracking the landscape so I can translate what's possible into what's valuable for a specific customer.",
+    title: "Deep in the AI landscape",
+    body: "I actively build with LLMs, RAG, Model Context Protocol (MCP), and agent-to-agent patterns. I stand up evaluation harnesses to measure prototype quality and track the evolving agentic landscape so I can rapidly assemble bespoke, customer-specific demos that show tangible business value.",
   },
   {
     number: "04",
-    title: "I close the loop",
-    body: "A lot of engineers hand off to sales or customer success. I don't want to. The feedback loop between what customers need and what gets built is where leverage lives, and it's the thing I find most energizing about the FDE role.",
+    title: "Enterprise transformation is familiar ground",
+    body: "Whether it was modernizing federal legacy systems at Accenture or leading $80M+ program delivery, I've spent my career embedded with customers navigating complex transformations. The cross-functional coordination, stakeholder management, and executive presence that enterprise AI adoption requires are things I've been doing for years.",
   },
 ];
 
@@ -29,13 +29,13 @@ export default function WhyFDE() {
           Why FDE
         </p>
         <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
-          Why this role,
+          Why forward-deployed,
           <br />
           <span className="text-gray-500">specifically.</span>
         </h2>
         <p className="text-gray-500 max-w-xl mb-16">
-          A lot of people can write code. Fewer can embed with a customer, understand their actual problem,
-          and ship something that changes how they work, all on a short timeline.
+          Driving enterprise AI adoption requires someone who can run the discovery workshop, build the
+          agentic POC, and present the value narrative to leadership — all on a compressed timeline.
           That intersection is where I operate best.
         </p>
 
