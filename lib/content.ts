@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "HR Operations Agent",
     description:
-      "Agentic HR workflow powered by Claude with real tool-calling. An AI agent reasons over 8 tools — employee search, compensation analysis, retention risk detection, PTO tracking, org charts, and policy search — to answer natural language HR questions with data-backed insights and recommendations.",
+      "Agentic HR workflow powered by Claude with real tool-calling. An AI agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 HR policies — handling compensation analysis, retention risk scoring, org chart traversal, and PTO tracking in under 3 seconds per query. Try it live.",
     tags: ["Claude API", "Tool Use", "Agents", "Next.js", "TypeScript"],
     color: "from-rose-500 to-pink-600",
     highlight: "Agentic Workflow",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "MCP Integration Server",
     description:
-      "Enterprise-grade Model Context Protocol server exposing 6 agentic tools: customer database queries, support ticket surfacing, documentation search, and live metrics retrieval. Demonstrates the agent-to-tool integration pattern that powers AI-driven enterprise workflows.",
+      "Enterprise MCP server exposing 6 agentic tools over stdio and web transports. Handles customer lookups across 5 accounts, surfaces support tickets, searches a 5-document knowledge base, and retrieves live business metrics ($5.8M ARR, 1,340 accounts). Both CLI and interactive web demo available.",
     tags: ["MCP SDK", "TypeScript", "Zod", "Agent Tools"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "RAG Knowledge Agent",
     description:
-      "Retrieval-augmented generation pipeline with real TF-IDF cosine similarity over a document corpus. Chunks, scores, and surfaces relevant context visually before answer generation — the same pattern that powers enterprise knowledge assistants and AI-driven search.",
+      "RAG pipeline with real TF-IDF cosine similarity over a document corpus. Chunks and scores 50+ document sections, surfaces the top-k results with relevance scores, and generates grounded answers — the same retrieval pattern behind enterprise knowledge assistants and AI-powered search.",
     tags: ["RAG", "TF-IDF", "Next.js", "TypeScript"],
     color: "from-cyan-500 to-blue-600",
     highlight: "RAG Pipeline",
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "SaaS Command Center",
     description:
-      "Executive-facing metrics dashboard with KPI cards, churn forecasting, and a natural language query interface. Built to demonstrate the discovery-to-demo pipeline: understand a customer's metrics, surface insights, and present value to leadership.",
+      "Executive-facing dashboard tracking 7 KPIs with real-time churn forecasting, revenue breakdowns by plan tier, and a natural language query interface powered by LLM integration. Built to demonstrate the discovery-to-demo pipeline: surface a customer's metrics and present value to leadership in minutes.",
     tags: ["Next.js", "LLM Integration", "Recharts", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
     highlight: "Customer Analytics",

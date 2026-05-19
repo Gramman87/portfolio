@@ -11,8 +11,8 @@ const reasons = [
   },
   {
     number: "03",
-    title: "Deep in the AI landscape",
-    body: "I actively build with LLMs, RAG, Model Context Protocol (MCP), and agent-to-agent patterns. I stand up evaluation harnesses to measure prototype quality and track the evolving agentic landscape so I can rapidly assemble bespoke, customer-specific demos that show tangible business value.",
+    title: "5 agentic systems built and shipped",
+    body: "I don't just follow the AI landscape — I build in it. I've shipped agentic workflows with Claude tool-calling, MCP servers with 6+ enterprise tools, RAG pipelines with real retrieval scoring, and executive dashboards with LLM integration. Each project is live, demoed, and open-source.",
   },
   {
     number: "04",
