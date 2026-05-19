@@ -16,7 +16,7 @@ export const projects = [
     tags: ["MCP SDK", "TypeScript", "Zod", "Agent Tools"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
-    link: null,
+    link: "https://mcp-web-nine.vercel.app",
     github: "https://github.com/Gramman87/mcp-server",
   },
   {
