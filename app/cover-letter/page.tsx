@@ -38,12 +38,11 @@ export default function CoverLetter() {
             <p>Dear Hiring Manager,</p>
 
             <p>
-              Workday is pushing AI from roadmap slides into live customer environments, and the
-              Forward Deployed Enterprise Architect role sits at the exact intersection where I
-              operate best: deep-dive discovery with a customer, rapid agentic POC development,
-              and executive-level value presentation. My background combines hands-on AI engineering
-              with over a decade of enterprise program leadership, letting me move fluidly between
-              the IDE, the architecture whiteboard, and the C-suite briefing room.
+              The gap between what AI can do and what most enterprise customers are actually
+              experiencing is where I want to work — and that&apos;s exactly where a Forward Deployed
+              Architect lives. My background combines hands-on AI engineering with over a decade
+              of enterprise program leadership, letting me move fluidly between the IDE, the
+              architecture whiteboard, and the C-suite briefing room.
             </p>
 
             <p>
@@ -52,8 +51,8 @@ export default function CoverLetter() {
               requirements into solution architectures, and presenting implementation roadmaps to
               executive sponsors. I&apos;ve enhanced CI/CD pipelines that reduced deployment time by 40%,
               and I serve as the feedback loop between client teams and internal product/architecture
-              stakeholders. This is the embedded, customer-facing technical work that the Forward
-              Deployed role demands.
+              stakeholders. This is the embedded, customer-facing technical work that forward-deployed
+              roles demand.
             </p>
 
             <p>
@@ -67,19 +66,18 @@ export default function CoverLetter() {
 
             <p>
               On the AI side, I actively build with LLMs, RAG pipelines, Model Context Protocol
-              (MCP), and agent-to-agent patterns — the same technologies Workday is deploying
-              through Illuminate and its agentic platform. I stand up evaluation harnesses to
-              measure prototype quality and rapidly assemble bespoke, customer-specific demos
-              that show tangible business value. These aren&apos;t side projects; they&apos;re the core
-              craft I&apos;m bringing to this role.
+              (MCP), and agent-to-agent patterns. I stand up evaluation harnesses to measure
+              prototype quality and rapidly assemble bespoke, customer-specific demos that show
+              tangible business value. These aren&apos;t side projects; they&apos;re the core craft
+              I&apos;m bringing to this role.
             </p>
 
             <p>
-              What draws me to Workday specifically is the scale of the opportunity: driving AI
-              adoption across enterprise HR and finance customers who are ready for transformation
+              What draws me to forward-deployed work specifically is the speed and the stakes:
+              driving AI adoption across enterprise customers who are ready for transformation
               but need someone to bridge the gap between what the platform can do and what their
-              business actually needs. That bridge — from Agent Test Drive to production rollout —
-              is where I want to work.
+              business actually needs. That bridge — from discovery to production — is where I
+              want to work.
             </p>
 
             <p>

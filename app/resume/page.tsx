@@ -45,7 +45,7 @@ export default function Resume() {
               {[
                 "Customer Discovery & AI Roadmapping: deep-dive discovery workshops, current-state analysis, customer-specific AI roadmaps, architecture diagrams, business cases",
                 "Executive Communication: presentations to C-level sponsors, technical reviewers, and end-user audiences; demonstrating solution value and navigating ambiguity across complex enterprise environments",
-                "Applied AI & Agentic: LLMs, Agents, RAG, MCP / A2A, prompt engineering, evaluation frameworks, rapid POC development, Agent Test Drives",
+                "Applied AI & Agentic: LLMs, Agents, RAG, MCP / A2A, prompt engineering, evaluation frameworks, rapid POC development",
                 "Enterprise Software & Integration: Java, Spring Boot, TypeScript, Python, REST APIs, microservices, systems integration, SQL, AWS",
                 "DevOps & Platform: Kubernetes, Docker, GitLab CI/CD, HashiCorp Vault, Agile/Scrum",
                 "Enterprise Transformation & Program Leadership: $80M+ portfolio delivery, forecast modeling, cross-functional coordination, stakeholder management across complex organizations",
