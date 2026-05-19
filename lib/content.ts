@@ -57,10 +57,10 @@ export const experience = [
     company: "Accenture Federal Services",
     period: "Mar 2023 – Present",
     bullets: [
-      "Embed directly with federal client stakeholders to run discovery on legacy enterprise systems, translating ambiguous requirements into solution architectures and Java/Spring Boot microservice implementations.",
-      "Lead technical deep-dives and present architecture diagrams, integration patterns, and implementation roadmaps to both technical reviewers and executive sponsors.",
-      "Enhanced CI/CD pipelines through parallelization and caching, reducing deployment time by 40% — accelerating iteration speed for customer demos and prototypes.",
-      "Serve as the feedback loop between client teams and internal product/architecture stakeholders, ensuring solutions stay aligned with real operational needs.",
+      "Modernized a legacy federal Java/Spring Boot application by containerizing it and migrating it onto OpenShift (OCP) — running discovery with the client, defining the target architecture, and shipping the migration to production.",
+      "Embed across cross-agency stakeholder groups, translating conflicting requirements and operational constraints into a single solution architecture that technical reviewers and executive sponsors both sign off on.",
+      "Re-architected CI/CD pipelines with parallelization and caching, cutting deployment time 40% and tightening the loop between a code change and a demoable build for the client.",
+      "Own the feedback loop between client teams and internal product/architecture — surfacing tradeoffs early so the delivered system tracks real operational needs instead of the original spec.",
     ],
   },
   {
@@ -99,7 +99,7 @@ export const skills = [
   { category: "AI & Agentic", items: ["LLMs", "Agents", "RAG", "MCP / A2A", "Prompt Engineering", "Evaluation Frameworks", "AI Roadmapping"] },
   { category: "Enterprise Software", items: ["Java", "Spring Boot", "TypeScript", "Python", "REST APIs", "Microservices", "Systems Integration"] },
   { category: "Customer-Facing", items: ["Discovery Workshops", "Architecture Diagrams", "Business Cases", "Executive Presentations", "Solution Design", "POC Development"] },
-  { category: "Infrastructure & DevOps", items: ["AWS", "Kubernetes", "Docker", "GitLab CI/CD", "HashiCorp Vault", "SQL"] },
+  { category: "Infrastructure & DevOps", items: ["AWS", "OpenShift (OCP)", "Kubernetes", "Docker", "GitLab CI/CD", "HashiCorp Vault", "SQL"] },
   { category: "Frontend & Prototyping", items: ["React", "Next.js", "Tailwind CSS", "Rapid Prototyping", "Data Visualization"] },
   { category: "Program Leadership", items: ["$80M+ Portfolio Delivery", "Enterprise Transformation", "Forecast Modeling", "Cross-Functional Coordination", "Agile / Scrum"] },
 ];
