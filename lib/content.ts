@@ -12,8 +12,8 @@ export const projects = [
   {
     title: "MCP Integration Server",
     description:
-      "Enterprise MCP server exposing 6 agentic tools over stdio and web transports. Handles customer lookups across 5 accounts, surfaces support tickets, searches a 5-document knowledge base, and retrieves live business metrics ($5.8M ARR, 1,340 accounts). Both CLI and interactive web demo available.",
-    tags: ["MCP SDK", "TypeScript", "Zod", "Agent Tools"],
+      "Enterprise MCP server exposing 6 agentic tools over both stdio and Streamable HTTP transports. The live demo runs a Claude agent as a real MCP client — it discovers tools at runtime over the protocol, then calls them to handle customer lookups across 5 accounts, surface support tickets, search a 5-document knowledge base, and retrieve live business metrics ($5.8M ARR, 1,340 accounts).",
+    tags: ["MCP SDK", "Streamable HTTP", "TypeScript", "Agent Tools"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
     link: "https://mcp-web-nine.vercel.app",
