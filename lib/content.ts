@@ -22,8 +22,8 @@ export const projects = [
   {
     title: "RAG Knowledge Agent",
     description:
-      "RAG pipeline with real TF-IDF cosine similarity over a document corpus. Chunks and scores 50+ document sections, surfaces the top-k results with relevance scores, and generates grounded answers — the same retrieval pattern behind enterprise knowledge assistants and AI-powered search.",
-    tags: ["RAG", "TF-IDF", "Next.js", "TypeScript"],
+      "End-to-end RAG over a SaaS documentation corpus: TF-IDF cosine retrieval (smoothed IDF weighting, cached per-chunk vectors) surfaces the top-k chunks with relevance scores, then Claude composes a grounded answer with inline source citations. The retrieve-then-generate pattern behind enterprise knowledge assistants — both halves are real, no mocks.",
+    tags: ["RAG", "TF-IDF", "Claude API", "TypeScript"],
     color: "from-cyan-500 to-blue-600",
     highlight: "RAG Pipeline",
     link: "https://rag-agent-tau.vercel.app",
@@ -32,8 +32,8 @@ export const projects = [
   {
     title: "SaaS Command Center",
     description:
-      "Executive-facing dashboard tracking 7 KPIs with real-time churn forecasting, revenue breakdowns by plan tier, and a natural language query interface powered by LLM integration. Built to demonstrate the discovery-to-demo pipeline: surface a customer's metrics and present value to leadership in minutes.",
-    tags: ["Next.js", "LLM Integration", "Recharts", "TypeScript"],
+      "Executive-facing SaaS KPI dashboard — MRR/ARR, churn, engagement, and segment views — with two real Claude integrations on top: a streaming natural-language query interface that answers questions over the live metrics, and Claude-generated insight cards (cached server-side). Built for the discovery-to-demo pipeline: surface a customer's metrics and present value to leadership in minutes.",
+    tags: ["Next.js", "Claude API", "Recharts", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
     highlight: "Customer Analytics",
     link: "https://fde-dashboard-orpin.vercel.app",
