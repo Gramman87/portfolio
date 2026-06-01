@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ChevronDown } from "lucide-react";
 
-const links = ["About", "Why FDE", "Projects", "Experience", "Skills", "Contact"];
+const links = ["About", "Why Applied AI", "Projects", "Experience", "Skills", "Contact"];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -39,7 +39,7 @@ export default function Nav() {
           {links.map((l) => (
             <li key={l}>
               <a
-                href={`#${l.toLowerCase().replace(" ", "-")}`}
+                href={`#${l.toLowerCase().replace(/ /g, "-")}`}
                 className="text-sm text-gray-400 hover:text-white transition-colors"
               >
                 {l}
