@@ -23,17 +23,17 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
-                I&apos;m a solutions-focused engineer with a hybrid background in enterprise software
+                I&apos;m a customer-facing engineer with a hybrid background in production software
                 delivery and large-scale program leadership. At Accenture Federal Services I embed
                 directly with federal client stakeholders to modernize legacy systems — running discovery,
                 designing solution architectures, and presenting roadmaps to executive sponsors.
                 Before that, I spent 13 years owning $80M+ programs end-to-end.
               </p>
               <p>
-                On the AI side, I build production-minded proofs-of-concept with LLMs, RAG pipelines,
-                Model Context Protocol (MCP), and agent-to-agent patterns. I stand up evaluation
-                harnesses to measure prototype quality and rapidly assemble customer-specific demos
-                that demonstrate tangible AI value.
+                On the AI side, I build production applications on Claude — MCP servers, sub-agents,
+                and agent skills — in Python and TypeScript. I stand up evaluation harnesses to
+                measure prototype quality and assemble customer-specific demos that show measurable value,
+                then document the repeatable deployment patterns behind them.
               </p>
               <p>
                 Based in Evergreen, CO. Available for 40%+ travel to customer sites.

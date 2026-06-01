@@ -23,7 +23,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-4xl">
         <p className="animate-fade-up text-xs font-semibold tracking-[0.3em] text-violet-400 uppercase mb-6">
-          Forward Deployed Enterprise Architect
+          Forward Deployed Engineer · Applied AI
         </p>
 
         <h1 className="animate-fade-up-delay-1 text-6xl md:text-8xl font-black tracking-tight text-white leading-none mb-6">
@@ -35,9 +35,9 @@ export default function Hero() {
         </h1>
 
         <p className="animate-fade-up-delay-2 text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed mb-10">
-          I drive AI adoption for enterprise customers — running discovery workshops, building
-          agentic POCs, and presenting value to executive leadership. Backed by 13+ years of $80M+
-          program delivery and hands-on engineering with LLMs, RAG, MCP, and enterprise platforms.
+          I ship production applications on Claude — MCP servers, sub-agents, and agent skills —
+          embedded inside enterprise customer systems. Backed by 13+ years of $80M+ program delivery
+          and hands-on Python / TypeScript engineering across LLMs, agents, and evaluation frameworks.
         </p>
 
         <div className="animate-fade-up-delay-3 flex items-center justify-center gap-4 flex-wrap">

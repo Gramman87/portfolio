@@ -35,54 +35,46 @@ export default function CoverLetter() {
 
           {/* Body */}
           <div className="space-y-6 text-gray-300 print:text-gray-800 leading-relaxed text-sm md:text-base">
-            <p>Dear Hiring Manager,</p>
+            <p>Dear Anthropic Hiring Team,</p>
 
             <p>
-              The gap between what AI can do and what most enterprise customers are actually
-              experiencing is where I want to work — and that&apos;s exactly where a Forward Deployed
-              Architect lives. My background combines hands-on AI engineering with over a decade
-              of enterprise program leadership, letting me move fluidly between the IDE, the
+              I&apos;m applying for the Forward Deployed Engineer, Applied AI role. The gap between
+              what Claude can do and what most enterprise customers are actually experiencing is
+              where I want to work — building MCP servers, sub-agents, and agent skills inside
+              customer systems, then turning each deployment into a repeatable pattern the next FDE
+              can lean on. My background combines hands-on engineering on Claude with over a decade
+              of enterprise program leadership, so I can move fluidly between the IDE, the
               architecture whiteboard, and the C-suite briefing room.
             </p>
 
             <p>
-              At Accenture Federal Services, I embed directly with federal client stakeholders to
-              modernize legacy enterprise systems — running discovery sessions, translating ambiguous
-              requirements into solution architectures, and presenting implementation roadmaps to
-              executive sponsors. I&apos;ve enhanced CI/CD pipelines that reduced deployment time by 40%,
-              and I serve as the feedback loop between client teams and internal product/architecture
-              stakeholders. This is the embedded, customer-facing technical work that forward-deployed
-              roles demand.
+              At Accenture Federal Services I embed directly with federal client stakeholders to
+              modernize legacy enterprise systems — running discovery, translating ambiguous
+              requirements into solution architectures, presenting implementation roadmaps to
+              executive sponsors, and shipping the Java/Spring Boot services that back them.
+              Before software engineering, I owned end-to-end delivery of $80M+ commercial
+              programs: discovery workshops, customer-specific roadmaps, business cases defended to
+              C-level sponsors, cross-functional coordination across complex organizations. The
+              high-agency, customer-facing work the FDE role describes is the work I&apos;ve been
+              doing for years.
             </p>
 
             <p>
-              Before software engineering, I owned end-to-end delivery of $80M+ commercial programs.
-              I ran discovery workshops, built customer-specific roadmaps and forecast models,
-              defended business cases to C-level sponsors, and coordinated across cross-functional
-              teams. That experience gave me a rare fluency: I can lead a technical deep-dive in
-              the morning and present an AI value narrative to an executive audience in the afternoon
-              without losing anything in translation.
+              On the AI side, I actively build production applications on the Claude API in Python
+              and TypeScript: a tool-calling HR operations agent, an MCP server exposing six
+              enterprise tools over stdio and Streamable HTTP, a RAG knowledge agent with real
+              retrieval scoring, and a customer-facing analytics dashboard with streaming Claude
+              integration. Each is live, open-source, and backed by evaluation harnesses I use to
+              iterate prompts and tool definitions against customer-style requirements. These
+              aren&apos;t side projects — they&apos;re the core craft I&apos;m bringing to this role.
             </p>
 
             <p>
-              On the AI side, I actively build with LLMs, RAG pipelines, Model Context Protocol
-              (MCP), and agent-to-agent patterns. I stand up evaluation harnesses to measure
-              prototype quality and rapidly assemble bespoke, customer-specific demos that show
-              tangible business value. These aren&apos;t side projects; they&apos;re the core craft
-              I&apos;m bringing to this role.
-            </p>
-
-            <p>
-              What draws me to forward-deployed work specifically is the speed and the stakes:
-              driving AI adoption across enterprise customers who are ready for transformation
-              but need someone to bridge the gap between what the platform can do and what their
-              business actually needs. That bridge — from discovery to production — is where I
-              want to work.
-            </p>
-
-            <p>
-              I would welcome the opportunity to discuss how my background aligns with what
-              you&apos;re building. Thank you for your consideration.
+              What draws me specifically to Anthropic is the mission. Working safely toward
+              beneficial AI isn&apos;t a tagline I want to attach to my resume; it&apos;s the reason
+              I&apos;d rather build production Claude deployments at the source than ship generic
+              integrations elsewhere. I&apos;d welcome the chance to discuss how my background maps
+              onto what the Applied AI team is building. Thank you for your consideration.
             </p>
 
             <p>Sincerely,</p>

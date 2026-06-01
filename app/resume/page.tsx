@@ -35,7 +35,7 @@ export default function Resume() {
           {/* Summary */}
           <Section title="Summary">
             <p className="text-sm text-gray-300 print:text-gray-700 leading-relaxed">
-              Solutions-focused engineer with a hybrid background in enterprise software delivery and large-scale program leadership. Combines hands-on experience embedding with enterprise clients — running discovery workshops, designing solution architectures, and presenting AI roadmaps to executive sponsors — with 13+ years leading $80M+ programs end-to-end. Builds production-minded agentic proofs-of-concept with LLMs, RAG, MCP, and agent-to-agent patterns, and translates emerging AI capabilities into measurable business outcomes for enterprise customers. Equally comfortable in the deep-dive discovery session, the architecture whiteboard, and the IDE.
+              Customer-facing engineer with a hybrid background in production software delivery and large-scale program leadership. Ships production applications on Claude — MCP servers, sub-agents, and agent skills — in Python and TypeScript, embedded inside customer systems. Combines hands-on experience running discovery workshops, designing solution architectures, and presenting AI roadmaps to executive sponsors with 13+ years leading $80M+ programs end-to-end. Stands up evaluation harnesses to measure prototype quality, documents repeatable deployment patterns, and translates emerging Claude capabilities into measurable enterprise outcomes.
             </p>
           </Section>
 
@@ -43,10 +43,10 @@ export default function Resume() {
           <Section title="Core Strengths">
             <ul className="space-y-1.5">
               {[
-                "Customer Discovery & AI Roadmapping: deep-dive discovery workshops, current-state analysis, customer-specific AI roadmaps, architecture diagrams, business cases",
+                "Production LLM Engineering: Claude API, agents and sub-agents, MCP servers (stdio + Streamable HTTP), agent skills, RAG, prompt engineering, evaluation frameworks",
+                "Customer Discovery & AI Roadmapping: deep-dive discovery workshops, current-state analysis, customer-specific AI roadmaps, repeatable deployment patterns, architecture diagrams, business cases",
                 "Executive Communication: presentations to C-level sponsors, technical reviewers, and end-user audiences; demonstrating solution value and navigating ambiguity across complex enterprise environments",
-                "Applied AI & Agentic: LLMs, Agents, RAG, MCP / A2A, prompt engineering, evaluation frameworks, rapid POC development",
-                "Enterprise Software & Integration: Java, Spring Boot, TypeScript, Python, REST APIs, microservices, systems integration, SQL, AWS",
+                "Languages & Platforms: Python, TypeScript, Java, Spring Boot, REST APIs, microservices, systems integration, SQL, AWS",
                 "DevOps & Platform: Kubernetes, Docker, GitLab CI/CD, HashiCorp Vault, Agile/Scrum",
                 "Enterprise Transformation & Program Leadership: $80M+ portfolio delivery, forecast modeling, cross-functional coordination, stakeholder management across complex organizations",
               ].map((s) => (
@@ -111,12 +111,12 @@ export default function Resume() {
           </Section>
 
           {/* AI Work */}
-          <Section title="Applied AI & Agentic Solutions: Independent Work">
+          <Section title="Applied AI on Claude: Independent Work">
             <ul className="space-y-1.5">
               {[
-                "Build hands-on agentic proofs-of-concept with LLMs, RAG pipelines, Model Context Protocol (MCP) servers, and agent-to-agent (A2A) patterns — the same technologies driving enterprise AI platforms.",
-                "Stand up evaluation harnesses to measure prototype quality and iterate agent behavior against customer-style requirements; rapidly assemble bespoke demos that demonstrate tangible AI value.",
-                "Track the evolving agentic landscape (multi-agent orchestration, A2A protocols, consumption models, repeatable deployment patterns) and translate emerging capabilities into customer-specific AI roadmaps.",
+                "Ship production applications on the Claude API — MCP servers (stdio + Streamable HTTP transports), tool-calling agents, sub-agents, agent skills, and RAG pipelines in TypeScript and Python. Every project is live and open-source.",
+                "Stand up evaluation harnesses to measure agent quality and iterate prompts and tool definitions against customer-style requirements; assemble bespoke demos that demonstrate tangible AI value.",
+                "Track the evolving Claude / agentic landscape (sub-agent orchestration, MCP, agent skills, repeatable deployment patterns) and translate emerging capabilities into customer-specific AI roadmaps.",
               ].map((s) => (
                 <li key={s} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">
                   <span className="text-violet-400 print:text-gray-400 shrink-0 mt-0.5">·</span>

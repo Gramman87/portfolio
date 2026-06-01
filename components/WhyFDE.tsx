@@ -1,23 +1,23 @@
 const reasons = [
   {
     number: "01",
-    title: "Discovery to demo is my native workflow",
-    body: "I've run hundreds of discovery sessions across 13 years of program leadership — scoping requirements, building roadmaps, and presenting business cases to C-level sponsors. Now I do the same thing with AI: deep-dive with a customer, map their pain points, and build a POC that shows measurable value.",
+    title: "Production apps on Claude, not slideware",
+    body: "I've shipped MCP servers, sub-agents, and agent skills against the Claude API — tool-calling agents orchestrating real workflows, MCP servers over stdio and Streamable HTTP, RAG pipelines with real retrieval scoring. Every project below is live and open-source, not a demo recording.",
   },
   {
     number: "02",
-    title: "I build what I present",
-    body: "I don't hand off between the whiteboard and the IDE. I build production-minded agentic solutions — RAG pipelines, MCP servers, agent workflows — and then present them to executive audiences. That end-to-end ownership compresses the distance between a customer's problem and a working solution.",
+    title: "Discovery to deployment is my native workflow",
+    body: "13 years of program leadership running discovery sessions, scoping requirements, and presenting business cases to C-level sponsors — now applied to AI. I deep-dive with a customer, map their pain points to Claude-shaped solutions, and ship the application that proves it. The repeatable deployment patterns become artifacts other FDEs can reuse.",
   },
   {
     number: "03",
-    title: "5 agentic systems built and shipped",
-    body: "I don't just follow the AI landscape — I build in it. I've shipped agentic workflows with Claude tool-calling, MCP servers with 6+ enterprise tools, RAG pipelines with real retrieval scoring, and executive dashboards with LLM integration. Each project is live, demoed, and open-source.",
+    title: "Evaluations are how I iterate",
+    body: "Production LLM work isn't vibes-based. I stand up evaluation harnesses to measure agent quality against customer-style requirements, iterate prompts and tool definitions against the eval set, and use the same harnesses to catch regressions before they hit a customer demo.",
   },
   {
     number: "04",
     title: "Enterprise transformation is familiar ground",
-    body: "Whether it was modernizing federal legacy systems at Accenture or leading $80M+ program delivery, I've spent my career embedded with customers navigating complex transformations. The cross-functional coordination, stakeholder management, and executive presence that enterprise AI adoption requires are things I've been doing for years.",
+    body: "Whether it's modernizing federal legacy systems at Accenture or leading $80M+ delivery, I've spent my career embedded with customers navigating complex transformations. The cross-functional coordination, stakeholder management, and executive presence that customer-facing AI deployment demands are things I've been doing for years.",
   },
 ];
 
@@ -26,7 +26,7 @@ export default function WhyFDE() {
     <section id="why-fde" className="py-32 px-6 border-t border-white/[0.04]">
       <div className="max-w-6xl mx-auto">
         <p className="text-xs font-semibold tracking-[0.3em] text-violet-400 uppercase mb-4">
-          Why FDE
+          Why Applied AI
         </p>
         <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
           Why forward-deployed,
@@ -34,9 +34,9 @@ export default function WhyFDE() {
           <span className="text-gray-500">specifically.</span>
         </h2>
         <p className="text-gray-500 max-w-xl mb-16">
-          Driving enterprise AI adoption requires someone who can run the discovery workshop, build the
-          agentic POC, and present the value narrative to leadership — all on a compressed timeline.
-          That intersection is where I operate best.
+          Forward-deployed work on Claude means running the discovery, shipping the production
+          application, and documenting the repeatable deployment pattern — all while the customer
+          relationship is still hot. That intersection is where I operate best.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">

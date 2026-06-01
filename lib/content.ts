@@ -96,8 +96,8 @@ export const experience = [
 ];
 
 export const skills = [
-  { category: "AI & Agentic", items: ["LLMs", "Agents", "RAG", "MCP / A2A", "Prompt Engineering", "Evaluation Frameworks", "AI Roadmapping"] },
-  { category: "Enterprise Software", items: ["Java", "Spring Boot", "TypeScript", "Python", "REST APIs", "Microservices", "Systems Integration"] },
+  { category: "AI & Agentic", items: ["Claude API", "Agents & Sub-agents", "MCP Servers", "Agent Skills", "RAG", "Prompt Engineering", "Evaluation Frameworks"] },
+  { category: "Enterprise Software", items: ["Python", "TypeScript", "Java", "Spring Boot", "REST APIs", "Microservices", "Systems Integration"] },
   { category: "Customer-Facing", items: ["Discovery Workshops", "Architecture Diagrams", "Business Cases", "Executive Presentations", "Solution Design", "POC Development"] },
   { category: "Infrastructure & DevOps", items: ["AWS", "OpenShift (OCP)", "Kubernetes", "Docker", "GitLab CI/CD", "HashiCorp Vault", "SQL"] },
   { category: "Frontend & Prototyping", items: ["React", "Next.js", "Tailwind CSS", "Rapid Prototyping", "Data Visualization"] },
