@@ -96,15 +96,15 @@ export default function Resume() {
                 ]}
               />
               <Job
-                title="Senior Project Manager"
+                title="Pre-Construction Manager"
                 company="Commercial & Industrial Electrical Construction"
                 period="Jan 2008 – Sep 2021"
                 location="Colorado"
                 bullets={[
-                  "Owned end-to-end delivery of $80M+ commercial and industrial programs, leading discovery workshops, scoping, business-case development, and executive presentations to C-level sponsors.",
-                  "Created customer-specific delivery roadmaps and forecast models that quantified scope, cost, and schedule trade-offs — the same discovery-to-roadmap process that drives enterprise transformation.",
-                  "Presented progress, risk, and value narratives to executive leadership on a regular cadence; routinely defended business cases under pressure from diverse stakeholder groups.",
-                  "Coordinated across procurement, engineering, manpower, and scheduling functions in complex, cross-functional environments.",
+                  "Led pre-construction on $80M+ commercial and industrial programs — running scope development, estimating, business-case development, procurement strategy, and executive presentations to C-level sponsors before mobilization.",
+                  "Built customer-specific cost models and delivery roadmaps that quantified scope, cost, and schedule trade-offs — the same discovery-to-roadmap process that drives enterprise transformation.",
+                  "Presented scope, risk, and value narratives to executive leadership on a regular cadence; routinely defended business cases under pressure from diverse stakeholder groups.",
+                  "Coordinated across procurement, engineering, manpower, and scheduling functions during pre-construction.",
                 ]}
               />
             </div>
