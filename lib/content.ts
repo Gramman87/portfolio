@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Portfolio Analyst Sub-Agent System",
+    description:
+      "A Python lead orchestrator (Claude Sonnet 4.6, adaptive thinking) dispatches to three specialist sub-agents (Claude Haiku 4.5) via tool-use — market data, news sentiment, risk concentration — then synthesizes their briefings into a decision-grade analyst memo. Backed by a Claude-as-judge evaluation harness scoring routing, coverage, and quality across hand-written cases. Prompt caching on every system prompt and the lead's tool definitions; cache hit/miss telemetry surfaced in the UI.",
+    tags: ["Python", "Sub-Agents", "Claude API", "Tool Use", "Evaluation Harness"],
+    color: "from-amber-500 to-orange-600",
+    highlight: "Sub-Agent Orchestration",
+    link: "https://fs-analyst-agent.vercel.app",
+    github: "https://github.com/Gramman87/fs-analyst-agent",
+  },
+  {
     title: "HR Operations Agent",
     description:
       "Agentic HR workflow powered by Claude with real tool-calling. An AI agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 HR policies — handling compensation analysis, retention risk scoring, org chart traversal, and PTO tracking in under 3 seconds per query. Try it live.",
