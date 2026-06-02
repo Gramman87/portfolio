@@ -114,8 +114,8 @@ export default function Resume() {
           <Section title="Applied AI on Claude: Independent Work">
             <ul className="space-y-1.5">
               {[
-                "Ship production applications on the Claude API — MCP servers (stdio + Streamable HTTP transports), tool-calling agents, sub-agents, agent skills, and RAG pipelines in TypeScript and Python. Every project is live and open-source.",
-                "Stand up evaluation harnesses to measure agent quality and iterate prompts and tool definitions against customer-style requirements; assemble bespoke demos that demonstrate tangible AI value.",
+                "Ship production applications on the Claude API — MCP servers (stdio + Streamable HTTP transports), tool-calling agents, sub-agent orchestration, agent skills, and RAG pipelines in Python and TypeScript. Every project is live and open-source.",
+                "Stand up evaluation harnesses — including Claude-as-judge scoring on routing correctness, coverage, and output quality across hand-written cases — to iterate prompts and tool definitions against customer-style requirements.",
                 "Track the evolving Claude / agentic landscape (sub-agent orchestration, MCP, agent skills, repeatable deployment patterns) and translate emerging capabilities into customer-specific AI roadmaps.",
               ].map((s) => (
                 <li key={s} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">

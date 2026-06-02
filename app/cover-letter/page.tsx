@@ -61,12 +61,17 @@ export default function CoverLetter() {
 
             <p>
               On the AI side, I actively build production applications on the Claude API in Python
-              and TypeScript: a tool-calling HR operations agent, an MCP server exposing six
-              enterprise tools over stdio and Streamable HTTP, a RAG knowledge agent with real
-              retrieval scoring, and a customer-facing analytics dashboard with streaming Claude
-              integration. Each is live, open-source, and backed by evaluation harnesses I use to
-              iterate prompts and tool definitions against customer-style requirements. These
-              aren&apos;t side projects — they&apos;re the core craft I&apos;m bringing to this role.
+              and TypeScript. The flagship is a Python sub-agent system for financial-services
+              portfolio analysis: a lead orchestrator dispatches to three specialist sub-agents via
+              tool-use, prompt caching sits on every system prompt and the lead&apos;s tool defs,
+              and a Claude-as-judge eval harness scores routing, coverage, and output quality across
+              hand-written cases. Alongside it: a tool-calling HR operations agent, an MCP server
+              exposing six enterprise tools over stdio and Streamable HTTP, a RAG knowledge agent
+              with real retrieval scoring, and a customer-facing analytics dashboard with streaming
+              Claude integration. Each is live, open-source, and backed by evaluation harnesses I
+              use to iterate prompts and tool definitions against customer-style requirements.
+              These aren&apos;t side projects — they&apos;re the core craft I&apos;m bringing to
+              this role.
             </p>
 
             <p>
