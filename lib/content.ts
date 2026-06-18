@@ -1,4 +1,15 @@
-export const projects = [
+type Project = {
+  title: string;
+  description: string;
+  tags: string[];
+  color: string;
+  highlight: string;
+  link: string | null;
+  github: string | null;
+  image?: string;
+};
+
+export const projects: Project[] = [
   {
     title: "Spring Boot MCP Agent",
     description:
@@ -8,6 +19,7 @@ export const projects = [
     highlight: "JVM + React + MCP",
     link: null,
     github: "https://github.com/Gramman87/spring-mcp-agent",
+    image: "/spring-mcp-agent.png",
   },
   {
     title: "MCP Integration Server",

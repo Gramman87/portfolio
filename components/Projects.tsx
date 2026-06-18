@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projects } from "@/lib/content";
 import { ArrowUpRight, Terminal, GitFork } from "lucide-react";
 
@@ -22,6 +23,15 @@ export default function Projects() {
               <div className={`absolute -top-16 -right-16 w-48 h-48 bg-gradient-to-br ${p.color} opacity-0 group-hover:opacity-10 rounded-full blur-2xl transition-opacity duration-500`} />
 
               <div className="relative">
+                {p.image && (
+                  <Image
+                    src={p.image}
+                    alt={`${p.title} — live screenshot`}
+                    width={2240}
+                    height={776}
+                    className="w-full h-auto rounded-lg border border-white/[0.08] mb-6"
+                  />
+                )}
                 <div className="flex items-start justify-between mb-4">
                   <span className={`text-xs font-semibold px-3 py-1 rounded-full bg-gradient-to-r ${p.color} text-white`}>
                     {p.highlight}
