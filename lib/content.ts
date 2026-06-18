@@ -108,7 +108,7 @@ export const skills = [
   { category: "AI & Agentic", items: ["Claude API", "Tool & Function Calling", "MCP (Producer + Consumer)", "Agents & Sub-agents", "Streaming (SSE / WebSockets)", "RAG", "Evaluation Harnesses"] },
   { category: "Backend (JVM)", items: ["Java", "Spring Boot", "REST APIs", "Microservices", "OpenAI-Compatible Endpoints", "Systems Integration", "SQL"] },
   { category: "Frontend", items: ["TypeScript", "React", "Next.js", "HTML / CSS", "Tailwind CSS", "Data Visualization"] },
-  { category: "Testing & Quality", items: ["JUnit", "Jest", "React Testing Library", "Claude-as-Judge Evals", "API Governance & Versioning"] },
+  { category: "Testing & Quality", items: ["JUnit", "Claude-as-Judge Evals", "Evaluation Harnesses", "API Governance & Versioning"] },
   { category: "Cloud & DevOps", items: ["AWS", "Kubernetes", "OpenShift (OCP)", "Docker", "GitLab CI/CD", "HashiCorp Vault"] },
   { category: "Languages & Delivery", items: ["Python", "Agile / Scrum", "Cross-Functional Delivery", "$80M+ Program Leadership", "Incident Response"] },
 ];

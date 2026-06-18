@@ -46,7 +46,7 @@ export default function Resume() {
                 "Backend (JVM): Java, Spring Boot, REST APIs, microservices, OpenAI-compatible endpoints, systems integration, SQL",
                 "Frontend: TypeScript, React, Next.js, HTML/CSS, Tailwind, data visualization",
                 "AI & Agentic: Claude API, tool & function calling, MCP (producer + consumer), agents and sub-agents, real-time streaming (SSE/WebSockets), RAG, evaluation harnesses",
-                "Testing & Quality: JUnit, Jest, React Testing Library, Claude-as-judge evaluations; API governance — versioning, backward compatibility, security standards",
+                "Testing & Quality: JUnit, Claude-as-judge evaluations, evaluation harnesses; API governance — versioning, backward compatibility, security standards",
                 "Cloud & DevOps: AWS, Kubernetes, OpenShift (OCP), Docker, GitLab CI/CD, HashiCorp Vault, full service-lifecycle ownership and incident response",
                 "Delivery: Python, Agile/Scrum, cross-functional collaboration, release planning, $80M+ program leadership",
               ].map((s) => (
