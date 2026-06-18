@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ChevronDown } from "lucide-react";
 
-const links = ["About", "Why Me", "Projects", "Experience", "Skills", "Contact"];
+const links = ["About", "Why Me", "Projects", "Skills", "Experience", "Contact"];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);

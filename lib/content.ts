@@ -10,16 +10,6 @@ export const projects = [
     github: "https://github.com/Gramman87/spring-mcp-agent",
   },
   {
-    title: "Portfolio Analyst Sub-Agent System",
-    description:
-      "A Python lead orchestrator (Claude Sonnet 4.6, adaptive thinking) dispatches to three specialist sub-agents (Claude Haiku 4.5) via tool-use — market data, news sentiment, risk concentration — then synthesizes their briefings into a decision-grade analyst memo. Backed by a Claude-as-judge evaluation harness scoring routing, coverage, and quality across hand-written cases. Prompt caching on every system prompt and the lead's tool definitions; cache hit/miss telemetry surfaced in the UI.",
-    tags: ["Python", "Sub-Agents", "Claude API", "Tool Use", "Evaluation Harness"],
-    color: "from-amber-500 to-orange-600",
-    highlight: "Sub-Agent Orchestration",
-    link: "https://fs-analyst-agent.vercel.app",
-    github: "https://github.com/Gramman87/fs-analyst-agent",
-  },
-  {
     title: "MCP Integration Server",
     description:
       "Enterprise MCP server exposing 6 agentic tools over both stdio and Streamable HTTP transports — built as both a producer of tools and a consumer of the protocol. The live demo runs a Claude agent as a real MCP client: it discovers tools at runtime over the protocol, then calls them to handle customer lookups across 5 accounts, surface support tickets, search a 5-document knowledge base, and retrieve live business metrics ($5.8M ARR, 1,340 accounts).",
@@ -28,6 +18,26 @@ export const projects = [
     highlight: "Model Context Protocol",
     link: "https://mcp-web-nine.vercel.app",
     github: "https://github.com/Gramman87/mcp-server",
+  },
+  {
+    title: "Streaming Analytics Dashboard",
+    description:
+      "A full-stack Next.js dashboard — MRR/ARR, churn, engagement, and segment views — with two real Claude integrations on top: a natural-language query interface that streams answers token-by-token over the live metrics, and server-side cached insight cards. Real-time streaming and a polished React surface over a production data layer.",
+    tags: ["Next.js", "Claude API", "Streaming", "React", "TypeScript"],
+    color: "from-violet-600 to-indigo-600",
+    highlight: "Real-Time Streaming",
+    link: "https://fde-dashboard-orpin.vercel.app",
+    github: "https://github.com/Gramman87/fde-dashboard",
+  },
+  {
+    title: "Portfolio Analyst Sub-Agent System",
+    description:
+      "A Python lead orchestrator (Claude Sonnet 4.6, adaptive thinking) dispatches to three specialist sub-agents (Claude Haiku 4.5) via tool-use — market data, news sentiment, risk concentration — then synthesizes their briefings into a decision-grade analyst memo. Backed by a Claude-as-judge evaluation harness scoring routing, coverage, and quality across hand-written cases. Prompt caching on every system prompt and the lead's tool definitions; cache hit/miss telemetry surfaced in the UI.",
+    tags: ["Python", "Sub-Agents", "Claude API", "Tool Use", "Evaluation Harness"],
+    color: "from-amber-500 to-orange-600",
+    highlight: "Sub-Agent Orchestration",
+    link: "https://fs-analyst-agent.vercel.app",
+    github: "https://github.com/Gramman87/fs-analyst-agent",
   },
   {
     title: "HR Operations Agent",
@@ -48,16 +58,6 @@ export const projects = [
     highlight: "RAG Pipeline",
     link: "https://rag-agent-tau.vercel.app",
     github: "https://github.com/Gramman87/rag-agent",
-  },
-  {
-    title: "Streaming Analytics Dashboard",
-    description:
-      "A full-stack Next.js dashboard — MRR/ARR, churn, engagement, and segment views — with two real Claude integrations on top: a natural-language query interface that streams answers token-by-token over the live metrics, and server-side cached insight cards. Real-time streaming and a polished React surface over a production data layer.",
-    tags: ["Next.js", "Claude API", "Streaming", "React", "TypeScript"],
-    color: "from-violet-600 to-indigo-600",
-    highlight: "Real-Time Streaming",
-    link: "https://fde-dashboard-orpin.vercel.app",
-    github: "https://github.com/Gramman87/fde-dashboard",
   },
   {
     title: "CI/CD Pipeline Optimization",
@@ -115,9 +115,9 @@ export const experience = [
 ];
 
 export const skills = [
-  { category: "AI & Agentic", items: ["Claude API", "Tool & Function Calling", "MCP (Producer + Consumer)", "Agents & Sub-agents", "Streaming (SSE / WebSockets)", "RAG", "Evaluation Harnesses"] },
   { category: "Backend (JVM)", items: ["Java", "Spring Boot", "REST APIs", "Microservices", "OpenAI-Compatible Endpoints", "Systems Integration", "SQL"] },
   { category: "Frontend", items: ["TypeScript", "React", "Next.js", "HTML / CSS", "Tailwind CSS", "Data Visualization"] },
+  { category: "AI & Agentic", items: ["Claude API", "Tool & Function Calling", "MCP (Producer + Consumer)", "Agents & Sub-agents", "Streaming (SSE / WebSockets)", "RAG", "Evaluation Harnesses"] },
   { category: "Testing & Quality", items: ["JUnit", "Claude-as-Judge Evals", "Evaluation Harnesses", "API Governance & Versioning"] },
   { category: "Cloud & DevOps", items: ["AWS", "Kubernetes", "OpenShift (OCP)", "Docker", "GitLab CI/CD", "HashiCorp Vault"] },
   { category: "Languages & Delivery", items: ["Python", "Agile / Scrum", "Cross-Functional Delivery", "$80M+ Program Leadership", "Incident Response"] },

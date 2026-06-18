@@ -16,8 +16,8 @@ export default function Home() {
       <About />
       <WhyFDE />
       <Projects />
-      <Experience />
       <Skills />
+      <Experience />
       <Certifications />
       <Contact />
     </>
