@@ -15,28 +15,28 @@ export default function About() {
               About
             </p>
             <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
-              Equally comfortable
+              Full-stack, from the
               <br />
-              <span className="text-gray-500">in the whiteboard</span>
+              <span className="text-gray-500">Spring Boot service</span>
               <br />
-              and the IDE.
+              to the React surface.
             </h2>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
-                I&apos;m a customer-facing engineer with a hybrid background in production software
-                delivery and large-scale program leadership. At Accenture Federal Services I embed
-                directly with federal client stakeholders to modernize legacy systems — running discovery,
-                designing solution architectures, and presenting roadmaps to executive sponsors.
-                Before that, I spent 13 years owning $80M+ programs end-to-end.
+                I&apos;m a full-stack engineer who builds production features across the whole stack —
+                JVM/Spring Boot services on the backend, TypeScript and React on the front end. At
+                Accenture Federal Services I modernize legacy enterprise systems: containerizing
+                Java/Spring Boot applications, building REST APIs, and owning services through
+                deployment on OpenShift and Kubernetes.
               </p>
               <p>
-                On the AI side, I build production applications on Claude — MCP servers, sub-agents,
-                and agent skills — in Python and TypeScript. I stand up evaluation harnesses to
-                measure prototype quality and assemble customer-specific demos that show measurable value,
-                then document the repeatable deployment patterns behind them.
+                On the AI side, I build agentic applications on Claude in Python and TypeScript — MCP
+                servers acting as both producer and consumer, tool-calling agents, RAG pipelines, and
+                real-time streaming integrations. I back them with evaluation harnesses and tests so
+                they stay correct and maintainable as they evolve.
               </p>
               <p>
-                Based in Evergreen, CO. Available for 40%+ travel to customer sites.
+                Based in Evergreen, CO — set up for remote and Boulder-area work.
               </p>
             </div>
           </div>

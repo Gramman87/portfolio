@@ -10,19 +10,9 @@ export const projects = [
     github: "https://github.com/Gramman87/fs-analyst-agent",
   },
   {
-    title: "HR Operations Agent",
-    description:
-      "Agentic HR workflow powered by Claude with real tool-calling. An AI agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 HR policies — handling compensation analysis, retention risk scoring, org chart traversal, and PTO tracking in under 3 seconds per query. Try it live.",
-    tags: ["Claude API", "Tool Use", "Agents", "Next.js", "TypeScript"],
-    color: "from-rose-500 to-pink-600",
-    highlight: "Agentic Workflow",
-    link: "https://hr-agentic-workflow.vercel.app",
-    github: "https://github.com/Gramman87/hr-agentic-workflow",
-  },
-  {
     title: "MCP Integration Server",
     description:
-      "Enterprise MCP server exposing 6 agentic tools over both stdio and Streamable HTTP transports. The live demo runs a Claude agent as a real MCP client — it discovers tools at runtime over the protocol, then calls them to handle customer lookups across 5 accounts, surface support tickets, search a 5-document knowledge base, and retrieve live business metrics ($5.8M ARR, 1,340 accounts).",
+      "Enterprise MCP server exposing 6 agentic tools over both stdio and Streamable HTTP transports — built as both a producer of tools and a consumer of the protocol. The live demo runs a Claude agent as a real MCP client: it discovers tools at runtime over the protocol, then calls them to handle customer lookups across 5 accounts, surface support tickets, search a 5-document knowledge base, and retrieve live business metrics ($5.8M ARR, 1,340 accounts).",
     tags: ["MCP SDK", "Streamable HTTP", "TypeScript", "Agent Tools"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
@@ -30,9 +20,19 @@ export const projects = [
     github: "https://github.com/Gramman87/mcp-server",
   },
   {
+    title: "HR Operations Agent",
+    description:
+      "Agentic workflow powered by Claude with real tool-calling. An AI agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 policies — handling compensation analysis, retention risk scoring, org-chart traversal, and PTO tracking in under 3 seconds per query. Full-stack Next.js / TypeScript, live and open-source.",
+    tags: ["Claude API", "Tool Use", "Agents", "Next.js", "TypeScript"],
+    color: "from-rose-500 to-pink-600",
+    highlight: "Tool-Calling Agent",
+    link: "https://hr-agentic-workflow.vercel.app",
+    github: "https://github.com/Gramman87/hr-agentic-workflow",
+  },
+  {
     title: "RAG Knowledge Agent",
     description:
-      "End-to-end RAG over a SaaS documentation corpus: TF-IDF cosine retrieval (smoothed IDF weighting, cached per-chunk vectors) surfaces the top-k chunks with relevance scores, then Claude composes a grounded answer with inline source citations. The retrieve-then-generate pattern behind enterprise knowledge assistants — both halves are real, no mocks.",
+      "End-to-end RAG over a documentation corpus: TF-IDF cosine retrieval (smoothed IDF weighting, cached per-chunk vectors) surfaces the top-k chunks with relevance scores, then Claude composes a grounded answer with inline source citations. The retrieve-then-generate pattern behind enterprise knowledge assistants — both halves are real, no mocks.",
     tags: ["RAG", "TF-IDF", "Claude API", "TypeScript"],
     color: "from-cyan-500 to-blue-600",
     highlight: "RAG Pipeline",
@@ -40,19 +40,19 @@ export const projects = [
     github: "https://github.com/Gramman87/rag-agent",
   },
   {
-    title: "SaaS Command Center",
+    title: "Streaming Analytics Dashboard",
     description:
-      "Executive-facing SaaS KPI dashboard — MRR/ARR, churn, engagement, and segment views — with two real Claude integrations on top: a streaming natural-language query interface that answers questions over the live metrics, and Claude-generated insight cards (cached server-side). Built for the discovery-to-demo pipeline: surface a customer's metrics and present value to leadership in minutes.",
-    tags: ["Next.js", "Claude API", "Recharts", "TypeScript"],
+      "A full-stack Next.js dashboard — MRR/ARR, churn, engagement, and segment views — with two real Claude integrations on top: a natural-language query interface that streams answers token-by-token over the live metrics, and server-side cached insight cards. Real-time streaming and a polished React surface over a production data layer.",
+    tags: ["Next.js", "Claude API", "Streaming", "React", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
-    highlight: "Customer Analytics",
+    highlight: "Real-Time Streaming",
     link: "https://fde-dashboard-orpin.vercel.app",
     github: "https://github.com/Gramman87/fde-dashboard",
   },
   {
     title: "CI/CD Pipeline Optimization",
     description:
-      "Parallelized and cached GitLab CI/CD pipelines for a federal enterprise client, reducing deployment time by 40%. Enabled faster iteration on customer demos and prototypes — critical when compressing the gap between discovery and a working solution.",
+      "Parallelized and cached GitLab CI/CD pipelines for a federal enterprise client, reducing deployment time by 40%. Tightened the loop between a code change and a deployable build — enabling faster iteration on features and prototypes.",
     tags: ["GitLab CI/CD", "Docker", "Kubernetes", "Java"],
     color: "from-orange-500 to-pink-600",
     highlight: "40% Faster Deploys",
@@ -67,10 +67,10 @@ export const experience = [
     company: "Accenture Federal Services",
     period: "Mar 2023 – Present",
     bullets: [
-      "Modernized a legacy federal Java/Spring Boot application by containerizing it and migrating it onto OpenShift (OCP) — running discovery with the client, defining the target architecture, and shipping the migration to production.",
-      "Embed across cross-agency stakeholder groups, translating conflicting requirements and operational constraints into a single solution architecture that technical reviewers and executive sponsors both sign off on.",
-      "Re-architected CI/CD pipelines with parallelization and caching, cutting deployment time 40% and tightening the loop between a code change and a demoable build for the client.",
-      "Own the feedback loop between client teams and internal product/architecture — surfacing tradeoffs early so the delivered system tracks real operational needs instead of the original spec.",
+      "Modernized a legacy federal Java/Spring Boot application — containerizing it and migrating it onto OpenShift/Kubernetes, then owning the services through deployment, incident response, and ongoing reliability work.",
+      "Build and consume REST APIs across a microservice architecture, upholding versioning, backward compatibility, and security standards on public-facing surfaces.",
+      "Re-architected CI/CD pipelines with parallelization and caching, cutting deployment time 40% and tightening the loop between a code change and a deployable build.",
+      "Implemented secure secrets management with HashiCorp Vault and partner across product, architecture, and client teams to translate ambiguous requirements into well-scoped, tested engineering work.",
     ],
   },
   {
@@ -78,8 +78,8 @@ export const experience = [
     company: "Modius",
     period: "Mar 2022 – Mar 2023",
     bullets: [
-      "Built Java-based applications with SmartGWT/JavaScript front-ends deployed to enterprise data-center customers, integrating with existing infrastructure and adjacent systems.",
-      "Authored and consumed RESTful APIs supporting real-time device communication, demonstrating the end-to-end integration patterns that enterprise platforms require.",
+      "Built full-stack Java applications with SmartGWT/JavaScript front-ends deployed to enterprise data-center customers, integrating with existing infrastructure and adjacent systems.",
+      "Authored and consumed RESTful APIs supporting real-time device communication — the end-to-end integration patterns that enterprise platforms depend on.",
       "Streamlined deployment workflows by optimizing integration scripts, reducing manual handoffs and release friction.",
     ],
   },
@@ -97,19 +97,18 @@ export const experience = [
     company: "Commercial & Industrial Electrical Construction",
     period: "Jan 2008 – Sep 2021",
     bullets: [
-      "Led pre-construction on $80M+ commercial and industrial programs — running scope development, estimating, business-case development, procurement strategy, and executive presentations to C-level sponsors before mobilization.",
-      "Built customer-specific cost models and delivery roadmaps that quantified scope, cost, and schedule trade-offs — the same discovery-to-roadmap process that drives enterprise AI adoption.",
-      "Presented scope, risk, and value narratives to executive leadership on a regular cadence; routinely defended business cases under pressure from diverse stakeholder groups.",
-      "Coordinated across procurement, engineering, manpower, and scheduling functions during pre-construction — building the cross-functional collaboration muscle that forward-deployed work demands.",
+      "Led pre-construction on $80M+ commercial and industrial programs — owning scope development, estimating, business-case development, procurement strategy, and risk evaluation before mobilization.",
+      "Evaluated effort, risk, and priority across competing workstreams to build delivery roadmaps — the same trade-off calls that drive release planning on an engineering team.",
+      "Coordinated across procurement, engineering, manpower, and scheduling functions — building the cross-functional collaboration muscle that full-stack delivery demands.",
     ],
   },
 ];
 
 export const skills = [
-  { category: "AI & Agentic", items: ["Claude API", "Agents & Sub-agents", "MCP Servers", "Agent Skills", "RAG", "Prompt Engineering", "Evaluation Frameworks"] },
-  { category: "Enterprise Software", items: ["Python", "TypeScript", "Java", "Spring Boot", "REST APIs", "Microservices", "Systems Integration"] },
-  { category: "Customer-Facing", items: ["Discovery Workshops", "Architecture Diagrams", "Business Cases", "Executive Presentations", "Solution Design", "POC Development"] },
-  { category: "Infrastructure & DevOps", items: ["AWS", "OpenShift (OCP)", "Kubernetes", "Docker", "GitLab CI/CD", "HashiCorp Vault", "SQL"] },
-  { category: "Frontend & Prototyping", items: ["React", "Next.js", "Tailwind CSS", "Rapid Prototyping", "Data Visualization"] },
-  { category: "Program Leadership", items: ["$80M+ Portfolio Delivery", "Enterprise Transformation", "Forecast Modeling", "Cross-Functional Coordination", "Agile / Scrum"] },
+  { category: "AI & Agentic", items: ["Claude API", "Tool & Function Calling", "MCP (Producer + Consumer)", "Agents & Sub-agents", "Streaming (SSE / WebSockets)", "RAG", "Evaluation Harnesses"] },
+  { category: "Backend (JVM)", items: ["Java", "Spring Boot", "REST APIs", "Microservices", "OpenAI-Compatible Endpoints", "Systems Integration", "SQL"] },
+  { category: "Frontend", items: ["TypeScript", "React", "Next.js", "HTML / CSS", "Tailwind CSS", "Data Visualization"] },
+  { category: "Testing & Quality", items: ["JUnit", "Jest", "React Testing Library", "Claude-as-Judge Evals", "API Governance & Versioning"] },
+  { category: "Cloud & DevOps", items: ["AWS", "Kubernetes", "OpenShift (OCP)", "Docker", "GitLab CI/CD", "HashiCorp Vault"] },
+  { category: "Languages & Delivery", items: ["Python", "Agile / Scrum", "Cross-Functional Delivery", "$80M+ Program Leadership", "Incident Response"] },
 ];

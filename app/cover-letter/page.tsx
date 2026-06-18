@@ -35,51 +35,49 @@ export default function CoverLetter() {
 
           {/* Body */}
           <div className="space-y-6 text-gray-300 print:text-gray-800 leading-relaxed text-sm md:text-base">
-            <p>Dear Anthropic Hiring Team,</p>
+            <p>Dear Workday Hiring Team,</p>
 
             <p>
-              I&apos;m applying for the Forward Deployed Engineer, Applied AI role. The gap between
-              what Claude can do and what most enterprise customers are actually experiencing is
-              where I want to work — building MCP servers, sub-agents, and agent skills inside
-              customer systems, then turning each deployment into a repeatable pattern the next FDE
-              can lean on. My background combines hands-on engineering on Claude with over a decade
-              of enterprise program leadership, so I can move fluidly between the IDE, the
-              architecture whiteboard, and the C-suite briefing room.
+              I&apos;m applying for the Software Development Engineer role on the Developer Agent
+              team. Building intelligent, context-aware tooling that helps thousands of developers
+              work the way they want — powered by AI agents that assist with coding, automation,
+              and application workflows — is exactly the intersection I want to work at: full-stack
+              engineering, agentic AI, and production service ownership in one role. I build
+              JVM/Spring Boot services behind TypeScript and React front-ends, and I ship agentic
+              applications on Claude as my core craft.
             </p>
 
             <p>
-              At Accenture Federal Services I embed directly with federal client stakeholders to
-              modernize legacy enterprise systems — running discovery, translating ambiguous
-              requirements into solution architectures, presenting implementation roadmaps to
-              executive sponsors, and shipping the Java/Spring Boot services that back them.
-              Before software engineering, I owned end-to-end delivery of $80M+ commercial
-              programs: discovery workshops, customer-specific roadmaps, business cases defended to
-              C-level sponsors, cross-functional coordination across complex organizations. The
-              high-agency, customer-facing work the FDE role describes is the work I&apos;ve been
-              doing for years.
+              At Accenture Federal Services I modernize legacy enterprise systems end-to-end —
+              containerizing a Java/Spring Boot application and migrating it onto OpenShift and
+              Kubernetes, building and consuming REST APIs across a microservice architecture, and
+              owning those services through deployment, incident response, and reliability work. I
+              re-architected our GitLab CI/CD pipelines with parallelization and caching to cut
+              deployment time by 40%, and I uphold API governance — versioning, backward
+              compatibility, and security on public-facing surfaces. It&apos;s 5+ years of JVM
+              backend work paired with TypeScript/React on the front end and hands-on cloud-native
+              operations.
             </p>
 
             <p>
-              On the AI side, I actively build production applications on the Claude API in Python
-              and TypeScript. The flagship is a Python sub-agent system for financial-services
-              portfolio analysis: a lead orchestrator dispatches to three specialist sub-agents via
-              tool-use, prompt caching sits on every system prompt and the lead&apos;s tool defs,
-              and a Claude-as-judge eval harness scores routing, coverage, and output quality across
-              hand-written cases. Alongside it: a tool-calling HR operations agent, an MCP server
-              exposing six enterprise tools over stdio and Streamable HTTP, a RAG knowledge agent
-              with real retrieval scoring, and a customer-facing analytics dashboard with streaming
-              Claude integration. Each is live, open-source, and backed by evaluation harnesses I
-              use to iterate prompts and tool definitions against customer-style requirements.
-              These aren&apos;t side projects — they&apos;re the core craft I&apos;m bringing to
-              this role.
+              On the AI side, I actively build full-stack applications on the Claude API in Python
+              and TypeScript. One is an MCP server exposing six tools over stdio and Streamable
+              HTTP, with a Claude agent that consumes the protocol as a real client — so I&apos;ve
+              worked the Model Context Protocol from both the producer and consumer sides. Others: a
+              Python sub-agent system where a lead orchestrator dispatches to three specialists via
+              tool-use, backed by a Claude-as-judge eval harness scoring routing, coverage, and
+              quality; a tool-calling operations agent; a RAG knowledge agent with real retrieval
+              scoring; and a Next.js dashboard with token-by-token Claude streaming. Each is live,
+              open-source, and backed by evaluation harnesses and tests — the same tool/function
+              calling, streaming, and OpenAI-compatible patterns this role calls for.
             </p>
 
             <p>
-              What draws me specifically to Anthropic is the mission. Working safely toward
-              beneficial AI isn&apos;t a tagline I want to attach to my resume; it&apos;s the reason
-              I&apos;d rather build production Claude deployments at the source than ship generic
-              integrations elsewhere. I&apos;d welcome the chance to discuss how my background maps
-              onto what the Applied AI team is building. Thank you for your consideration.
+              I&apos;m based in Evergreen, CO, set up for remote and Boulder-area work, and I use
+              agentic coding tools like Claude Code daily — so I bring a builder&apos;s perspective
+              on what makes developer-facing AI tooling actually good to use. I&apos;d welcome the
+              chance to discuss how my background maps onto what the Developer Agent team is
+              building. Thank you for your consideration.
             </p>
 
             <p>Sincerely,</p>

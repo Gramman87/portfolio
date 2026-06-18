@@ -29,13 +29,13 @@ export default function Resume() {
               &nbsp;·&nbsp;
               <a href="https://linkedin.com/in/graham-anderson-denver" className="hover:text-violet-400 print:text-gray-600">linkedin.com/in/graham-anderson-denver</a>
             </p>
-            <p className="text-xs text-gray-500 print:text-gray-500 mt-1">Based in Colorado (remote) · available for extensive travel to customer sites</p>
+            <p className="text-xs text-gray-500 print:text-gray-500 mt-1">Based in Evergreen, CO · remote / Boulder-area</p>
           </div>
 
           {/* Summary */}
           <Section title="Summary">
             <p className="text-sm text-gray-300 print:text-gray-700 leading-relaxed">
-              Customer-facing engineer with a hybrid background in production software delivery and large-scale program leadership. Ships production applications on Claude — MCP servers, sub-agents, and agent skills — in Python and TypeScript, embedded inside customer systems. Combines hands-on experience running discovery workshops, designing solution architectures, and presenting AI roadmaps to executive sponsors with 13+ years leading $80M+ programs end-to-end. Stands up evaluation harnesses to measure prototype quality, documents repeatable deployment patterns, and translates emerging Claude capabilities into measurable enterprise outcomes.
+              Full-stack software engineer who builds production features across the whole stack — JVM/Spring Boot services on the backend, TypeScript and React on the front end. Ships agentic AI applications on Claude in Python and TypeScript: MCP servers (producer and consumer), tool-calling agents, sub-agent orchestration, RAG, and real-time streaming. Modernizes legacy enterprise systems and operates production services on AWS, OpenShift, and Kubernetes, owning them through deployment, incident response, and reliability. Takes pride in well-tested, maintainable code and sound API governance — versioning, backward compatibility, and security on public-facing surfaces.
             </p>
           </Section>
 
@@ -43,12 +43,12 @@ export default function Resume() {
           <Section title="Core Strengths">
             <ul className="space-y-1.5">
               {[
-                "Production LLM Engineering: Claude API, agents and sub-agents, MCP servers (stdio + Streamable HTTP), agent skills, RAG, prompt engineering, evaluation frameworks",
-                "Customer Discovery & AI Roadmapping: deep-dive discovery workshops, current-state analysis, customer-specific AI roadmaps, repeatable deployment patterns, architecture diagrams, business cases",
-                "Executive Communication: presentations to C-level sponsors, technical reviewers, and end-user audiences; demonstrating solution value and navigating ambiguity across complex enterprise environments",
-                "Languages & Platforms: Python, TypeScript, Java, Spring Boot, REST APIs, microservices, systems integration, SQL, AWS",
-                "DevOps & Platform: Kubernetes, Docker, GitLab CI/CD, HashiCorp Vault, Agile/Scrum",
-                "Enterprise Transformation & Program Leadership: $80M+ portfolio delivery, forecast modeling, cross-functional coordination, stakeholder management across complex organizations",
+                "Backend (JVM): Java, Spring Boot, REST APIs, microservices, OpenAI-compatible endpoints, systems integration, SQL",
+                "Frontend: TypeScript, React, Next.js, HTML/CSS, Tailwind, data visualization",
+                "AI & Agentic: Claude API, tool & function calling, MCP (producer + consumer), agents and sub-agents, real-time streaming (SSE/WebSockets), RAG, evaluation harnesses",
+                "Testing & Quality: JUnit, Jest, React Testing Library, Claude-as-judge evaluations; API governance — versioning, backward compatibility, security standards",
+                "Cloud & DevOps: AWS, Kubernetes, OpenShift (OCP), Docker, GitLab CI/CD, HashiCorp Vault, full service-lifecycle ownership and incident response",
+                "Delivery: Python, Agile/Scrum, cross-functional collaboration, release planning, $80M+ program leadership",
               ].map((s) => (
                 <li key={s} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">
                   <span className="text-violet-400 print:text-gray-400 shrink-0 mt-0.5">·</span>
@@ -67,11 +67,11 @@ export default function Resume() {
                 period="Mar 2023 – Present"
                 location="Denver, CO"
                 bullets={[
-                  "Embed directly with federal client stakeholders to modernize legacy enterprise systems, running discovery sessions and translating ambiguous requirements into solution architectures and Java/Spring Boot microservice implementations.",
-                  "Lead technical deep-dives and present architecture diagrams, integration patterns, and implementation roadmaps to both technical reviewers and executive sponsors.",
-                  "Enhanced GitLab CI/CD pipelines through parallelization and caching, reducing deployment time by 40% — accelerating iteration speed for customer demos and prototypes.",
+                  "Modernized a legacy federal application by containerizing it and migrating it onto OpenShift/Kubernetes, implementing Java/Spring Boot microservices and owning the services through deployment, incident response, and ongoing reliability work.",
+                  "Build and consume REST APIs across a microservice architecture, upholding versioning, backward compatibility, and security standards on public-facing surfaces.",
+                  "Enhanced GitLab CI/CD pipelines through parallelization and caching, reducing deployment time by 40% and tightening the loop between a code change and a deployable build.",
                   "Implemented secure secrets management with HashiCorp Vault, strengthening security posture and meeting federal compliance requirements.",
-                  "Serve as the feedback loop between client teams and internal product/architecture stakeholders, ensuring solutions stay aligned with real operational needs.",
+                  "Partner across product, architecture, and client teams to translate ambiguous requirements into well-scoped, tested engineering work.",
                 ]}
               />
               <Job
@@ -101,22 +101,21 @@ export default function Resume() {
                 period="Jan 2008 – Sep 2021"
                 location="Colorado"
                 bullets={[
-                  "Led pre-construction on $80M+ commercial and industrial programs — running scope development, estimating, business-case development, procurement strategy, and executive presentations to C-level sponsors before mobilization.",
-                  "Built customer-specific cost models and delivery roadmaps that quantified scope, cost, and schedule trade-offs — the same discovery-to-roadmap process that drives enterprise transformation.",
-                  "Presented scope, risk, and value narratives to executive leadership on a regular cadence; routinely defended business cases under pressure from diverse stakeholder groups.",
-                  "Coordinated across procurement, engineering, manpower, and scheduling functions during pre-construction.",
+                  "Led pre-construction on $80M+ commercial and industrial programs — owning scope development, estimating, business-case development, procurement strategy, and risk evaluation before mobilization.",
+                  "Evaluated effort, risk, and priority across competing workstreams to build delivery roadmaps — the same trade-off calls that drive release planning on an engineering team.",
+                  "Coordinated across procurement, engineering, manpower, and scheduling functions, building the cross-functional collaboration muscle that full-stack delivery demands.",
                 ]}
               />
             </div>
           </Section>
 
           {/* AI Work */}
-          <Section title="Applied AI on Claude: Independent Work">
+          <Section title="Agentic AI on Claude: Independent Work">
             <ul className="space-y-1.5">
               {[
-                "Ship production applications on the Claude API — MCP servers (stdio + Streamable HTTP transports), tool-calling agents, sub-agent orchestration, agent skills, and RAG pipelines in Python and TypeScript. Every project is live and open-source.",
-                "Stand up evaluation harnesses — including Claude-as-judge scoring on routing correctness, coverage, and output quality across hand-written cases — to iterate prompts and tool definitions against customer-style requirements.",
-                "Track the evolving Claude / agentic landscape (sub-agent orchestration, MCP, agent skills, repeatable deployment patterns) and translate emerging capabilities into customer-specific AI roadmaps.",
+                "Ship full-stack applications on the Claude API — MCP servers as both producer and consumer (stdio + Streamable HTTP transports), tool-calling agents, sub-agent orchestration, RAG pipelines, and real-time streaming UIs in Python and TypeScript/React. Every project is live and open-source.",
+                "Stand up evaluation harnesses — including Claude-as-judge scoring on routing correctness, coverage, and output quality across hand-written cases — to iterate prompts and tool definitions and catch regressions.",
+                "Hands-on with agentic coding tools (Claude Code, Cursor) and LLM integration patterns: tool/function calling, OpenAI-compatible endpoints, data streaming, and the Model Context Protocol as a producer and consumer.",
               ].map((s) => (
                 <li key={s} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">
                   <span className="text-violet-400 print:text-gray-400 shrink-0 mt-0.5">·</span>

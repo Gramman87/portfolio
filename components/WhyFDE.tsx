@@ -1,42 +1,43 @@
 const reasons = [
   {
     number: "01",
-    title: "Production apps on Claude, not slideware",
-    body: "I've shipped MCP servers, sub-agents, and agent skills against the Claude API — tool-calling agents orchestrating real workflows, MCP servers over stdio and Streamable HTTP, RAG pipelines with real retrieval scoring. Every project below is live and open-source, not a demo recording.",
+    title: "Full-stack ownership, end to end",
+    body: "I build the whole feature — JVM/Spring Boot services behind the API and TypeScript/React on the surface. I take pride in well-tested, maintainable code and own services through their full lifecycle: deployment, incident response, root-cause analysis, and ongoing reliability work.",
   },
   {
     number: "02",
-    title: "Discovery to deployment is my native workflow",
-    body: "13 years of program leadership running discovery sessions, scoping requirements, and presenting business cases to C-level sponsors — now applied to AI. I deep-dive with a customer, map their pain points to Claude-shaped solutions, and ship the application that proves it. The repeatable deployment patterns become artifacts other FDEs can reuse.",
+    title: "Agentic AI is the work I already do",
+    body: "I ship production applications on Claude: MCP servers acting as both producer and consumer, tool- and function-calling agents, sub-agent orchestration, and real-time streaming. The agentic developer tooling this team builds is the exact craft I practice — every project below is live and open-source, not a demo recording.",
   },
   {
     number: "03",
-    title: "Evaluations are how I iterate",
-    body: "Production LLM work isn't vibes-based. I stand up evaluation harnesses to measure agent quality against customer-style requirements, iterate prompts and tool definitions against the eval set, and use the same harnesses to catch regressions before they hit a customer demo.",
+    title: "Tested and maintainable, not vibes",
+    body: "Production LLM work isn't guesswork. I stand up evaluation harnesses — including Claude-as-judge scoring on routing, coverage, and quality — alongside conventional tests, and uphold API governance: versioning, backward compatibility, and security standards on public-facing surfaces.",
   },
   {
     number: "04",
-    title: "Enterprise transformation is familiar ground",
-    body: "Whether it's modernizing federal legacy systems at Accenture or leading $80M+ delivery, I've spent my career embedded with customers navigating complex transformations. The cross-functional coordination, stakeholder management, and executive presence that customer-facing AI deployment demands are things I've been doing for years.",
+    title: "JVM depth meets cloud-native operations",
+    body: "5+ years of Java and Spring Boot engineering plus hands-on operation of production services on AWS, OpenShift, and Kubernetes. I've modernized legacy enterprise systems end-to-end and cut deployment time 40% with parallelized, cached CI/CD.",
   },
 ];
 
 export default function WhyFDE() {
   return (
-    <section id="why-applied-ai" className="py-32 px-6 border-t border-white/[0.04]">
+    <section id="why-me" className="py-32 px-6 border-t border-white/[0.04]">
       <div className="max-w-6xl mx-auto">
         <p className="text-xs font-semibold tracking-[0.3em] text-violet-400 uppercase mb-4">
-          Why Applied AI
+          Why Me
         </p>
         <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
-          Why forward-deployed,
+          Built for this
           <br />
-          <span className="text-gray-500">specifically.</span>
+          <span className="text-gray-500">kind of work.</span>
         </h2>
         <p className="text-gray-500 max-w-xl mb-16">
-          Forward-deployed work on Claude means running the discovery, shipping the production
-          application, and documenting the repeatable deployment pattern — all while the customer
-          relationship is still hot. That intersection is where I operate best.
+          Building developer-facing AI tooling means full-stack engineering, agentic AI, and
+          production service ownership in one role — designing the backend, shipping the React
+          surface, and keeping it reliable for the developers who depend on it. That intersection
+          is where I operate best.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">
