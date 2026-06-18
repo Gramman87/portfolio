@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Spring Boot MCP Agent",
+    description:
+      "A full-stack agentic developer tool: a Java 21 / Spring Boot backend publishes tools over an MCP-style producer surface (tools/list, tools/call) and runs a streaming agent that consumes them, with a React + TypeScript front-end that renders tool calls and tokens in real time over SSE. Includes an OpenAI-compatible /v1/chat/completions endpoint and a JUnit suite covering the tools, registry, agent logic, and controllers. The LLM seam is isolated so a real Claude tool-use call drops straight in.",
+    tags: ["Java", "Spring Boot", "React", "MCP", "SSE Streaming", "JUnit"],
+    color: "from-green-500 to-teal-600",
+    highlight: "JVM + React + MCP",
+    link: null,
+    github: "https://github.com/Gramman87/spring-mcp-agent",
+  },
+  {
     title: "Portfolio Analyst Sub-Agent System",
     description:
       "A Python lead orchestrator (Claude Sonnet 4.6, adaptive thinking) dispatches to three specialist sub-agents (Claude Haiku 4.5) via tool-use — market data, news sentiment, risk concentration — then synthesizes their briefings into a decision-grade analyst memo. Backed by a Claude-as-judge evaluation harness scoring routing, coverage, and quality across hand-written cases. Prompt caching on every system prompt and the lead's tool definitions; cache hit/miss telemetry surfaced in the UI.",
