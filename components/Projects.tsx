@@ -29,6 +29,7 @@ export default function Projects() {
                     alt={`${p.title} — live screenshot`}
                     width={2240}
                     height={776}
+                    sizes="(min-width: 768px) 560px, 100vw"
                     className="w-full h-auto rounded-lg border border-white/[0.08] mb-6"
                   />
                 )}
