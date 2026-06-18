@@ -60,15 +60,17 @@ export default function CoverLetter() {
             </p>
 
             <p>
-              On the AI side, I actively build full-stack applications on the Claude API in Python
-              and TypeScript. One is an MCP server exposing six tools over stdio and Streamable
-              HTTP, with a Claude agent that consumes the protocol as a real client — so I&apos;ve
-              worked the Model Context Protocol from both the producer and consumer sides. Others: a
-              Python sub-agent system where a lead orchestrator dispatches to three specialists via
-              tool-use, backed by a Claude-as-judge eval harness scoring routing, coverage, and
-              quality; a tool-calling operations agent; a RAG knowledge agent with real retrieval
-              scoring; and a Next.js dashboard with token-by-token Claude streaming. Each is live,
-              open-source, and backed by evaluation harnesses and tests — the same tool/function
+              On the AI side, I actively build agentic applications across the stack. The one
+              closest to this role is my Spring Boot MCP Agent: a full-stack Java 21 / Spring Boot
+              service that publishes tools over an MCP producer surface and runs a streaming agent
+              that consumes them over SSE, fronted by a React/TypeScript UI, with an
+              OpenAI-compatible endpoint and a JUnit suite — the LLM seam isolated so a real Claude
+              tool-use call drops straight in. Alongside it: a TypeScript MCP server that a Claude
+              agent consumes as a real client over stdio and Streamable HTTP (so I&apos;ve worked
+              the protocol from both producer and consumer sides), a Python sub-agent system backed
+              by a Claude-as-judge eval harness, a tool-calling operations agent, a RAG knowledge
+              agent with real retrieval scoring, and a Next.js dashboard with token-by-token
+              streaming. Each is live or open-source — the same JVM, React, MCP, tool/function
               calling, streaming, and OpenAI-compatible patterns this role calls for.
             </p>
 
