@@ -17,7 +17,7 @@ export const projects: Project[] = [
     tags: ["Java", "Spring Boot", "React", "MCP", "SSE Streaming", "JUnit"],
     color: "from-sky-500 to-blue-600",
     highlight: "JVM + React + MCP",
-    link: null,
+    link: "https://spring-mcp-agent.onrender.com",
     github: "https://github.com/Gramman87/spring-mcp-agent",
     image: "/spring-mcp-agent.png",
   },
