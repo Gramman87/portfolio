@@ -38,7 +38,7 @@ export default function About() {
                 maintainable as they evolve.
               </p>
               <p>
-                Based in Evergreen, CO — remote-first and happy to travel or be on-site as the team needs.
+                Based in Evergreen, CO — open to relocating for the right team.
               </p>
             </div>
           </div>

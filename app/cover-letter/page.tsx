@@ -75,9 +75,9 @@ export default function CoverLetter() {
 
             <p>
               I&apos;m scrappy and want the ownership and breadth an early team brings — the chance
-              to set patterns thousands of enterprise users will eventually live in. I&apos;m based
-              in Evergreen, CO and work remote-first, and I&apos;m glad to travel to San Mateo or be
-              on-site as the team needs. I&apos;d welcome the chance to talk about what Sol is
+              to set patterns thousands of enterprise users will eventually live in. That kind of
+              work happens in the room, and I&apos;m ready to relocate to San Mateo to be there in
+              person with the founding team. I&apos;d welcome the chance to talk about what Sol is
               building. Thank you for your consideration.
             </p>
 

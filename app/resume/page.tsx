@@ -29,7 +29,7 @@ export default function Resume() {
               &nbsp;·&nbsp;
               <a href="https://linkedin.com/in/graham-anderson-denver" className="hover:text-violet-400 print:text-gray-600">linkedin.com/in/graham-anderson-denver</a>
             </p>
-            <p className="text-xs text-gray-500 print:text-gray-500 mt-1">Based in Evergreen, CO · remote-first · open to travel &amp; on-site</p>
+            <p className="text-xs text-gray-500 print:text-gray-500 mt-1">Based in Evergreen, CO · open to relocation</p>
           </div>
 
           {/* Summary */}
