@@ -7,17 +7,17 @@ const reasons = [
   {
     number: "02",
     title: "Agentic AI is the work I already do",
-    body: "I ship production applications on Claude: MCP servers acting as both producer and consumer, tool- and function-calling agents, sub-agent orchestration, and real-time streaming. The agentic developer tooling this team builds is the exact craft I practice — every project below is live and open-source, not a demo recording.",
+    body: "I ship production applications on Claude: MCP servers acting as both producer and consumer, tool-calling and conversational agents, sub-agent orchestration, and real-time streaming. One is an agentic HR operations agent — close to the AI-native HR surface Sol is building. Every project below is live and open-source, not a demo recording.",
   },
   {
     number: "03",
-    title: "Tested and maintainable, not vibes",
-    body: "Production LLM work isn't guesswork. I stand up evaluation harnesses — including Claude-as-judge scoring on routing, coverage, and quality — alongside conventional tests, and uphold API governance: versioning, backward compatibility, and security standards on public-facing surfaces.",
+    title: "Data model to pixels, with AI in the loop",
+    body: "I want the breadth that runs from schema to UI. I build data-driven interfaces that adapt to the data rather than static layouts, and I use AI coding tools like Claude Code daily as a first-class part of how I ship — real fluency, not an experiment.",
   },
   {
     number: "04",
-    title: "JVM depth meets cloud-native operations",
-    body: "5+ years of Java and Spring Boot engineering plus hands-on operation of production services on AWS, OpenShift, and Kubernetes. I've modernized legacy enterprise systems end-to-end and cut deployment time 40% with parallelized, cached CI/CD.",
+    title: "JVM depth, ready for Kotlin",
+    body: "5+ years of Java/Spring Boot engineering — services, APIs, and data models that hold up in production — plus hands-on understanding of JVM behavior, concurrency, and data-access patterns. I've modernized legacy enterprise systems end-to-end on AWS, OpenShift, and Kubernetes, and I'm ready to ramp fast on Kotlin.",
   },
 ];
 
@@ -34,10 +34,10 @@ export default function WhyFDE() {
           <span className="text-gray-500">kind of work.</span>
         </h2>
         <p className="text-gray-500 max-w-xl mb-16">
-          Building developer-facing AI tooling means full-stack engineering, agentic AI, and
-          production service ownership in one role — designing the backend, shipping the React
-          surface, and keeping it reliable for the developers who depend on it. That intersection
-          is where I operate best.
+          Building an AI-native enterprise product means full-stack engineering, agentic AI, and
+          real ownership in one role — designing the backend and APIs, shipping the interfaces they
+          power, and shaping the patterns the product scales on. That intersection — and the
+          ambiguity of an early product — is where I operate best.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">

@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Graham Anderson | Full Stack Software Engineer — AI & Agentic Tooling",
-  description: "Full stack software engineer building AI-powered developer tooling — JVM/Spring Boot services behind TypeScript/React front-ends, MCP servers, tool-calling agents, and real-time streaming on Claude.",
+  title: "Graham Anderson | Full Stack Software Engineer — AI-Native Products",
+  description: "Full stack software engineer building AI-native enterprise products end to end — JVM/Spring Boot services and APIs behind TypeScript/React interfaces, with agentic and conversational experiences on Claude: MCP, tool-calling, and real-time streaming.",
   metadataBase: new URL("https://grahamanderson.dev"),
   openGraph: {
-    title: "Graham Anderson | Full Stack Software Engineer — AI & Agentic Tooling",
-    description: "Full stack software engineer building AI-powered developer tooling — JVM/Spring Boot services behind TypeScript/React front-ends, MCP servers, tool-calling agents, and real-time streaming on Claude.",
+    title: "Graham Anderson | Full Stack Software Engineer — AI-Native Products",
+    description: "Full stack software engineer building AI-native enterprise products end to end — JVM/Spring Boot services and APIs behind TypeScript/React interfaces, with agentic and conversational experiences on Claude: MCP, tool-calling, and real-time streaming.",
     url: "https://grahamanderson.dev",
     siteName: "Graham Anderson",
   },

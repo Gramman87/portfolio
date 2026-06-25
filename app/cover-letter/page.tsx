@@ -35,50 +35,49 @@ export default function CoverLetter() {
 
           {/* Body */}
           <div className="space-y-6 text-gray-300 print:text-gray-800 leading-relaxed text-sm md:text-base">
-            <p>Dear Workday Hiring Team,</p>
+            <p>Dear Sol Hiring Team,</p>
 
             <p>
-              I&apos;m applying for the Software Development Engineer role on the Developer Agent
-              team. Building intelligent, context-aware tooling that helps thousands of developers
-              work the way they want — powered by AI agents that assist with coding, automation,
-              and application workflows — is exactly the intersection I want to work at: full-stack
-              engineering, agentic AI, and production service ownership in one role. I build
-              JVM/Spring Boot services behind TypeScript and React front-ends, and I ship agentic
-              applications on Claude as my core craft.
+              I&apos;m applying for the Full Stack Engineer role. An AI-native system that replaces
+              the HRIS — built for change, reimagined with AI from the ground up — is exactly the
+              kind of product I want to build, and the surface you describe (data model to UI,
+              backend services and APIs through the interfaces customers actually use) is exactly
+              how I work. I build JVM/Spring Boot services behind TypeScript and React front-ends,
+              and I ship agentic applications on Claude as my core craft. One of them is an agentic
+              HR operations agent — so I&apos;m coming to Sol&apos;s domain with something already
+              built in it.
             </p>
 
             <p>
-              At Accenture Federal Services I modernize legacy enterprise systems end-to-end —
-              containerizing a Java/Spring Boot application and migrating it onto OpenShift and
-              Kubernetes, building and consuming REST APIs across a microservice architecture, and
-              owning those services through deployment, incident response, and reliability work. I
-              re-architected our GitLab CI/CD pipelines with parallelization and caching to cut
-              deployment time by 40%, and I uphold API governance — versioning, backward
-              compatibility, and security on public-facing surfaces. It&apos;s 5+ years of JVM
-              backend work paired with TypeScript/React on the front end and hands-on cloud-native
-              operations.
+              On backend, I have 5+ years of JVM engineering at Accenture Federal Services:
+              modernizing a legacy Java/Spring Boot application end-to-end — containerizing it,
+              migrating it onto OpenShift and Kubernetes, and building and consuming REST APIs
+              across a microservice architecture that I own through deployment, incident response,
+              and reliability work. That work has taken me below the surface — JVM behavior,
+              concurrency, and the data-access patterns where performance actually goes to die — and
+              I design APIs and data models for composition, not one-off use. Kotlin is the one
+              piece of your stack I haven&apos;t shipped in production; on the JVM I expect to ramp
+              fast, and I&apos;d rather say that plainly than oversell it.
             </p>
 
             <p>
-              On the AI side, I actively build agentic applications across the stack. The one
-              closest to this role is my Spring Boot MCP Agent: a full-stack Java 21 / Spring Boot
-              service that publishes tools over an MCP producer surface and runs a streaming agent
-              that consumes them over SSE, fronted by a React/TypeScript UI, with an
-              OpenAI-compatible endpoint and a JUnit suite — the LLM seam isolated so a real Claude
-              tool-use call drops straight in. Alongside it: a TypeScript MCP server that a Claude
-              agent consumes as a real client over stdio and Streamable HTTP (so I&apos;ve worked
-              the protocol from both producer and consumer sides), a Python sub-agent system backed
-              by a Claude-as-judge eval harness, a tool-calling operations agent, a RAG knowledge
-              agent with real retrieval scoring, and a Next.js dashboard with token-by-token
-              streaming. Each is live or open-source — the same JVM, React, MCP, tool/function
-              calling, streaming, and OpenAI-compatible patterns this role calls for.
+              I&apos;m equally comfortable crossing into the frontend — I ship UI, not just hand off
+              an API. My HR Operations Agent is the closest analog to Sol: an agentic Claude workflow
+              with real tool-calling that handles compensation analysis, retention risk scoring,
+              org-chart traversal, and PTO tracking across 30+ employees in under three seconds per
+              query, behind a data-driven interface that adapts to the underlying employee data
+              rather than a static layout. Around it I&apos;ve built a full-stack Spring Boot MCP
+              agent with a streaming React UI, MCP servers on both the producer and consumer sides,
+              a sub-agent system backed by a Claude-as-judge eval harness, and a RAG knowledge agent
+              — each live or open-source. AI coding tools like Claude Code are a first-class part of
+              how I build, daily, not an experiment.
             </p>
 
             <p>
-              I&apos;m based in Evergreen, CO, set up for remote and Boulder-area work, and I use
-              agentic coding tools like Claude Code daily — so I bring a builder&apos;s perspective
-              on what makes developer-facing AI tooling actually good to use. I&apos;d welcome the
-              chance to discuss how my background maps onto what the Developer Agent team is
+              I&apos;m scrappy and want the ownership and breadth an early team brings — the chance
+              to set patterns thousands of enterprise users will eventually live in. I&apos;m based
+              in Evergreen, CO and work remote-first, and I&apos;m glad to travel to San Mateo or be
+              on-site as the team needs. I&apos;d welcome the chance to talk about what Sol is
               building. Thank you for your consideration.
             </p>
 

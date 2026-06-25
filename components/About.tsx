@@ -31,12 +31,14 @@ export default function About() {
               </p>
               <p>
                 On the AI side, I build agentic applications on Claude in Python and TypeScript — MCP
-                servers acting as both producer and consumer, tool-calling agents, RAG pipelines, and
-                real-time streaming integrations. I back them with evaluation harnesses and tests so
-                they stay correct and maintainable as they evolve.
+                servers acting as both producer and consumer, tool-calling and conversational agents,
+                RAG pipelines, and real-time streaming interfaces. One of them is an agentic HR
+                operations agent: the same AI-native, data-driven enterprise surface I want to build
+                next. I back them with evaluation harnesses and tests so they stay correct and
+                maintainable as they evolve.
               </p>
               <p>
-                Based in Evergreen, CO — set up for remote and Boulder-area work.
+                Based in Evergreen, CO — remote-first and happy to travel or be on-site as the team needs.
               </p>
             </div>
           </div>
