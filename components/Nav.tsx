@@ -5,6 +5,13 @@ import { ChevronDown } from "lucide-react";
 
 const links = ["About", "Why Me", "Projects", "Skills", "Experience", "Contact"];
 
+const docGroups = [
+  { label: "General", resume: "/resume", cover: "/cover-letter" },
+  { label: "Sol", resume: "/resume/sol", cover: "/cover-letter/sol" },
+  { label: "Anthropic · Full-stack", resume: "/resume/anthropic", cover: "/cover-letter/anthropic" },
+  { label: "Anthropic · Computer Use", resume: "/resume/computer-use", cover: "/cover-letter/computer-use" },
+];
+
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [docsOpen, setDocsOpen] = useState(false);
@@ -58,21 +65,31 @@ export default function Nav() {
               Docs <ChevronDown className={`w-3 h-3 transition-transform ${docsOpen ? "rotate-180" : ""}`} />
             </button>
             {docsOpen && (
-              <div className="absolute right-0 mt-2 w-40 bg-[#0f0f1a] border border-white/[0.08] rounded-xl shadow-xl overflow-hidden">
-                <a
-                  href="/resume"
-                  onClick={() => setDocsOpen(false)}
-                  className="block px-4 py-3 text-sm text-gray-400 hover:text-white hover:bg-white/[0.04] transition-colors"
-                >
-                  Resume
-                </a>
-                <a
-                  href="/cover-letter"
-                  onClick={() => setDocsOpen(false)}
-                  className="block px-4 py-3 text-sm text-gray-400 hover:text-white hover:bg-white/[0.04] transition-colors"
-                >
-                  Cover Letter
-                </a>
+              <div className="absolute right-0 mt-2 w-60 max-h-[70vh] overflow-y-auto bg-[#0f0f1a] border border-white/[0.08] rounded-xl shadow-xl overflow-hidden py-1">
+                {docGroups.map((g) => (
+                  <div
+                    key={g.label}
+                    className="py-1 border-t border-white/[0.05] first:border-t-0"
+                  >
+                    <p className="px-4 pt-1 pb-1 text-[10px] font-semibold uppercase tracking-wider text-gray-600">
+                      {g.label}
+                    </p>
+                    <a
+                      href={g.resume}
+                      onClick={() => setDocsOpen(false)}
+                      className="block px-4 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/[0.04] transition-colors"
+                    >
+                      Resume
+                    </a>
+                    <a
+                      href={g.cover}
+                      onClick={() => setDocsOpen(false)}
+                      className="block px-4 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/[0.04] transition-colors"
+                    >
+                      Cover Letter
+                    </a>
+                  </div>
+                ))}
               </div>
             )}
           </div>
