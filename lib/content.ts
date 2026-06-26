@@ -24,7 +24,7 @@ export const projects: Project[] = [
   {
     title: "MCP Integration Server",
     description:
-      "Enterprise MCP server exposing 6 agentic tools over both stdio and Streamable HTTP transports — built as both a producer of tools and a consumer of the protocol. The live demo runs a Claude agent as a real MCP client: it discovers tools at runtime over the protocol, then calls them to handle customer lookups across 5 accounts, surface support tickets, search a 5-document knowledge base, and retrieve live business metrics ($5.8M ARR, 1,340 accounts).",
+      "Enterprise MCP server exposing 6 agentic tools over both stdio and Streamable HTTP transports, built as both a producer of tools and a consumer of the protocol. The live demo runs a Claude agent as a real MCP client: it discovers tools at runtime over the protocol, then calls them to handle customer lookups across 5 accounts, surface support tickets, search a 5-document knowledge base, and retrieve live business metrics ($5.8M ARR, 1,340 accounts).",
     tags: ["MCP SDK", "Streamable HTTP", "TypeScript", "Agent Tools"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
@@ -34,7 +34,7 @@ export const projects: Project[] = [
   {
     title: "Streaming Analytics Dashboard",
     description:
-      "A full-stack Next.js dashboard — MRR/ARR, churn, engagement, and segment views — with two real Claude integrations on top: a natural-language query interface that streams answers token-by-token over the live metrics, and server-side cached insight cards. Real-time streaming and a polished React surface over a production data layer.",
+      "A full-stack Next.js dashboard: MRR/ARR, churn, engagement, and segment views, with two real Claude integrations on top: a natural-language query interface that streams answers token-by-token over the live metrics, and server-side cached insight cards. Real-time streaming and a polished React surface over a production data layer.",
     tags: ["Next.js", "Claude API", "Streaming", "React", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
     highlight: "Real-Time Streaming",
@@ -44,7 +44,7 @@ export const projects: Project[] = [
   {
     title: "Portfolio Analyst Sub-Agent System",
     description:
-      "A Python lead orchestrator (Claude Sonnet 4.6, adaptive thinking) dispatches to three specialist sub-agents (Claude Haiku 4.5) via tool-use — market data, news sentiment, risk concentration — then synthesizes their briefings into a decision-grade analyst memo. Backed by a Claude-as-judge evaluation harness scoring routing, coverage, and quality across hand-written cases. Prompt caching on every system prompt and the lead's tool definitions; cache hit/miss telemetry surfaced in the UI.",
+      "A Python lead orchestrator (Claude Sonnet 4.6, adaptive thinking) dispatches to three specialist sub-agents (Claude Haiku 4.5) via tool-use (market data, news sentiment, risk concentration), then synthesizes their briefings into a decision-grade analyst memo. Backed by a Claude-as-judge evaluation harness scoring routing, coverage, and quality across hand-written cases. Prompt caching on every system prompt and the lead's tool definitions; cache hit/miss telemetry surfaced in the UI.",
     tags: ["Python", "Sub-Agents", "Claude API", "Tool Use", "Evaluation Harness"],
     color: "from-amber-500 to-orange-600",
     highlight: "Sub-Agent Orchestration",
@@ -54,7 +54,7 @@ export const projects: Project[] = [
   {
     title: "HR Operations Agent",
     description:
-      "An AI-native take on HR operations: an agentic workflow on Claude with real tool-calling, where the interface is driven by the underlying employee data rather than static layouts. The agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 policies — handling compensation analysis, retention risk scoring, org-chart traversal, and PTO tracking in under 3 seconds per query. Full-stack Next.js / TypeScript, live and open-source — a data-driven enterprise interface built end to end.",
+      "An AI-native take on HR operations: an agentic workflow on Claude with real tool-calling, where the interface is driven by the underlying employee data rather than static layouts. The agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 policies, handling compensation analysis, retention risk scoring, org-chart traversal, and PTO tracking in under 3 seconds per query. Full-stack Next.js / TypeScript, live and open-source, a data-driven enterprise interface built end to end.",
     tags: ["Claude API", "Tool Use", "Agents", "Next.js", "TypeScript", "HR"],
     color: "from-rose-500 to-pink-600",
     highlight: "Agentic HR System",
@@ -64,7 +64,7 @@ export const projects: Project[] = [
   {
     title: "RAG Knowledge Agent",
     description:
-      "End-to-end RAG over a documentation corpus: TF-IDF cosine retrieval (smoothed IDF weighting, cached per-chunk vectors) surfaces the top-k chunks with relevance scores, then Claude composes a grounded answer with inline source citations. The retrieve-then-generate pattern behind enterprise knowledge assistants — both halves are real, no mocks.",
+      "End-to-end RAG over a documentation corpus: TF-IDF cosine retrieval (smoothed IDF weighting, cached per-chunk vectors) surfaces the top-k chunks with relevance scores, then Claude composes a grounded answer with inline source citations. The retrieve-then-generate pattern behind enterprise knowledge assistants. Both halves are real, no mocks.",
     tags: ["RAG", "TF-IDF", "Claude API", "TypeScript"],
     color: "from-cyan-500 to-blue-600",
     highlight: "RAG Pipeline",
@@ -74,7 +74,7 @@ export const projects: Project[] = [
   {
     title: "CI/CD Pipeline Optimization",
     description:
-      "Parallelized and cached GitLab CI/CD pipelines for a federal enterprise client, reducing deployment time by 40%. Tightened the loop between a code change and a deployable build — enabling faster iteration on features and prototypes.",
+      "Parallelized and cached GitLab CI/CD pipelines for a federal enterprise client, reducing deployment time by 40%. Tightened the loop between a code change and a deployable build, enabling faster iteration on features and prototypes.",
     tags: ["GitLab CI/CD", "Docker", "Kubernetes", "Java"],
     color: "from-orange-500 to-pink-600",
     highlight: "40% Faster Deploys",
@@ -89,7 +89,7 @@ export const experience = [
     company: "Accenture Federal Services",
     period: "Mar 2023 – Present",
     bullets: [
-      "Modernized a legacy federal Java/Spring Boot application — containerizing it and migrating it onto OpenShift/Kubernetes, then owning the services through deployment, incident response, and ongoing reliability work.",
+      "Modernized a legacy federal Java/Spring Boot application, containerizing it and migrating it onto OpenShift/Kubernetes, then owning the services through deployment, incident response, and ongoing reliability work.",
       "Build and consume REST APIs across a microservice architecture, upholding versioning, backward compatibility, and security standards on public-facing surfaces.",
       "Re-architected CI/CD pipelines with parallelization and caching, cutting deployment time 40% and tightening the loop between a code change and a deployable build.",
       "Implemented secure secrets management with HashiCorp Vault and partner across product, architecture, and client teams to translate ambiguous requirements into well-scoped, tested engineering work.",
@@ -101,7 +101,7 @@ export const experience = [
     period: "Mar 2022 – Mar 2023",
     bullets: [
       "Built full-stack Java applications with SmartGWT/JavaScript front-ends deployed to enterprise data-center customers, integrating with existing infrastructure and adjacent systems.",
-      "Authored and consumed RESTful APIs supporting real-time device communication — the end-to-end integration patterns that enterprise platforms depend on.",
+      "Authored and consumed RESTful APIs supporting real-time device communication, the end-to-end integration patterns that enterprise platforms depend on.",
       "Streamlined deployment workflows by optimizing integration scripts, reducing manual handoffs and release friction.",
     ],
   },
@@ -119,9 +119,9 @@ export const experience = [
     company: "Commercial & Industrial Electrical Construction",
     period: "Jan 2008 – Sep 2021",
     bullets: [
-      "Led pre-construction on $80M+ commercial and industrial programs — owning scope development, estimating, business-case development, procurement strategy, and risk evaluation before mobilization.",
-      "Evaluated effort, risk, and priority across competing workstreams to build delivery roadmaps — the same trade-off calls that drive release planning on an engineering team.",
-      "Coordinated across procurement, engineering, manpower, and scheduling functions — building the cross-functional collaboration muscle that full-stack delivery demands.",
+      "Led pre-construction on $80M+ commercial and industrial programs, owning scope development, estimating, business-case development, procurement strategy, and risk evaluation before mobilization.",
+      "Evaluated effort, risk, and priority across competing workstreams to build delivery roadmaps, the same trade-off calls that drive release planning on an engineering team.",
+      "Coordinated across procurement, engineering, manpower, and scheduling functions, building the cross-functional collaboration muscle that full-stack delivery demands.",
     ],
   },
 ];

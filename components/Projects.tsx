@@ -26,7 +26,7 @@ export default function Projects() {
                 {p.image && (
                   <Image
                     src={p.image}
-                    alt={`${p.title} — live screenshot`}
+                    alt={`${p.title}, live screenshot`}
                     width={2240}
                     height={776}
                     sizes="(min-width: 768px) 560px, 100vw"

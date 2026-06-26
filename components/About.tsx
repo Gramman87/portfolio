@@ -23,22 +23,22 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
-                I&apos;m a full-stack engineer who builds production features across the whole stack —
+                I&apos;m a full-stack engineer who builds production features across the whole stack:
                 JVM/Spring Boot services on the backend, TypeScript and React on the front end. At
                 Accenture Federal Services I modernize legacy enterprise systems: containerizing
                 Java/Spring Boot applications, building REST APIs, and owning services through
                 deployment on OpenShift and Kubernetes.
               </p>
               <p>
-                On the AI side, I build agentic applications on Claude in Python and TypeScript — MCP
+                On the AI side, I build agentic applications on Claude in Python and TypeScript: MCP
                 servers acting as both producer and consumer, tool-calling and conversational agents,
                 RAG pipelines, and real-time streaming interfaces. One of them is an agentic HR
-                operations agent — a data-driven enterprise surface where the interface adapts to the
+                operations agent, a data-driven enterprise surface where the interface adapts to the
                 data rather than a static layout. I back them with evaluation harnesses and tests so
                 they stay correct and maintainable as they evolve.
               </p>
               <p>
-                Based in Evergreen, CO — open to relocating for the right team.
+                Based in Evergreen, CO, open to relocating for the right team.
               </p>
             </div>
           </div>

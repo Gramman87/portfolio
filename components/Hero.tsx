@@ -35,8 +35,8 @@ export default function Hero() {
         </h1>
 
         <p className="animate-fade-up-delay-2 text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed mb-10">
-          I build features end to end — from JVM / Spring Boot services and APIs to the
-          TypeScript and React interfaces they power — for AI-native enterprise products. Production
+          I build features end to end, from JVM / Spring Boot services and APIs to the
+          TypeScript and React interfaces they power, for AI-native enterprise products. Production
           work on Claude with agentic and conversational experiences, MCP, tool-calling, and
           real-time streaming, grounded in 5+ years of JVM engineering and tested, maintainable code.
         </p>

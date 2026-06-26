@@ -2,22 +2,22 @@ const reasons = [
   {
     number: "01",
     title: "Full-stack ownership, end to end",
-    body: "I build the whole feature — JVM/Spring Boot services behind the API and TypeScript/React on the surface. I take pride in well-tested, maintainable code and own services through their full lifecycle: deployment, incident response, root-cause analysis, and ongoing reliability work.",
+    body: "I build the whole feature, JVM/Spring Boot services behind the API and TypeScript/React on the surface. I take pride in well-tested, maintainable code and own services through their full lifecycle: deployment, incident response, root-cause analysis, and ongoing reliability work.",
   },
   {
     number: "02",
     title: "Agentic AI is the work I already do",
-    body: "I ship production applications on Claude: MCP servers acting as both producer and consumer, tool-calling and conversational agents, sub-agent orchestration, and real-time streaming. One is an agentic HR operations agent — a full AI-native enterprise surface, built end to end. Every project below is live and open-source, not a demo recording.",
+    body: "I ship production applications on Claude: MCP servers acting as both producer and consumer, tool-calling and conversational agents, sub-agent orchestration, and real-time streaming. One is an agentic HR operations agent, a full AI-native enterprise surface, built end to end. Every project below is live and open-source, not a demo recording.",
   },
   {
     number: "03",
     title: "Data model to pixels, with AI in the loop",
-    body: "I want the breadth that runs from schema to UI. I build data-driven interfaces that adapt to the data rather than static layouts, and I use AI coding tools like Claude Code daily as a first-class part of how I ship — real fluency, not an experiment.",
+    body: "I want the breadth that runs from schema to UI. I build data-driven interfaces that adapt to the data rather than static layouts, and I use AI coding tools like Claude Code daily as a first-class part of how I ship, real fluency, not an experiment.",
   },
   {
     number: "04",
     title: "JVM depth meets cloud-native operations",
-    body: "5+ years of Java/Spring Boot engineering — services, APIs, and data models that hold up in production — plus hands-on understanding of JVM behavior, concurrency, and data-access patterns. I've modernized legacy enterprise systems end-to-end on AWS, OpenShift, and Kubernetes, and cut deployment time 40% with parallelized, cached CI/CD.",
+    body: "5+ years of Java/Spring Boot engineering: services, APIs, and data models that hold up in production, plus hands-on understanding of JVM behavior, concurrency, and data-access patterns. I've modernized legacy enterprise systems end-to-end on AWS, OpenShift, and Kubernetes, and cut deployment time 40% with parallelized, cached CI/CD.",
   },
 ];
 
@@ -35,9 +35,9 @@ export default function WhyFDE() {
         </h2>
         <p className="text-gray-500 max-w-xl mb-16">
           Building an AI-native enterprise product means full-stack engineering, agentic AI, and
-          real ownership in one role — designing the backend and APIs, shipping the interfaces they
-          power, and shaping the patterns the product scales on. That intersection — and the
-          ambiguity of an early product — is where I operate best.
+          real ownership in one role, designing the backend and APIs, shipping the interfaces they
+          power, and shaping the patterns the product scales on. That intersection, and the
+          ambiguity of an early product, is where I operate best.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">

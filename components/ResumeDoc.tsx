@@ -41,8 +41,8 @@ const experience = [
     period: "Jan 2008 – Sep 2021",
     location: "Colorado",
     bullets: [
-      "Led pre-construction on $80M+ commercial and industrial programs — owning scope development, estimating, business-case development, procurement strategy, and risk evaluation before mobilization.",
-      "Evaluated effort, risk, and priority across competing workstreams to build delivery roadmaps — the same trade-off calls that drive release planning on an engineering team.",
+      "Led pre-construction on $80M+ commercial and industrial programs, owning scope development, estimating, business-case development, procurement strategy, and risk evaluation before mobilization.",
+      "Evaluated effort, risk, and priority across competing workstreams to build delivery roadmaps, the same trade-off calls that drive release planning on an engineering team.",
       "Coordinated across procurement, engineering, manpower, and scheduling functions, building the cross-functional collaboration muscle that full-stack delivery demands.",
     ],
   },
