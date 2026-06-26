@@ -11,16 +11,6 @@ type Project = {
 
 export const projects: Project[] = [
   {
-    title: "HR Operations Agent",
-    description:
-      "An AI-native take on HR operations: an agentic workflow on Claude with real tool-calling, where the interface is driven by the underlying employee data rather than static layouts. The agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 policies — handling compensation analysis, retention risk scoring, org-chart traversal, and PTO tracking in under 3 seconds per query. Full-stack Next.js / TypeScript, live and open-source — the closest analog to the AI-native HR product I want to build.",
-    tags: ["Claude API", "Tool Use", "Agents", "Next.js", "TypeScript", "HR"],
-    color: "from-rose-500 to-pink-600",
-    highlight: "Agentic HR System",
-    link: "https://hr-agentic-workflow.vercel.app",
-    github: "https://github.com/Gramman87/hr-agentic-workflow",
-  },
-  {
     title: "Spring Boot MCP Agent",
     description:
       "A full-stack agentic developer tool: a Java 21 / Spring Boot backend publishes tools over an MCP-style producer surface (tools/list, tools/call) and runs a streaming agent that consumes them, with a React + TypeScript front-end that renders tool calls and tokens in real time over SSE. Includes an OpenAI-compatible /v1/chat/completions endpoint and a JUnit suite covering the tools, registry, agent logic, and controllers. The LLM seam is isolated so a real Claude tool-use call drops straight in.",
@@ -60,6 +50,16 @@ export const projects: Project[] = [
     highlight: "Sub-Agent Orchestration",
     link: "https://fs-analyst-agent.vercel.app",
     github: "https://github.com/Gramman87/fs-analyst-agent",
+  },
+  {
+    title: "HR Operations Agent",
+    description:
+      "An AI-native take on HR operations: an agentic workflow on Claude with real tool-calling, where the interface is driven by the underlying employee data rather than static layouts. The agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 policies — handling compensation analysis, retention risk scoring, org-chart traversal, and PTO tracking in under 3 seconds per query. Full-stack Next.js / TypeScript, live and open-source — a data-driven enterprise interface built end to end.",
+    tags: ["Claude API", "Tool Use", "Agents", "Next.js", "TypeScript", "HR"],
+    color: "from-rose-500 to-pink-600",
+    highlight: "Agentic HR System",
+    link: "https://hr-agentic-workflow.vercel.app",
+    github: "https://github.com/Gramman87/hr-agentic-workflow",
   },
   {
     title: "RAG Knowledge Agent",
@@ -127,7 +127,7 @@ export const experience = [
 ];
 
 export const skills = [
-  { category: "Backend (JVM)", items: ["Java", "Spring Boot", "Kotlin (JVM, ramping)", "REST APIs", "Microservices", "Concurrency & Data Access", "Systems Integration", "SQL"] },
+  { category: "Backend (JVM)", items: ["Java", "Spring Boot", "REST APIs", "Microservices", "Concurrency & Data Access", "OpenAI-Compatible Endpoints", "Systems Integration", "SQL"] },
   { category: "Frontend", items: ["TypeScript", "React", "Next.js", "HTML / CSS", "Tailwind CSS", "Data-Driven & Dynamic UIs"] },
   { category: "AI & Agentic", items: ["Claude API", "Tool & Function Calling", "Conversational & Agent-Mediated UX", "MCP (Producer + Consumer)", "Agents & Sub-agents", "Streaming (SSE / WebSockets)", "RAG", "Evaluation Harnesses"] },
   { category: "Testing & Quality", items: ["JUnit", "Claude-as-Judge Evals", "Evaluation Harnesses", "API Governance & Versioning"] },

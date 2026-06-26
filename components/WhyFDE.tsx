@@ -7,7 +7,7 @@ const reasons = [
   {
     number: "02",
     title: "Agentic AI is the work I already do",
-    body: "I ship production applications on Claude: MCP servers acting as both producer and consumer, tool-calling and conversational agents, sub-agent orchestration, and real-time streaming. One is an agentic HR operations agent — close to the AI-native HR surface Sol is building. Every project below is live and open-source, not a demo recording.",
+    body: "I ship production applications on Claude: MCP servers acting as both producer and consumer, tool-calling and conversational agents, sub-agent orchestration, and real-time streaming. One is an agentic HR operations agent — a full AI-native enterprise surface, built end to end. Every project below is live and open-source, not a demo recording.",
   },
   {
     number: "03",
@@ -16,8 +16,8 @@ const reasons = [
   },
   {
     number: "04",
-    title: "JVM depth, ready for Kotlin",
-    body: "5+ years of Java/Spring Boot engineering — services, APIs, and data models that hold up in production — plus hands-on understanding of JVM behavior, concurrency, and data-access patterns. I've modernized legacy enterprise systems end-to-end on AWS, OpenShift, and Kubernetes, and I'm ready to ramp fast on Kotlin.",
+    title: "JVM depth meets cloud-native operations",
+    body: "5+ years of Java/Spring Boot engineering — services, APIs, and data models that hold up in production — plus hands-on understanding of JVM behavior, concurrency, and data-access patterns. I've modernized legacy enterprise systems end-to-end on AWS, OpenShift, and Kubernetes, and cut deployment time 40% with parallelized, cached CI/CD.",
   },
 ];
 

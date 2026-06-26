@@ -33,9 +33,9 @@ export default function About() {
                 On the AI side, I build agentic applications on Claude in Python and TypeScript — MCP
                 servers acting as both producer and consumer, tool-calling and conversational agents,
                 RAG pipelines, and real-time streaming interfaces. One of them is an agentic HR
-                operations agent: the same AI-native, data-driven enterprise surface I want to build
-                next. I back them with evaluation harnesses and tests so they stay correct and
-                maintainable as they evolve.
+                operations agent — a data-driven enterprise surface where the interface adapts to the
+                data rather than a static layout. I back them with evaluation harnesses and tests so
+                they stay correct and maintainable as they evolve.
               </p>
               <p>
                 Based in Evergreen, CO — open to relocating for the right team.
