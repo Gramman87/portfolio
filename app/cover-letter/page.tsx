@@ -41,8 +41,8 @@ export default function CoverLetter() {
               I&apos;m applying for the Full Stack Engineer role. An AI-native system that replaces
               the HRIS — built for change, reimagined with AI from the ground up — is exactly the
               kind of product I want to build, and the surface you describe (data model to UI,
-              backend services and APIs through the interfaces customers actually use) is exactly
-              how I work. I build JVM/Spring Boot services behind TypeScript and React front-ends,
+              backend services and APIs through the interfaces customers actually use) is how I
+              already work. I build JVM/Spring Boot services behind TypeScript and React front-ends,
               and I ship agentic applications on Claude as my core craft. One of them is an agentic
               HR operations agent — so I&apos;m coming to Sol&apos;s domain with something already
               built in it.
