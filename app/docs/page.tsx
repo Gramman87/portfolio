@@ -34,6 +34,13 @@ const groups = [
     cover: "/cover-letter/computer-use",
     posting: "https://job-boards.greenhouse.io/anthropic/jobs/5238637008",
   },
+  {
+    label: "Anthropic: Applied AI Architect",
+    note: "Forward-deployed / pre-sales technical advisor. Eval-framework and enterprise-integration framing, NYC / SF / Seattle, customer travel.",
+    resume: "/resume/applied-ai",
+    cover: "/cover-letter/applied-ai",
+    posting: "https://job-boards.greenhouse.io/anthropic/jobs/4461444008",
+  },
 ];
 
 export default function DocsIndex() {
