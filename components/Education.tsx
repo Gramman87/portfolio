@@ -1,7 +1,6 @@
 const education = [
-  { degree: "Certificate, Java Full Stack Development", school: "Skill Distillery", year: "2021–2022" },
-  { degree: "Certificate, Electrical Apprenticeship", school: "Emily Griffith Technical College", year: "2008–2012" },
-  { degree: "Computer Science (coursework)", school: "Metropolitan State University of Denver", year: "" },
+  { degree: "Certificate, Full Stack Java Development", school: "Skill Distillery", year: "2021–2022" },
+  { degree: "Computer Science coursework", school: "Metropolitan State University of Denver", year: "" },
 ];
 
 export default function Education() {
@@ -11,7 +10,7 @@ export default function Education() {
         <p className="text-xs font-semibold tracking-[0.3em] text-violet-400 uppercase mb-6">
           Education
         </p>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6">
           {education.map((e) => (
             <div key={e.degree} className="flex items-start gap-3">
               <span className="text-violet-500 mt-1">▪</span>

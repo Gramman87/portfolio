@@ -49,9 +49,8 @@ const experience = [
 ];
 
 const education = [
-  "Skill Distillery: Certificate, Java Full Stack Development (2021–2022)",
-  "Emily Griffith Technical College: Certificate, Electrical Apprenticeship (2008–2012)",
-  "Metropolitan State University of Denver: Computer Science (coursework)",
+  "Skill Distillery: Certificate, Full Stack Java Development (2021–2022)",
+  "Metropolitan State University of Denver: Computer Science coursework",
 ];
 
 export default function ResumeDoc({
