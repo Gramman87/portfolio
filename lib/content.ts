@@ -71,16 +71,6 @@ export const projects: Project[] = [
     link: "https://rag-agent-tau.vercel.app",
     github: "https://github.com/Gramman87/rag-agent",
   },
-  {
-    title: "CI/CD Pipeline Optimization",
-    description:
-      "Parallelized and cached GitLab CI/CD pipelines for a federal enterprise client, reducing deployment time by 40%. Tightened the loop between a code change and a deployable build, enabling faster iteration on features and prototypes.",
-    tags: ["GitLab CI/CD", "Docker", "Kubernetes", "Java"],
-    color: "from-orange-500 to-pink-600",
-    highlight: "40% Faster Deploys",
-    link: null,
-    github: null,
-  },
 ];
 
 export const experience = [

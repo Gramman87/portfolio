@@ -1,4 +1,4 @@
-import { Mail, GitFork, Link } from "lucide-react";
+import { Mail, GitFork, Link, FileText } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -20,8 +20,8 @@ export default function Contact() {
               something great.
             </h2>
             <p className="text-gray-400 text-lg max-w-lg mx-auto mb-12">
-              Whether you have a complex integration, a tight deadline, or just an idea, I&apos;d
-              love to hear about it.
+              If you&apos;re building at the intersection of full-stack engineering and agentic AI,
+              I&apos;d love to talk about how I can help your team.
             </p>
 
             <a
@@ -44,7 +44,7 @@ export default function Contact() {
               </a>
               <span className="w-px h-4 bg-white/10" />
               <a
-                href="https://github.com/gramman87"
+                href="https://github.com/Gramman87"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors"
@@ -57,7 +57,7 @@ export default function Contact() {
                 href="/resume"
                 className="flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors"
               >
-                <GitFork className="w-4 h-4" />
+                <FileText className="w-4 h-4" />
                 Resume
               </a>
               <span className="w-px h-4 bg-white/10" />
@@ -65,7 +65,7 @@ export default function Contact() {
                 href="/cover-letter"
                 className="flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors"
               >
-                <GitFork className="w-4 h-4" />
+                <FileText className="w-4 h-4" />
                 Cover Letter
               </a>
             </div>

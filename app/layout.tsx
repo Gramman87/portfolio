@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     description: "Full stack software engineer building AI-native enterprise products end to end, JVM/Spring Boot services and APIs behind TypeScript/React interfaces, with agentic and conversational experiences on Claude: MCP, tool-calling, and real-time streaming.",
     url: "https://grahamanderson.dev",
     siteName: "Graham Anderson",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Graham Anderson | Full Stack Software Engineer, AI-Native Products",
+    description: "Full stack software engineer building AI-native products end to end, JVM/Spring Boot and TypeScript/React, with agentic AI on Claude: MCP, tool-calling, and real-time streaming.",
   },
 };
 
