@@ -41,6 +41,13 @@ const groups = [
     cover: "/cover-letter/applied-ai",
     posting: "https://job-boards.greenhouse.io/anthropic/jobs/4461444008",
   },
+  {
+    label: "Baseten: Forward Deployed Engineer",
+    note: "Customer-facing, end-to-end AI product delivery on the inference platform. Python/TS + eval + monitoring framing, JVM de-emphasized, SF on-site.",
+    resume: "/resume/baseten",
+    cover: "/cover-letter/baseten",
+    posting: "https://jobs.ashbyhq.com/baseten/84c1801c-1a65-49fb-aaaa-beeafd530e7e",
+  },
 ];
 
 export default function DocsIndex() {
