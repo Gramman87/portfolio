@@ -5,7 +5,7 @@ import WhyFDE from "@/components/WhyFDE";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
-import Certifications from "@/components/Certifications";
+import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
-      <Certifications />
+      <Education />
       <Contact />
     </>
   );

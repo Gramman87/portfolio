@@ -48,12 +48,6 @@ const experience = [
   },
 ];
 
-const certifications = [
-  "Kubernetes: Cloud Native Ecosystem",
-  "Spring Boot 1.0 Essential Training",
-  "Software Architecture Foundations",
-];
-
 const education = [
   "Skill Distillery: Certificate, Java Full Stack Development (2021–2022)",
   "Emily Griffith Technical College: Certificate, Electrical Apprenticeship (2008–2012)",
@@ -132,17 +126,6 @@ export default function ResumeDoc({
                 <li key={s} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">
                   <span className="text-violet-400 print:text-gray-400 shrink-0 mt-0.5">·</span>
                   {s}
-                </li>
-              ))}
-            </ul>
-          </Section>
-
-          {/* Certifications */}
-          <Section title="Certifications">
-            <ul className="space-y-1">
-              {certifications.map((c) => (
-                <li key={c} className="flex gap-2 text-sm text-gray-300 print:text-gray-700">
-                  <span className="text-violet-400 print:text-gray-400 shrink-0">·</span>{c}
                 </li>
               ))}
             </ul>
