@@ -21,7 +21,7 @@ const reasons = [
   },
 ];
 
-export default function WhyFDE() {
+export default function WhyMe() {
   return (
     <section id="why-me" className="py-32 px-6 border-t border-white/[0.04]">
       <div className="max-w-6xl mx-auto">
