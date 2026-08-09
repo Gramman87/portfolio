@@ -9,7 +9,7 @@ export default function ComputerUseResume() {
   return (
     <ResumeDoc
       aiSectionTitle="Agent Engineering: Independent Work"
-      locationLine="Based in Evergreen, CO · ready to relocate to San Francisco, New York, or Seattle"
+      locationLine="Based in Evergreen, CO · available on-site in San Francisco Tuesday through Thursday for a hybrid schedule"
       summary="Full-stack product engineer who builds agent harnesses and the products that wrap them: agent runtimes that call tools in a loop, the TypeScript and React surfaces that drive them, and the backend services behind them. Agentic experiences on the Claude API are core craft: MCP servers as both producer and consumer, tool-calling and conversational agents, sub-agent orchestration, real-time streaming, and evaluation harnesses (including Claude-as-judge) to keep them correct as they change. 5+ years of production engineering with genuine end-to-end ownership and a high tolerance for ambiguity, plus daily use of Claude Code, bringing a builder's perspective on what makes agent products trustworthy to operate."
       strengths={[
         "Agent Engineering: agent runtimes & harnesses, tool & function calling, the agent loop (plan, call, observe), MCP (producer + consumer), sub-agent orchestration, real-time streaming",

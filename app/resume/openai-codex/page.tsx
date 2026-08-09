@@ -9,7 +9,7 @@ export default function OpenAiCodexResume() {
   return (
     <ResumeDoc
       aiSectionTitle="Developer Tools & Agent Engineering: Independent Work"
-      locationLine="Based in Evergreen, CO, ready to relocate to San Francisco"
+      locationLine="Based in Evergreen, CO · available on-site in San Francisco Tuesday through Thursday for a hybrid schedule"
       summary="Full-stack product engineer who builds agentic developer tools and AI-powered workflows across the whole stack: frontend applications, backend services, agent workflows, and the developer tooling that ties them together. A daily user of AI-assisted development tools with strong intuition for their strengths, weaknesses, and emerging opportunities, and a builder of agent harnesses from scratch, so I understand these systems from both the user's and the builder's side. 5+ years of production engineering with genuine end-to-end ownership, strong product judgment, and a habit of learning from real user feedback. Designs model-agnostically: isolated model seams, OpenAI-compatible endpoints, tool-calling, and evaluation."
       strengths={[
         "Developer Tools & Agent Workflows: agentic developer tooling, agent runtimes and harnesses, tool & function calling, the agent loop, real-time streaming, OpenAI-compatible endpoints",

@@ -9,7 +9,7 @@ export default function AppliedAiResume() {
   return (
     <ResumeDoc
       aiSectionTitle="Agentic AI & Evaluation: Independent Work"
-      locationLine="Based in Evergreen, CO · ready to relocate to San Francisco, New York, or Seattle · open to customer travel"
+      locationLine="Based in Evergreen, CO · available on-site in San Francisco Tuesday through Thursday for a hybrid schedule · open to customer travel"
       summary="Technical advisor and builder who helps organizations turn Claude into deployed solutions. 5+ years translating ambiguous business problems into shipped, tested technical work, now building agentic applications on the Claude API as core craft: MCP servers (producer and consumer), tool-calling and conversational agents, RAG, and streaming, backed by Claude-as-judge evaluation frameworks that measure whether the system actually performs. Comfortable across the full gamut, from deep technical dives with engineering teams to business-value conversations with executives, with hands-on enterprise-integration experience and a track record of aligning cross-functional stakeholders to deliver."
       strengths={[
         "Claude Solutions: API integration, tool & function calling, MCP (producer + consumer), agents and sub-agents, RAG, real-time streaming, OpenAI-compatible endpoints",

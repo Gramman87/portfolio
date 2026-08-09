@@ -9,7 +9,7 @@ export default function OpenAiFdeResume() {
   return (
     <ResumeDoc
       aiSectionTitle="LLM & Agent Engineering: Independent Work"
-      locationLine="Based in Evergreen, CO, ready to relocate to San Francisco, open to customer travel"
+      locationLine="Based in Evergreen, CO · available on-site in San Francisco Tuesday through Thursday for a hybrid schedule · open to customer travel"
       summary="Forward-deployed, full-stack engineer who builds custom software on LLM APIs and delivers it side by side with customers. Partners with technical teams to turn ambiguous business goals into scoped, tested, production systems, sharpened by 13+ years of professional delivery including $80M+ program leadership. Ships full-stack across TypeScript, React, Python, Java, and SQL, and designs for portability across model providers: isolated model seams, OpenAI-compatible endpoints, tool-calling, agents, RAG, streaming, and evaluation harnesses. Experiment-driven with a strong bias for action: scope a POC, put it in front of the customer, and iterate to the solution that actually solves the problem."
       strengths={[
         "Customer-Facing Delivery: embed with customer teams, code side by side, POC-to-production scoping, trusted technical advisor, discovery to deployment",

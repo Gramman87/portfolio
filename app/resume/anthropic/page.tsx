@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function AnthropicResume() {
   return (
     <ResumeDoc
-      locationLine="Based in Evergreen, CO · ready to relocate to San Francisco"
+      locationLine="Based in Evergreen, CO · available on-site in San Francisco Tuesday through Thursday for a hybrid schedule"
       summary="Full-stack product engineer who turns model capabilities into products people actually use: TypeScript and React on the surface, services and APIs behind them, and agentic experiences on the Claude API as core craft. Builds on Claude daily: MCP servers as both producer and consumer, tool-calling and conversational agents, sub-agent orchestration, RAG, and token-by-token streaming, with an OpenAI-compatible endpoint and evaluation harnesses (including Claude-as-judge) to keep it correct as it scales. 5+ years of production engineering with genuine end-to-end ownership: performance, reliability, accessibility, and API governance on public-facing surfaces, plus daily use of agentic coding tools like Claude Code, bringing a builder's perspective on designing for both human and AI developers."
       strengths={[
         "Full-Stack Product: TypeScript, React, Next.js, end-to-end feature ownership, performance, accessibility, reliability, developer experience",
