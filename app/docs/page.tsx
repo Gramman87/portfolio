@@ -41,20 +41,6 @@ const groups = [
     cover: "/cover-letter/applied-ai",
     posting: "https://job-boards.greenhouse.io/anthropic/jobs/4461444008",
   },
-  {
-    label: "Baseten: Forward Deployed Engineer",
-    note: "Customer-facing, end-to-end AI product delivery on the inference platform. Python/TS + eval + monitoring framing, JVM de-emphasized, SF on-site.",
-    resume: "/resume/baseten",
-    cover: "/cover-letter/baseten",
-    posting: "https://jobs.ashbyhq.com/baseten/84c1801c-1a65-49fb-aaaa-beeafd530e7e",
-  },
-  {
-    label: "Fireworks AI: AI Field Engineer (AI Natives)",
-    note: "Customer-facing forward-deployed, build POCs alongside customers. Eval-framework and build-with-you framing; honest ramp on serving internals and fine-tuning. San Mateo on-site.",
-    resume: "/resume/fireworks-fde",
-    cover: "/cover-letter/fireworks-fde",
-    posting: "https://jobs.ashbyhq.com/fireworks/7730b5a4-0b58-46c7-bcff-61a929a3d1bd",
-  },
 ];
 
 export default function DocsIndex() {
