@@ -14,13 +14,6 @@ const groups = [
     posting: null as string | null,
   },
   {
-    label: "Sol: Full Stack Engineer",
-    note: "JVM/Kotlin-forward, San Mateo relocation, HR-agent led.",
-    resume: "/resume/sol",
-    cover: "/cover-letter/sol",
-    posting: "https://jobs.ashbyhq.com/sol/826c7afe-1c25-4bb7-bdb3-7efd6f7f76b2",
-  },
-  {
     label: "Anthropic: Senior SWE, Full-stack",
     note: "TypeScript/React + Python + Claude/MCP forward, SF relocation.",
     resume: "/resume/anthropic",
