@@ -55,6 +55,13 @@ const groups = [
     cover: "/cover-letter/openai-fde",
     posting: "https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047",
   },
+  {
+    label: "OpenAI: Full Stack Software Engineer, Codex (SF)",
+    note: "AI coding-agent team (Claude Code competitor). Angle: daily AI-assisted-dev-tool user AND builder of agentic dev tooling. Model-agnostic; spring-mcp-agent as 'full-stack agentic developer tool'. Senior-band comp ($255-405K), level stretch. SF hybrid.",
+    resume: "/resume/openai-codex",
+    cover: "/cover-letter/openai-codex",
+    posting: "https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582",
+  },
 ];
 
 export default function DocsIndex() {
