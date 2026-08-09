@@ -41,6 +41,13 @@ const groups = [
     cover: "/cover-letter/applied-ai",
     posting: "https://job-boards.greenhouse.io/anthropic/jobs/4461444008",
   },
+  {
+    label: "Amazon / AWS: SDE II (DC Bridge, Denver)",
+    note: "JVM/backend + AWS + operational-excellence forward, Leadership Principles mapped, AI as differentiator. Local (Denver metro), no relocation. Resume is reusable across Amazon SDE II roles.",
+    resume: "/resume/amazon",
+    cover: "/cover-letter/amazon",
+    posting: "https://www.amazon.jobs/jobs/10471633",
+  },
 ];
 
 export default function DocsIndex() {
