@@ -7,6 +7,7 @@ type Project = {
   link: string | null;
   github: string | null;
   image?: string;
+  note?: string;
 };
 
 export const projects: Project[] = [
@@ -20,6 +21,7 @@ export const projects: Project[] = [
     link: "https://spring-mcp-agent.onrender.com",
     github: "https://github.com/Gramman87/spring-mcp-agent",
     image: "/spring-mcp-agent.png",
+    note: "Live demo is on a free tier and cold-starts, so first load can take 30 to 60 seconds to wake.",
   },
   {
     title: "MCP Integration Server",

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { projects } from "@/lib/content";
-import { ArrowUpRight, Terminal, GitFork } from "lucide-react";
+import { ArrowUpRight, Terminal, GitFork, Clock } from "lucide-react";
 
 export default function Projects() {
   return (
@@ -70,6 +70,12 @@ export default function Projects() {
                   ))}
                 </div>
 
+                {p.note && (
+                  <p className="text-xs text-gray-600 mt-4 flex items-start gap-1.5">
+                    <Clock className="w-3 h-3 mt-0.5 shrink-0" />
+                    {p.note}
+                  </p>
+                )}
                 {!p.link && !p.github && (
                   <p className="text-xs text-gray-700 mt-4">Past work · no public repo</p>
                 )}
