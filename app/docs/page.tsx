@@ -48,6 +48,13 @@ const groups = [
     cover: "/cover-letter/amazon",
     posting: "https://www.amazon.jobs/jobs/10471633",
   },
+  {
+    label: "OpenAI: Forward Deployed Software Engineer (SF)",
+    note: "Customer-facing, build custom solutions on LLM APIs. MODEL-AGNOSTIC reframe (not Claude-forward): foregrounds OpenAI-compatible endpoint, generic LLM/agent terms. SF hybrid + relocation. Note: JD asks 7+ yrs SWE (he's ~4.5), tenure stretch.",
+    resume: "/resume/openai-fde",
+    cover: "/cover-letter/openai-fde",
+    posting: "https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047",
+  },
 ];
 
 export default function DocsIndex() {
