@@ -55,6 +55,13 @@ const groups = [
     cover: "/cover-letter/openai-codex",
     posting: "https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582",
   },
+  {
+    label: "Google: SWE III, Full Stack, Google Cloud (Bay Area)",
+    note: "L4/mid-level, clean level fit (clears 2yr min quals with margin). Java + full-stack forward, AI as model-agnostic differentiator (Gemini competitor, so no Claude devotion). Resume REUSABLE across Google SWE III full-stack reqs. Bay Area Tue-Thu hybrid. Interview = DS&A-heavy (résumé clears screen; loop needs prep).",
+    resume: "/resume/google",
+    cover: "/cover-letter/google",
+    posting: "https://www.google.com/about/careers/applications/jobs/results/101212497425375942-software-engineer-iii/",
+  },
 ];
 
 export default function DocsIndex() {
