@@ -16,7 +16,7 @@ export default function ComputerUseResume() {
         "Full-Stack Product: TypeScript, React, Next.js, end-to-end ownership (scope, build, ship, measure), performance, reliability, developer experience",
         "Backend & APIs: Python, Java/Spring Boot, REST APIs, microservices, concurrency & data-access patterns, SQL, systems integration",
         "AI Quality: evaluation harnesses, Claude-as-judge evals, prompt caching, RAG, API governance (versioning, backward compatibility, security)",
-        "Cloud & Platform: AWS, Kubernetes, OpenShift, Docker, CI/CD (40% faster deploys), HashiCorp Vault, service-lifecycle ownership and incident response",
+        "Cloud & Platform: AWS, Kubernetes, OpenShift, Docker, CI/CD (40% faster deploys), HashiCorp Vault, containerized deployment",
         "Working Style: Claude Code / Cursor daily, high tolerance for ambiguity, partnering with PMs, designers, and researchers, $80M+ program leadership",
       ]}
       aiWork={[

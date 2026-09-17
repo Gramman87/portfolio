@@ -9,13 +9,13 @@ export default function Resume() {
   return (
     <ResumeDoc
       locationLine="Based in Evergreen, CO · open to relocation"
-      summary="Full-stack software engineer who builds production features across the whole stack, JVM/Spring Boot services, APIs, and data models on the backend, TypeScript and React on the front end. Ships agentic AI applications on Claude in Python and TypeScript: MCP servers (producer and consumer), tool-calling agents, sub-agent orchestration, RAG, and real-time streaming. Modernizes legacy enterprise systems and operates production services on AWS, OpenShift, and Kubernetes, owning them through deployment, incident response, and reliability. Takes pride in well-tested, maintainable code and sound API governance: versioning, backward compatibility, and security on public-facing surfaces."
+      summary="Full-stack software engineer who builds production features across the whole stack, JVM/Spring Boot services, APIs, and data models on the backend, TypeScript and React on the front end. Ships agentic AI applications on Claude in Python and TypeScript: MCP servers (producer and consumer), tool-calling agents, sub-agent orchestration, RAG, and real-time streaming. Modernizes legacy enterprise systems and deploys them onto AWS, OpenShift, and Kubernetes through CI/CD pipelines. Takes pride in well-tested, maintainable code and sound API governance: versioning, backward compatibility, and security on public-facing surfaces."
       strengths={[
         "Backend (JVM): Java, Spring Boot, REST APIs, microservices, OpenAI-compatible endpoints, systems integration, SQL",
-        "Frontend: TypeScript, React, Next.js, HTML/CSS, Tailwind, data visualization",
+        "Frontend: TypeScript, React, Next.js, Angular/AngularJS, HTML/CSS, Tailwind, data visualization",
         "AI & Agentic: Claude API, tool & function calling, MCP (producer + consumer), agents and sub-agents, real-time streaming (SSE/WebSockets), RAG, evaluation harnesses",
         "Testing & Quality: JUnit, Claude-as-judge evaluations, evaluation harnesses; API governance: versioning, backward compatibility, security standards",
-        "Cloud & DevOps: AWS, Kubernetes, OpenShift (OCP), Docker, GitLab CI/CD, HashiCorp Vault, full service-lifecycle ownership and incident response",
+        "Cloud & DevOps: AWS, Kubernetes, OpenShift (OCP), Docker, GitLab CI/CD, HashiCorp Vault, containerized deployment",
         "Delivery: Python, Agile/Scrum, cross-functional collaboration, release planning, $80M+ program leadership",
       ]}
       aiWork={[

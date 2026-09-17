@@ -26,8 +26,8 @@ export default function About() {
                 I&apos;m a full-stack engineer who builds production features across the whole stack:
                 JVM/Spring Boot services on the backend, TypeScript and React on the front end. At
                 Accenture Federal Services I modernize legacy enterprise systems: containerizing
-                Java/Spring Boot applications, building REST APIs, and owning services through
-                deployment on OpenShift and Kubernetes.
+                Java/Spring Boot applications, building REST APIs, and deploying services onto
+                OpenShift and Kubernetes.
               </p>
               <p>
                 On the AI side, I build agentic applications on Claude in Python and TypeScript: MCP

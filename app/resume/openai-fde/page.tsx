@@ -15,7 +15,7 @@ export default function OpenAiFdeResume() {
         "Customer-Facing Delivery: embed with customer teams, code side by side, POC-to-production scoping, trusted technical advisor, discovery to deployment",
         "Full-Stack Build: TypeScript, React, Next.js, Python, Java/Spring Boot, REST APIs, Postgres/MySQL, SQL",
         "LLM & Agent Engineering: LLM APIs, OpenAI-compatible endpoints, tool & function calling, agents and sub-agents, RAG, real-time streaming, evaluation harnesses (LLM-as-judge)",
-        "Production Ownership: AWS, Kubernetes, OpenShift, Docker, CI/CD (40% faster deploys), deployment, incident response, reliability",
+        "Cloud & Deployment: AWS, Kubernetes, OpenShift, Docker, CI/CD (40% faster deploys), containerized deployment",
         "Built From Scratch: self-directed products shipped end to end, live and open-source, model-agnostic by design",
         "Working Style: bias for action, experiment-driven and iterative, high tolerance for ambiguity, cross-functional and client-facing, $80M+ program leadership",
       ]}

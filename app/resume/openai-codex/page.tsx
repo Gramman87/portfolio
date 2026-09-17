@@ -16,7 +16,7 @@ export default function OpenAiCodexResume() {
         "Full-Stack Product: TypeScript, React, Next.js, Python, Java/Spring Boot, backend services, REST APIs, SQL",
         "AI-Assisted Development: daily user of agentic coding tools with real intuition for their strengths and gaps; builds with them and builds the systems behind them",
         "Reliability & Quality: observability, evaluation harnesses (LLM-as-judge), JUnit and automated testing, CI/CD (40% faster deploys), API governance",
-        "Cloud & Ownership: AWS, Kubernetes, OpenShift, Docker, deployment, incident response, end-to-end feature ownership",
+        "Cloud & Ownership: AWS, Kubernetes, OpenShift, Docker, CI/CD deployment, end-to-end feature ownership",
         "Working Style: strong product judgment, learns from user feedback, reframes problems from first principles, bias for action",
       ]}
       aiWork={[

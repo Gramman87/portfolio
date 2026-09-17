@@ -7,8 +7,9 @@ const experience = [
     period: "Mar 2023 – Present",
     location: "Denver, CO",
     bullets: [
-      "Modernized a legacy federal application by containerizing it and migrating it onto OpenShift/Kubernetes, implementing Java/Spring Boot microservices and owning the services through deployment, incident response, and ongoing reliability work.",
+      "Modernized a legacy federal application by containerizing it and migrating it onto OpenShift/Kubernetes, implementing Java/Spring Boot microservices and deploying them through the CI/CD pipeline.",
       "Build and consume REST APIs across a microservice architecture, upholding versioning, backward compatibility, and security standards on public-facing surfaces.",
+      "Build and maintain front-end features in AngularJS, working across the full stack from the API to the UI.",
       "Enhanced GitLab CI/CD pipelines through parallelization and caching, reducing deployment time by 40% and tightening the loop between a code change and a deployable build.",
       "Implemented secure secrets management with HashiCorp Vault, strengthening security posture and meeting federal compliance requirements.",
       "Partner across product, architecture, and client teams to translate ambiguous requirements into well-scoped, tested engineering work.",
@@ -31,7 +32,7 @@ const experience = [
     period: "Oct 2021 – Mar 2022",
     location: "Greenwood Village, CO",
     bullets: [
-      "Built full-stack applications in Java, Spring Boot, and JavaScript deployed on AWS with RESTful service architectures.",
+      "Built full-stack applications in Java, Spring Boot, Angular, and JavaScript deployed on AWS with RESTful service architectures.",
       "Served as Scrum Master and Database Administrator, enforcing Agile cadence, facilitating ceremonies, and driving robust schema design.",
     ],
   },

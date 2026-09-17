@@ -15,7 +15,7 @@ export default function AnthropicResume() {
         "AI & Agentic: Claude API, tool & function calling, MCP (producer + consumer), agents and sub-agents, conversational & agent-mediated UX, RAG, real-time streaming (SSE/WebSockets), OpenAI-compatible endpoints",
         "Backend & APIs: Python, Java/Spring Boot, REST APIs, microservices, concurrency & data-access patterns, SQL, systems integration",
         "Quality & DX: evaluation harnesses, Claude-as-judge evals, JUnit, API governance (versioning, backward compatibility, security), observability",
-        "Cloud & Platform: AWS, Kubernetes, OpenShift, Docker, CI/CD (40% faster deploys), HashiCorp Vault, service-lifecycle ownership and incident response",
+        "Cloud & Platform: AWS, Kubernetes, OpenShift, Docker, CI/CD (40% faster deploys), HashiCorp Vault, containerized deployment",
         "Collaboration: Claude Code / Cursor daily, Agile/Scrum, partnering with PMs, designers, and researchers, $80M+ program leadership",
       ]}
       aiWork={[

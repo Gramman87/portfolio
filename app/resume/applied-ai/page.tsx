@@ -14,7 +14,7 @@ export default function AppliedAiResume() {
       strengths={[
         "Claude Solutions: API integration, tool & function calling, MCP (producer + consumer), agents and sub-agents, RAG, real-time streaming, OpenAI-compatible endpoints",
         "Evaluation & Reliability: Claude-as-judge evaluation frameworks, routing/coverage/quality scoring, prompt caching, API governance (versioning, backward compatibility, security)",
-        "Enterprise Integration: REST APIs, microservices, systems integration, AWS, Kubernetes, OpenShift, legacy modernization, deployment and incident response",
+        "Enterprise Integration: REST APIs, microservices, systems integration, AWS, Kubernetes, OpenShift, legacy modernization, containerized deployment",
         "Customer-Facing & Cross-Functional: translating business goals into technical architecture, partnering across product/engineering/client teams, technical content for engineers and executives, $80M+ stakeholder alignment",
         "Full-Stack Build: TypeScript, React, Next.js, Java/Spring Boot, Python, SQL",
         "Working Style: Claude Code / Cursor daily, Agile/Scrum, comfortable with ambiguity and customer travel",

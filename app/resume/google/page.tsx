@@ -10,13 +10,13 @@ export default function GoogleResume() {
     <ResumeDoc
       aiSectionTitle="LLM & Agent Engineering: Independent Work"
       locationLine="Based in Evergreen, CO · available on-site in the San Francisco Bay Area Tuesday through Thursday for a hybrid schedule"
-      summary="Full-stack software engineer with 5+ years building and operating production services in the cloud: Java/Spring Boot and REST APIs on the backend, TypeScript and React on the front end. Ships features end to end from data model to UI and owns them through deployment, incident response, and reliability. Cares about code quality, testing, and clean design, and holds the line on API governance (versioning, backward compatibility, and security on public-facing surfaces). Builds LLM and agent applications independently, architected model-agnostically with isolated model seams and OpenAI-compatible endpoints, which pairs naturally with a cloud platform serving AI at scale. 13+ years of professional delivery, including $80M+ program leadership."
+      summary="Full-stack software engineer with 5+ years building and deploying production services in the cloud: Java/Spring Boot and REST APIs on the backend, TypeScript, React, and Angular on the front end. Ships features end to end from data model to UI and deploys them through CI/CD pipelines. Cares about code quality, testing, and clean design, and holds the line on API governance (versioning, backward compatibility, and security on public-facing surfaces). Builds LLM and agent applications independently, architected model-agnostically with isolated model seams and OpenAI-compatible endpoints, which pairs naturally with a cloud platform serving AI at scale. 13+ years of professional delivery, including $80M+ program leadership."
       strengths={[
         "Backend: Java, Spring Boot, Python, REST APIs, microservices, distributed systems, SQL, systems integration",
-        "Frontend: TypeScript, React, Next.js, HTML/CSS, full-stack feature ownership from data model to UI",
+        "Frontend: TypeScript, React, Next.js, Angular/AngularJS, HTML/CSS, full-stack feature ownership from data model to UI",
         "Cloud & Infrastructure: AWS, Kubernetes, OpenShift, Docker, containerization, CI/CD (40% faster deploys)",
         "LLM & Agent (independent): LLM APIs, OpenAI-compatible endpoints, tool & function calling, agents and sub-agents, RAG, evaluation harnesses (LLM-as-judge)",
-        "Quality & Reliability: JUnit and automated testing, code review, API governance, deployment, incident response, monitoring",
+        "Quality & Reliability: JUnit and automated testing, code review, API governance, CI/CD deployment",
         "Delivery: cross-functional collaboration, Agile/Scrum, release planning, $80M+ program leadership, mentoring",
       ]}
       aiWork={[

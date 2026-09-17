@@ -81,7 +81,8 @@ export const experience = [
     company: "Accenture Federal Services",
     period: "Mar 2023 – Present",
     bullets: [
-      "Modernized a legacy federal Java/Spring Boot application, containerizing it and migrating it onto OpenShift/Kubernetes, then owning the services through deployment, incident response, and ongoing reliability work.",
+      "Modernized a legacy federal Java/Spring Boot application, containerizing it and migrating it onto OpenShift/Kubernetes, then deploying it through the CI/CD pipeline.",
+      "Build and maintain front-end features in AngularJS, working across the full stack from REST APIs to the UI.",
       "Build and consume REST APIs across a microservice architecture, upholding versioning, backward compatibility, and security standards on public-facing surfaces.",
       "Re-architected CI/CD pipelines with parallelization and caching, cutting deployment time 40% and tightening the loop between a code change and a deployable build.",
       "Implemented secure secrets management with HashiCorp Vault and partner across product, architecture, and client teams to translate ambiguous requirements into well-scoped, tested engineering work.",
@@ -102,7 +103,7 @@ export const experience = [
     company: "Skill Distillery",
     period: "Oct 2021 – Mar 2022",
     bullets: [
-      "Built full-stack applications in Java, Spring Boot, and JavaScript deployed on AWS with RESTful service architectures.",
+      "Built full-stack applications in Java, Spring Boot, Angular, and JavaScript deployed on AWS with RESTful service architectures.",
       "Served as Scrum Master and Database Administrator, enforcing Agile cadence, facilitating ceremonies, and driving schema design.",
     ],
   },
@@ -120,7 +121,7 @@ export const experience = [
 
 export const skills = [
   { category: "Backend (JVM)", items: ["Java", "Spring Boot", "REST APIs", "Microservices", "Concurrency & Data Access", "OpenAI-Compatible Endpoints", "Systems Integration", "SQL"] },
-  { category: "Frontend", items: ["TypeScript", "React", "Next.js", "HTML / CSS", "Tailwind CSS", "Data-Driven & Dynamic UIs"] },
+  { category: "Frontend", items: ["TypeScript", "React", "Next.js", "Angular / AngularJS", "HTML / CSS", "Tailwind CSS", "Data-Driven & Dynamic UIs"] },
   { category: "AI & Agentic", items: ["Claude API", "Tool & Function Calling", "Conversational & Agent-Mediated UX", "MCP (Producer + Consumer)", "Agents & Sub-agents", "Streaming (SSE / WebSockets)", "RAG", "Evaluation Harnesses"] },
   { category: "Testing & Quality", items: ["JUnit", "Claude-as-Judge Evals", "Evaluation Harnesses", "API Governance & Versioning"] },
   { category: "Cloud & DevOps", items: ["AWS", "Kubernetes", "OpenShift (OCP)", "Docker", "GitLab CI/CD", "HashiCorp Vault"] },

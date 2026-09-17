@@ -2,7 +2,7 @@ const reasons = [
   {
     number: "01",
     title: "Full-stack ownership, end to end",
-    body: "I build the whole feature, JVM/Spring Boot services behind the API and TypeScript/React on the surface. I take pride in well-tested, maintainable code and own services through their full lifecycle: deployment, incident response, root-cause analysis, and ongoing reliability work.",
+    body: "I build the whole feature, JVM/Spring Boot services behind the API and TypeScript/React on the surface. I take pride in well-tested, maintainable code, and I carry features from design through build and deployment, debugging issues across the stack as they come up.",
   },
   {
     number: "02",
