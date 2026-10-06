@@ -62,6 +62,27 @@ const groups = [
     cover: "/cover-letter/google",
     posting: "https://www.google.com/about/careers/applications/jobs/results/101212497425375942-software-engineer-iii/",
   },
+  {
+    label: "Workday: Presales Enterprise Architect (JR-0109846)",
+    note: "BEST FIT. USA Remote (CO range $115.5-173.3K). No Workday-experience gate; P3 quals cleared (3+ yrs enterprise sw, presentations, cloud/integration). Angle: pre-construction = presales for buildings + enterprise integration + AI demos. Closes 10/31/2026.",
+    resume: "/resume/workday-ea",
+    cover: "/cover-letter/workday-ea",
+    posting: "https://workday.wd5.myworkdayjobs.com/Workday/job/USANYHome-Office-NY-Metro-Tri-State/Presales---Enterprise-Architect_JR-0109846",
+  },
+  {
+    label: "Workday: Sr. AI Deployment Architect (JR-0107274)",
+    note: "STRETCH, CLOSES 10/09/2026. USA Remote, 50% travel. Gaps: enterprise AI delivery is self-directed; no multi-country implementation lead. Gap framed as motivation in cover letter. HR + finance agents map to Workday HCM/Financials.",
+    resume: "/resume/workday-ai-deploy",
+    cover: "/cover-letter/workday-ai-deploy",
+    posting: "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-IL-Chicago/Principal-Functional-Consultant--AI-Practice_JR-0107274",
+  },
+  {
+    label: "Workday: Applied AI Partner Architect (JR-0108918)",
+    note: "GATED: basic qual 3+ yrs Workday experience (he has none, stated honestly). Otherwise bullseye: MCP/agentic/RAG, GSI (Accenture), CO Remote, $162-243K, 40% travel.",
+    resume: "/resume/workday-ai-partner",
+    cover: "/cover-letter/workday-ai-partner",
+    posting: "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Remote/Forward-Deployed-Partner-Architect_JR-0108918",
+  },
 ];
 
 export default function DocsIndex() {
