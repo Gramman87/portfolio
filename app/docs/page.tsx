@@ -34,6 +34,13 @@ const groups = [
     cover: "/cover-letter/workday-ai-partner",
     posting: "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Remote/Forward-Deployed-Partner-Architect_JR-0108918",
   },
+  {
+    label: "Accenture: Applied AI Engineer, Founding Team (R00323002)",
+    note: "STRONG FIT. Oracle Business Group AI CoE. Denver listed, CO $73.8-189K. Claude-forward (they want an Anthropic SME). MCP, retrieval, evals, demo agents. Gap: hybrid/vector retrieval (his RAG is TF-IDF), no Oracle. Apply via INTERNAL portal (AFS employee).",
+    resume: "/resume/accenture-applied-ai",
+    cover: "/cover-letter/accenture-applied-ai",
+    posting: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/Applied-AI-Engineer--Founding-Team_R00323002",
+  },
 ];
 
 export default function DocsIndex() {
