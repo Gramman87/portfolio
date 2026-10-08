@@ -7,12 +7,11 @@ const experience = [
     period: "Mar 2023 – Present",
     location: "Denver, CO",
     bullets: [
-      "Modernized a legacy federal application by containerizing it and migrating it onto OpenShift/Kubernetes, implementing Java/Spring Boot microservices and deploying them through the CI/CD pipeline.",
-      "Build and consume REST APIs across a microservice architecture, upholding versioning, backward compatibility, and security standards on public-facing surfaces.",
-      "Build and maintain front-end features in AngularJS, working across the full stack from the API to the UI.",
-      "Enhanced GitLab CI/CD pipelines through parallelization and caching, reducing deployment time by 40% and tightening the loop between a code change and a deployable build.",
-      "Implemented secure secrets management with HashiCorp Vault, strengthening security posture and meeting federal compliance requirements.",
-      "Partner across product, architecture, and client teams to translate ambiguous requirements into well-scoped, tested engineering work.",
+      "Modernize a government off-the-shelf (GOTS) application, migrating its stack onto Red Hat OpenShift (OCP) to shorten feature release cycles; containerized the application and implemented Java/Spring Boot microservices deployed through CI/CD.",
+      "Cut deployment time 40% by parallelizing and caching GitLab CI/CD pipelines, shortening the loop from code change to deployable build.",
+      "Act as Scrum Master for a 5-person engineering team: run Agile ceremonies, coordinate dependencies with partner teams, and report progress and risks up the chain to leadership.",
+      "Build full-stack features from REST APIs to AngularJS front ends, holding to versioning, backward-compatibility, and security standards on public-facing APIs.",
+      "Centralized application secrets in HashiCorp Vault to meet federal compliance requirements.",
     ],
   },
   {
@@ -21,9 +20,9 @@ const experience = [
     period: "Mar 2022 – Mar 2023",
     location: "San Francisco Bay Area (Remote)",
     bullets: [
-      "Developed Java-based applications with SmartGWT/JavaScript front-ends for deployment on embedded/IoT devices serving enterprise data-center customers.",
-      "Authored and consumed RESTful APIs supporting real-time device communication and integration with adjacent enterprise systems.",
-      "Streamlined deployment workflows by optimizing integration scripts, improving release efficiency and reducing manual handoffs.",
+      "Built Java features with SmartGWT/JavaScript front ends for a DCIM (data center infrastructure management) platform used by hyperscale operators to manage their infrastructure.",
+      "Authored and consumed REST APIs for real-time device communication and integration with customers' enterprise systems.",
+      "Streamlined deployment workflows by optimizing integration scripts, reducing manual handoffs between releases.",
     ],
   },
   {
@@ -42,9 +41,9 @@ const experience = [
     period: "Jan 2008 – Sep 2021",
     location: "Colorado",
     bullets: [
-      "Led pre-construction on $80M+ commercial and industrial programs, owning scope development, estimating, business-case development, procurement strategy, and risk evaluation before mobilization.",
-      "Evaluated effort, risk, and priority across competing workstreams to build delivery roadmaps, the same trade-off calls that drive release planning on an engineering team.",
-      "Coordinated across procurement, engineering, manpower, and scheduling functions, building the cross-functional collaboration muscle that full-stack delivery demands.",
+      "Led pre-construction on 15 to 20 bids a year ranging from $5M to $85M, winning roughly 1 in 4, and owned scope development, estimating, business cases, procurement strategy, and risk evaluation before mobilization.",
+      "Trained junior estimators, superintendents, and new project managers, building the bench that carried projects from bid to field.",
+      "Coordinated procurement, engineering, manpower, and scheduling into a delivery plan for each awarded project.",
     ],
   },
 ];
