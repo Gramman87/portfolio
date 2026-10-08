@@ -7,7 +7,7 @@ const experience = [
     period: "Mar 2023 – Present",
     location: "Denver, CO",
     bullets: [
-      "Modernize a government off-the-shelf (GOTS) application, migrating its stack onto Red Hat OpenShift (OCP) to shorten feature release cycles; containerized the application and implemented Java/Spring Boot microservices deployed through CI/CD.",
+      "Modernize a government off-the-shelf (GOTS) application, migrating its stack onto Red Hat OpenShift (OCP) to shorten feature release cycles; containerized its multi-component Java/Spring Boot monolith and deployed it through CI/CD.",
       "Cut deployment time 40% by parallelizing and caching GitLab CI/CD pipelines, shortening the loop from code change to deployable build.",
       "Act as Scrum Master for a 5-person engineering team: run Agile ceremonies, coordinate dependencies with partner teams, and report progress and risks up the chain to leadership.",
       "Build full-stack features from REST APIs to AngularJS front ends, holding to versioning, backward-compatibility, and security standards on public-facing APIs.",
