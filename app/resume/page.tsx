@@ -11,7 +11,7 @@ export default function Resume() {
       locationLine="Based in Evergreen, CO · open to relocation"
       summary="Full-stack software engineer who builds production features across the whole stack, JVM/Spring Boot services, APIs, and data models on the backend, TypeScript and React on the front end. Ships agentic AI applications on Claude in Python and TypeScript: MCP servers (producer and consumer), tool-calling agents, sub-agent orchestration, RAG, and real-time streaming. Modernizes legacy enterprise systems and deploys them onto AWS, OpenShift, and Kubernetes through CI/CD pipelines. Acts as Scrum Master for a 5-person engineering team at Accenture Federal Services, coordinating with partner teams and reporting progress and risks up the chain to leadership. Takes pride in well-tested, maintainable code and sound API governance: versioning, backward compatibility, and security on public-facing surfaces."
       strengths={[
-        "Backend (JVM): Java, Spring Boot, REST APIs, microservices, OpenAI-compatible endpoints, systems integration, SQL",
+        "Backend (JVM): Java, Spring Boot, REST APIs, modular monolith architecture, service decomposition design, OpenAI-compatible endpoints, systems integration, SQL",
         "Frontend: TypeScript, React, Next.js, Angular/AngularJS, HTML/CSS, Tailwind, data visualization",
         "AI & Agentic: Claude API, tool & function calling, MCP (producer + consumer), agents and sub-agents, real-time streaming (SSE/WebSockets), RAG, evaluation harnesses",
         "Testing & Quality: JUnit, Claude-as-judge evaluations, evaluation harnesses; API governance: versioning, backward compatibility, security standards",

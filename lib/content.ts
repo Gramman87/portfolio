@@ -120,7 +120,7 @@ export const experience = [
 ];
 
 export const skills = [
-  { category: "Backend (JVM)", items: ["Java", "Spring Boot", "REST APIs", "Microservices", "Concurrency & Data Access", "OpenAI-Compatible Endpoints", "Systems Integration", "SQL"] },
+  { category: "Backend (JVM)", items: ["Java", "Spring Boot", "REST APIs", "Modular Monolith Architecture", "Service Decomposition Design", "Concurrency & Data Access", "OpenAI-Compatible Endpoints", "Systems Integration", "SQL"] },
   { category: "Frontend", items: ["TypeScript", "React", "Next.js", "Angular / AngularJS", "HTML / CSS", "Tailwind CSS", "Data-Driven & Dynamic UIs"] },
   { category: "AI & Agentic", items: ["Claude API", "Tool & Function Calling", "Conversational & Agent-Mediated UX", "MCP (Producer + Consumer)", "Agents & Sub-agents", "Streaming (SSE / WebSockets)", "RAG", "Evaluation Harnesses"] },
   { category: "Testing & Quality", items: ["JUnit", "Claude-as-Judge Evals", "Evaluation Harnesses", "API Governance & Versioning"] },
