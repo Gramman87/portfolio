@@ -34,6 +34,13 @@ const groups = [
     cover: "/cover-letter/accenture-ai-fde",
     posting: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/AI-Led-Forward-Deployed-Engineer---Design---Digital-Products_R00350773",
   },
+  {
+    label: "monday.com: Forward Deployed Engineer, Strategic Deployments (Denver)",
+    note: "STRETCH-TO-GOOD. Denver hybrid 3 days/wk, $162-207K + equity + bonus. MCP integrations, evals, agents = bullseye. Gaps: 5+ yrs TS/Node/React from scratch (his TS/React is personal; prod front end is AngularJS), stated honestly. No reusable-playbook claim (unconfirmed).",
+    resume: "/resume/monday-fde",
+    cover: "/cover-letter/monday-fde",
+    posting: "https://jobs.ashbyhq.com/monday.com/17243777-171b-4421-ad2e-ffe06c15af59",
+  },
 ];
 
 export default function DocsIndex() {
