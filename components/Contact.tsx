@@ -1,4 +1,5 @@
 import { Mail, GitFork, Link, FileText } from "lucide-react";
+import WaveEgg from "@/components/WaveEgg";
 
 export default function Contact() {
   return (
@@ -74,6 +75,7 @@ export default function Contact() {
 
         <p className="text-center text-xs text-gray-700 mt-12">
           grahamanderson.dev · Built with Next.js · &copy; 2026 Graham Anderson
+          <WaveEgg />
         </p>
       </div>
     </section>
