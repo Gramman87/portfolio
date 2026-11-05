@@ -125,5 +125,5 @@ export const skills = [
   { category: "AI & Agentic", items: ["Claude API", "Tool & Function Calling", "Conversational & Agent-Mediated UX", "MCP (Producer + Consumer)", "Agents & Sub-agents", "Streaming (SSE / WebSockets)", "RAG", "Evaluation Harnesses"] },
   { category: "Testing & Quality", items: ["JUnit", "Claude-as-Judge Evals", "Evaluation Harnesses", "API Governance & Versioning"] },
   { category: "Cloud & DevOps", items: ["AWS", "Kubernetes", "OpenShift (OCP)", "Docker", "GitLab CI/CD", "HashiCorp Vault"] },
-  { category: "Languages & Delivery", items: ["Python", "Agile / Scrum", "Cross-Functional Delivery", "$80M+ Program Leadership", "Incident Response"] },
+  { category: "Languages & Delivery", items: ["Python", "Agile / Scrum", "Cross-Functional Delivery", "$80M+ Program Leadership"] },
 ];
