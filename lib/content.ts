@@ -6,6 +6,8 @@ type Project = {
   highlight: string;
   link: string | null;
   github: string | null;
+  /** Source for the live demo, when it's a different repo from `github`. */
+  demoSource?: string;
   image?: string;
   note?: string;
 };
@@ -26,12 +28,13 @@ export const projects: Project[] = [
   {
     title: "MCP Integration Server",
     description:
-      "Enterprise MCP server exposing 6 agentic tools over both stdio and Streamable HTTP transports, built as both a producer of tools and a consumer of the protocol. The live demo runs a Claude agent as a real MCP client: it discovers tools at runtime over the protocol, then calls them to handle customer lookups across 5 accounts, surface support tickets, search a 5-document knowledge base, and retrieve live business metrics ($5.8M ARR, 1,340 accounts).",
+      "Enterprise MCP server exposing 6 agentic tools over both stdio and Streamable HTTP transports, built as both a producer of tools and a consumer of the protocol. The live demo runs a Claude agent as a real MCP client: it discovers tools at runtime over the protocol, then calls them to handle customer lookups across 5 accounts, surface support tickets, search a 5-document knowledge base, and retrieve business metrics ($5.8M ARR, 1,340 accounts), all from fictional sample data. The demo is a separate Next.js app serving the same tools over MCP, with an Origin check and a labelled fallback when the model is unavailable.",
     tags: ["MCP SDK", "Streamable HTTP", "TypeScript", "Agent Tools"],
     color: "from-emerald-500 to-teal-600",
     highlight: "Model Context Protocol",
     link: "https://mcp-web-nine.vercel.app",
     github: "https://github.com/Gramman87/mcp-server",
+    demoSource: "https://github.com/Gramman87/mcp-web",
   },
   {
     title: "Streaming Analytics Dashboard",

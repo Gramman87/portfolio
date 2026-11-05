@@ -70,6 +70,14 @@ export default function Projects() {
                   ))}
                 </div>
 
+                {p.demoSource && (
+                  <p className="text-xs text-gray-600 mt-4">
+                    Demo app source:{" "}
+                    <a href={p.demoSource} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white underline underline-offset-2 transition-colors">
+                      {p.demoSource.replace("https://github.com/", "")}
+                    </a>
+                  </p>
+                )}
                 {p.note && (
                   <p className="text-xs text-gray-600 mt-4 flex items-start gap-1.5">
                     <Clock className="w-3 h-3 mt-0.5 shrink-0" />
