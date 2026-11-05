@@ -22,7 +22,7 @@ export default function WorkdayAiDeployResume() {
       aiWork={[
         "HR Operations Agent (github.com/Gramman87/hr-agentic-workflow): an AI-enabled HR workflow where an agent orchestrates 8 tools across employee, department, and policy data, handling compensation analysis, retention risk scoring, org-chart traversal, and PTO tracking in under 3 seconds per query. Designed around the questions an HR leader actually asks.",
         "Portfolio Analyst Sub-Agent System (github.com/Gramman87/fs-analyst-agent): a lead agent dispatches to three specialist sub-agents and synthesizes a decision-grade memo for a finance audience, with an LLM-as-judge harness scoring routing, coverage, and quality so every change is measured.",
-        "Spring Boot MCP Agent (github.com/Gramman87/spring-mcp-agent): a reference integration showing how enterprise systems expose tools to an agent over MCP, with a streaming UI and test suite, covering the data, security, and integration questions every enterprise AI deployment raises.",
+        "Spring Boot MCP Agent (github.com/Gramman87/spring-mcp-agent): a reference integration showing how a Java service can publish its tools to any MCP client over Streamable HTTP, with Origin and input-schema validation at the endpoint, plus a streaming agent UI and a test suite.",
         "Each project is live or open-source and built the way a deployment should be: start from the business outcome, design the agent's behavior, then measure it.",
       ]}
     />

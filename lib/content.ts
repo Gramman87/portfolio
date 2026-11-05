@@ -14,7 +14,7 @@ export const projects: Project[] = [
   {
     title: "Spring Boot MCP Agent",
     description:
-      "A full-stack agentic developer tool: a Java 21 / Spring Boot backend publishes tools over an MCP-style producer surface (tools/list, tools/call) and runs a streaming agent that consumes them, with a React + TypeScript front-end that renders tool calls and tokens in real time over SSE. Includes an OpenAI-compatible /v1/chat/completions endpoint and a JUnit suite covering the tools, registry, agent logic, and controllers. The LLM seam is isolated so a real Claude tool-use call drops straight in.",
+      "A full-stack agentic developer tool: a Java 21 / Spring Boot backend publishes its tools as an MCP server over Streamable HTTP, so any MCP client can connect, and runs a streaming agent on the same tool registry, with a React + TypeScript front-end that renders tool calls and tokens in real time over SSE. Includes an OpenAI-compatible /v1/chat/completions endpoint, a JUnit suite, and a CI check against the Java and TypeScript MCP clients.",
     tags: ["Java", "Spring Boot", "React", "MCP", "SSE Streaming", "JUnit"],
     color: "from-sky-500 to-blue-600",
     highlight: "JVM + React + MCP",
