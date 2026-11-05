@@ -59,7 +59,7 @@ export const projects: Project[] = [
   {
     title: "HR Operations Agent",
     description:
-      "An AI-native take on HR operations: an agentic workflow on Claude with real tool-calling, where the interface is driven by the underlying employee data rather than static layouts. The agent orchestrates 8 tools across 30+ employees, 6 departments, and 7 policies, handling compensation analysis, retention risk scoring, org-chart traversal, and PTO tracking in under 3 seconds per query. Full-stack Next.js / TypeScript, live and open-source, a data-driven enterprise interface built end to end.",
+      "A Claude tool-calling agent for HR operations over a fictional company of 30 employees, 6 departments, and 7 policies. The agent chooses from 8 tools for compensation analysis, retention risk scoring, org-chart traversal, PTO tracking, and policy search, and the UI shows each tool call with its result. When the model is unavailable, keyword rules pick the same tools and the answer is labelled. Full-stack Next.js / TypeScript, live and open-source, with tests in CI.",
     tags: ["Claude API", "Tool Use", "Agents", "Next.js", "TypeScript", "HR"],
     color: "from-rose-500 to-pink-600",
     highlight: "Agentic HR System",

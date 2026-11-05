@@ -24,7 +24,7 @@ export default function AccentureAppliedAiResume() {
         "Spring Boot MCP Agent (github.com/Gramman87/spring-mcp-agent): a full-stack service that publishes its tools as an MCP server over Streamable HTTP and runs a streaming agent on the same tool registry, with a React/TypeScript UI rendering tool calls and tokens live, an OpenAI-compatible endpoint, and a JUnit suite.",
         "RAG Knowledge Agent (github.com/Gramman87/rag-agent): retrieval over a documentation corpus that surfaces top-k chunks with relevance scores, then has Claude compose a grounded answer with inline source citations.",
         "Portfolio Analyst Sub-Agent System (github.com/Gramman87/fs-analyst-agent): a Claude lead agent dispatches to three specialist sub-agents and synthesizes a decision-grade memo, backed by a Claude-as-judge evaluation harness, with token use across every model call shown in the UI.",
-        "HR Operations Agent (github.com/Gramman87/hr-agentic-workflow): a tool-calling agent across 8 tools and employee, department, and policy data, answering in under 3 seconds per query. The kind of live demo agent that helps a sales pursuit land.",
+        "HR Operations Agent (github.com/Gramman87/hr-agentic-workflow): a tool-calling agent across 8 tools and employee, department, and policy data, showing each tool call as it answers. The kind of live demo agent that helps a sales pursuit land.",
       ]}
     />
   );
