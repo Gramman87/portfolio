@@ -46,7 +46,7 @@ export const projects: Project[] = [
   {
     title: "Portfolio Analyst Sub-Agent System",
     description:
-      "A Python lead orchestrator (Claude Sonnet 4.6, adaptive thinking) dispatches to three specialist sub-agents (Claude Haiku 4.5) via tool-use (market data, news sentiment, risk concentration), then synthesizes their briefings into a decision-grade analyst memo. Backed by a Claude-as-judge evaluation harness scoring routing, coverage, and quality across hand-written cases. Prompt caching on every system prompt and the lead's tool definitions; cache hit/miss telemetry surfaced in the UI.",
+      "A Python lead orchestrator (Claude Sonnet 4.6, adaptive thinking) dispatches to three specialist sub-agents (Claude Haiku 4.5) via tool-use (market data, news sentiment, risk concentration), then synthesizes their briefings into a decision-grade analyst memo. Sub-agents run concurrently, portfolio math is computed in code, and the UI reports token use across every model call. Includes a Claude-as-judge evaluation harness scoring routing, coverage, and quality on hand-written cases, run on demand, plus offline tests in CI and a labelled rule-based fallback when the model is unavailable.",
     tags: ["Python", "Sub-Agents", "Claude API", "Tool Use", "Evaluation Harness"],
     color: "from-amber-500 to-orange-600",
     highlight: "Sub-Agent Orchestration",
