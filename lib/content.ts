@@ -36,7 +36,7 @@ export const projects: Project[] = [
   {
     title: "Streaming Analytics Dashboard",
     description:
-      "A full-stack Next.js dashboard: MRR/ARR, churn, engagement, and segment views, with two real Claude integrations on top: a natural-language query interface that streams answers token-by-token over the live metrics, and server-side cached insight cards. Real-time streaming and a polished React surface over a production data layer.",
+      "A full-stack Next.js dashboard over fictional SaaS metrics: MRR/ARR, churn, and engagement charts, with two Claude integrations on top: a natural-language query interface that streams answers token by token, and server-side cached insight cards. Both fall back to labelled rule-based answers when the model is unavailable, so the page never goes blank.",
     tags: ["Next.js", "Claude API", "Streaming", "React", "TypeScript"],
     color: "from-violet-600 to-indigo-600",
     highlight: "Real-Time Streaming",

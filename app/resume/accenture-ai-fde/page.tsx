@@ -24,7 +24,7 @@ export default function AccentureAiFdeResume() {
         "Portfolio Analyst Sub-Agent System (github.com/Gramman87/fs-analyst-agent): a larger lead model routes to three smaller specialist sub-agents running concurrently and synthesizes a decision-grade memo, with token use across every model call shown in the UI, a labelled fallback when the model is unavailable, and an LLM-as-judge harness scoring routing, coverage, and quality on test cases.",
         "RAG Knowledge Agent (github.com/Gramman87/rag-agent): retrieval over a documentation corpus with relevance-scored top-k chunks and grounded answers carrying inline source citations.",
         "MCP Integration Server and Spring Boot MCP Agent (github.com/Gramman87/mcp-server, spring-mcp-agent): MCP servers that open existing business data and services to agents: one consumed by a real MCP client at runtime, the other a Java service that also runs a streaming agent on the same tools, with a React UI and an OpenAI-compatible endpoint.",
-        "Streaming Analytics Dashboard (github.com/Gramman87/fde-dashboard): a Next.js product with a natural-language query interface that streams answers over live metrics, plus server-side cached AI insight cards.",
+        "Streaming Analytics Dashboard (github.com/Gramman87/fde-dashboard): a Next.js product with a natural-language query interface that streams answers over sample business metrics, plus server-side cached AI insight cards and a labelled fallback when the model is unavailable.",
       ]}
     />
   );
