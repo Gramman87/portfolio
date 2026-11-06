@@ -85,7 +85,7 @@ export default function Projects() {
                   </p>
                 )}
                 {!p.link && !p.github && (
-                  <p className="text-xs text-gray-700 mt-4">Past work · no public repo</p>
+                  <p className="text-xs text-gray-700 mt-4">Work project · no public repo</p>
                 )}
                 {!p.link && p.github && (
                   <p className="text-xs text-gray-700 mt-4">Full-stack · run locally</p>
