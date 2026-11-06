@@ -95,7 +95,7 @@ export const experience = [
     period: "Mar 2023 – Present",
     bullets: [
       "Modernize a government off-the-shelf (GOTS) application, migrating its stack onto Red Hat OpenShift (OCP) to shorten feature release cycles; containerized its multi-component Java/Spring Boot monolith and deployed it through CI/CD.",
-      "Cut deployment time 40% by parallelizing and caching GitLab CI/CD pipelines, shortening the loop from code change to deployable build.",
+      "Cut deployment time 40%, from 25 to 15 minutes, by parallelizing and caching GitLab CI/CD pipelines.",
       "Act as Scrum Master for a 5-person engineering team: run Agile ceremonies, coordinate dependencies with partner teams, and report progress and risks up the chain to leadership.",
       "Built and shipped Flightplan on my own initiative, a release-roadmap and milestone-audit web app for a 19-team SAFe program: a 20-rule audit engine reads GitLab milestones, issues, and merge requests and flags mis-entered release data for scrum masters and the release train engineer, with OAuth 2.0 PKCE sign-in and read-only access as the signed-in user (TypeScript, React, D3, 87 tests).",
       "Build full-stack features from REST APIs to AngularJS front ends, holding to versioning, backward-compatibility, and security standards on public-facing APIs.",

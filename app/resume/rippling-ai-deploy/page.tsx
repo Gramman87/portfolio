@@ -16,7 +16,7 @@ export default function RipplingAiDeployResume() {
         "AI Fluency: LLMs, tool-calling agents, sub-agents, retrieval, MCP integrations, LLM-as-judge evaluations, deciding what the model does versus deterministic code",
         "Production Readiness: acceptance and evaluation criteria, input validation, labelled fallbacks when the model is unavailable, permissions and edge cases at integration points",
         "Adoption: trained junior estimators, superintendents, and new project managers; explaining technical work to non-technical stakeholders",
-        "Build and Delivery: Python, SQL, TypeScript, React, Java/Spring Boot, REST APIs, OpenShift, CI/CD (40% faster deploys), Scrum Master, release planning",
+        "Build and Delivery: Python, SQL, TypeScript, React, Java/Spring Boot, REST APIs, OpenShift, CI/CD (deploys cut from 25 to 15 minutes), Scrum Master, release planning",
       ]}
       aiWork={[
         "HR Operations Agent (github.com/Gramman87/hr-agentic-workflow): a Claude tool-calling agent over a fictional company's HR data, choosing from 8 tools for compensation analysis, retention-risk scoring, org charts, PTO, and policy search, with each tool call and its result shown in the UI. When the model is unavailable, keyword rules run the same tools and the answer is labelled.",

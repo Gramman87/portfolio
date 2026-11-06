@@ -16,7 +16,7 @@ export default function RipplingBackendResume() {
         "Correctness: rule-based validation and audit engines, input validation, backward compatibility, JUnit, Vitest, Node test runner, mutation-checked tests",
         "Applied AI: tool-calling agents, sub-agents, retrieval, structured output validation, LLM-as-judge evaluations, deterministic code versus model judgment, labelled fallbacks",
         "Integration: GitLab API, MCP (server and client), OAuth 2.0 PKCE, OpenAI-compatible endpoints, SSE streaming",
-        "Delivery: Red Hat OpenShift, Kubernetes, Docker, GitLab CI/CD (40% faster deploys), HashiCorp Vault, Scrum Master for a 5-person team",
+        "Delivery: Red Hat OpenShift, Kubernetes, Docker, GitLab CI/CD (deploys cut from 25 to 15 minutes), HashiCorp Vault, Scrum Master for a 5-person team",
         "Front end: TypeScript, React, Next.js, D3, AngularJS",
       ]}
       aiWork={[
