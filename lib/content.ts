@@ -113,15 +113,6 @@ export const experience = [
     ],
   },
   {
-    role: "Java Full Stack Developer",
-    company: "Skill Distillery",
-    period: "Oct 2021 – Mar 2022",
-    bullets: [
-      "Built full-stack applications in Java, Spring Boot, Angular, and JavaScript deployed on AWS with RESTful service architectures.",
-      "Served as Scrum Master and Database Administrator, enforcing Agile cadence, facilitating ceremonies, and driving schema design.",
-    ],
-  },
-  {
     role: "Pre-Construction Manager",
     company: "Commercial & Industrial Electrical Construction",
     period: "Jan 2008 – Sep 2021",

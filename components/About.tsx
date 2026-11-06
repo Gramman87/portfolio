@@ -1,6 +1,6 @@
 export default function About() {
   const stats = [
-    { value: "5+", label: "Years software engineering" },
+    { value: "4+", label: "Years software engineering" },
     { value: "40%", label: "Faster CI/CD deployments" },
     { value: "13+", label: "Years leading delivery" },
     { value: "$80M+", label: "Programs delivered" },

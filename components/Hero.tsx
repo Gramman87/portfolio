@@ -38,7 +38,7 @@ export default function Hero() {
           I build features end to end, from JVM / Spring Boot services and APIs to the
           TypeScript and React interfaces they power, for AI-native enterprise products. Production
           work on Claude with agentic and conversational experiences, MCP, tool-calling, and
-          real-time streaming, grounded in 5+ years of JVM engineering and tested, maintainable code.
+          real-time streaming, grounded in nearly 5 years of JVM engineering and tested, maintainable code.
         </p>
 
         <div className="animate-fade-up-delay-3 flex items-center justify-center gap-4 flex-wrap">

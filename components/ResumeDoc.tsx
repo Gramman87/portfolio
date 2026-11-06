@@ -27,16 +27,6 @@ const experience = [
     ],
   },
   {
-    title: "Java Full Stack Developer",
-    company: "Skill Distillery",
-    period: "Oct 2021 – Mar 2022",
-    location: "Greenwood Village, CO",
-    bullets: [
-      "Built full-stack applications in Java, Spring Boot, Angular, and JavaScript deployed on AWS with RESTful service architectures.",
-      "Served as Scrum Master and Database Administrator, enforcing Agile cadence, facilitating ceremonies, and driving robust schema design.",
-    ],
-  },
-  {
     title: "Pre-Construction Manager",
     company: "Commercial & Industrial Electrical Construction",
     period: "Jan 2008 – Sep 2021",
@@ -50,7 +40,7 @@ const experience = [
 ];
 
 const education = [
-  "Skill Distillery: Certificate, Full Stack Java Development (2021–2022)",
+  "Skill Distillery: Certificate, Full Stack Java Development (2021–2022); built full-stack Java, Spring Boot, and Angular applications deployed on AWS",
   "Metropolitan State University of Denver: Computer Science coursework",
 ];
 
