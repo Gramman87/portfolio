@@ -12,7 +12,7 @@ const reasons = [
   {
     number: "03",
     title: "Data model to pixels, with AI in the loop",
-    body: "I want the breadth that runs from schema to UI. I build data-driven interfaces that adapt to the data rather than static layouts, and I use AI coding tools like Claude Code daily as a first-class part of how I ship, real fluency, not an experiment.",
+    body: "I want the breadth that runs from schema to UI. I build data-driven interfaces, and I use AI coding tools like Claude Code daily as a first-class part of how I ship, real fluency, not an experiment.",
   },
   {
     number: "04",
