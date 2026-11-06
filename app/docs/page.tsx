@@ -20,6 +20,20 @@ const groups = [
     cover: "/cover-letter/rippling-ai-deploy",
     posting: "https://ats.rippling.com/rippling/jobs/bc0bf386-e53a-446f-b78a-ab10a79655dc",
   },
+  {
+    label: "Rippling: Software Engineer II, Backend, HR Product",
+    note: "Best level fit. 2+ yrs backend in Python, Go, or similar; relational DB. SF, NYC, or Seattle, 3 days a week. US Tier 1 $152K to $225K.",
+    resume: "/resume/rippling-backend",
+    cover: "/cover-letter/rippling-hr-backend",
+    posting: "https://ats.rippling.com/rippling/jobs/86e4b180-a27e-4b86-bc80-6b7cefa2e1c9",
+  },
+  {
+    label: "Rippling: Senior Software Engineer, Backend, Financial AI Product",
+    note: "Senior is a stretch. Evals, retrieval, AI versus deterministic systems. SF, NYC, or Seattle, 3 days a week. US Tier 1 $168K to $280K.",
+    resume: "/resume/rippling-backend",
+    cover: "/cover-letter/rippling-financial-ai",
+    posting: "https://ats.rippling.com/rippling/jobs/5fbd346a-7e22-4434-96d6-c73429b84fea",
+  },
 ];
 
 export default function DocsIndex() {
