@@ -13,6 +13,13 @@ const groups = [
     cover: "/cover-letter",
     posting: null as string | null,
   },
+  {
+    label: "Rippling: AI Deployment Lead, AI Solutions",
+    note: "Founding role reporting to the GM of AI Solutions (G&A focus). San Francisco or New York, 3 days a week in office. US Tier 1 $181.2K to $252K plus equity.",
+    resume: "/resume/rippling-ai-deploy",
+    cover: "/cover-letter/rippling-ai-deploy",
+    posting: "https://ats.rippling.com/rippling/jobs/bc0bf386-e53a-446f-b78a-ab10a79655dc",
+  },
 ];
 
 export default function DocsIndex() {
