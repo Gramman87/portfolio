@@ -19,7 +19,7 @@ export default function LetterDoc({
 
       {/* Letter */}
       <main className="max-w-3xl mx-auto px-6 py-16 print:py-8 print:px-0">
-        <div className="bg-white/[0.02] border border-white/[0.06] rounded-2xl p-10 md:p-14 print:bg-white print:border-0 print:text-black print:rounded-none">
+        <div className="bg-white/[0.02] border border-white/[0.06] rounded-2xl p-10 md:p-14 print:p-0 print:bg-white print:border-0 print:text-black print:rounded-none">
 
           {/* Header */}
           <div className="mb-10 pb-8 border-b border-white/[0.06] print:border-gray-200">
