@@ -13,34 +13,6 @@ const groups = [
     cover: "/cover-letter",
     posting: null as string | null,
   },
-  {
-    label: "Workday: Sr. AI Deployment Architect (JR-0107274)",
-    note: "APPLIED, active in Workday system (posting closed 10/09/2026). USA Remote, 50% travel. Gaps: enterprise AI delivery is self-directed; no multi-country implementation lead. Gap framed as motivation in cover letter. HR + finance agents map to Workday HCM/Financials.",
-    resume: "/resume/workday-ai-deploy",
-    cover: "/cover-letter/workday-ai-deploy",
-    posting: "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-IL-Chicago/Principal-Functional-Consultant--AI-Practice_JR-0107274",
-  },
-  {
-    label: "Accenture: Applied AI Engineer, Founding Team (R00323002)",
-    note: "STRONG FIT. Oracle Business Group AI CoE. Denver listed, CO $73.8-189K. Claude-forward (they want an Anthropic SME). MCP, retrieval, evals, demo agents. Gap: hybrid/vector retrieval (his RAG is TF-IDF), no Oracle. Apply via INTERNAL portal (AFS employee).",
-    resume: "/resume/accenture-applied-ai",
-    cover: "/cover-letter/accenture-applied-ai",
-    posting: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/Applied-AI-Engineer--Founding-Team_R00323002",
-  },
-  {
-    label: "Accenture: AI Led Forward Deployed Engineer, Design & Digital Products (R00350773)",
-    note: "STRETCH. Denver listed, CO $63.8-203.1K. Product-led, ship working code. Gaps stated honestly: GenAI is ~2 yrs self-directed (wants 3 yrs shipping), no Bedrock/Vertex/Foundry/Databricks, no fine-tuning or LangChain. Apply via INTERNAL portal.",
-    resume: "/resume/accenture-ai-fde",
-    cover: "/cover-letter/accenture-ai-fde",
-    posting: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/AI-Led-Forward-Deployed-Engineer---Design---Digital-Products_R00350773",
-  },
-  {
-    label: "monday.com: Forward Deployed Engineer, Strategic Deployments (Denver)",
-    note: "STRETCH-TO-GOOD. Denver hybrid 3 days/wk, $162-207K + equity + bonus. MCP integrations, evals, agents = bullseye. Gaps: 5+ yrs TS/Node/React from scratch (his TS/React is personal; prod front end is AngularJS), stated honestly. No reusable-playbook claim (unconfirmed).",
-    resume: "/resume/monday-fde",
-    cover: "/cover-letter/monday-fde",
-    posting: "https://jobs.ashbyhq.com/monday.com/17243777-171b-4421-ad2e-ffe06c15af59",
-  },
 ];
 
 export default function DocsIndex() {
