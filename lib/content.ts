@@ -79,7 +79,7 @@ export const projects: Project[] = [
   {
     title: "Flightplan: Release Roadmap & Milestone Audit",
     description:
-      "A release-roadmap and milestone-audit web app I built on my own initiative for a 19-team SAFe program at Accenture Federal Services, giving scrum masters and the release train engineer one view of what each team is releasing, when it reaches production, and what it depends on. A 20-rule audit engine reads GitLab milestones, issues, and merge requests and flags mis-entered release data, linking each finding back to GitLab for correction. It runs entirely in the browser with OAuth 2.0 PKCE sign-in and read-only access as the signed-in user, so there are no service credentials to manage. Built in TypeScript, React, and D3, with 87 tests over the domain logic.",
+      "A release-roadmap and milestone-audit web app I built and shipped on my own initiative for a 19-team SAFe program at Accenture Federal Services, giving scrum masters and the release train engineer one view of what each team is releasing, when it reaches production, and what it depends on. A 20-rule audit engine reads GitLab milestones, issues, and merge requests and flags mis-entered release data, linking each finding back to GitLab for correction. It runs entirely in the browser with OAuth 2.0 PKCE sign-in and read-only access as the signed-in user, so there are no service credentials to manage. Built in TypeScript, React, and D3, with 87 tests over the domain logic.",
     tags: ["TypeScript", "React", "D3", "GitLab API", "OAuth 2.0 PKCE", "SAFe"],
     color: "from-lime-500 to-green-600",
     highlight: "Program Delivery Tooling",
@@ -97,7 +97,7 @@ export const experience = [
       "Modernize a government off-the-shelf (GOTS) application, migrating its stack onto Red Hat OpenShift (OCP) to shorten feature release cycles; containerized its multi-component Java/Spring Boot monolith and deployed it through CI/CD.",
       "Cut deployment time 40% by parallelizing and caching GitLab CI/CD pipelines, shortening the loop from code change to deployable build.",
       "Act as Scrum Master for a 5-person engineering team: run Agile ceremonies, coordinate dependencies with partner teams, and report progress and risks up the chain to leadership.",
-      "Built Flightplan on my own initiative, a release-roadmap and milestone-audit web app for a 19-team SAFe program: a 20-rule audit engine reads GitLab milestones, issues, and merge requests and flags mis-entered release data for scrum masters and the release train engineer, with OAuth 2.0 PKCE sign-in and read-only access as the signed-in user (TypeScript, React, D3, 87 tests).",
+      "Built and shipped Flightplan on my own initiative, a release-roadmap and milestone-audit web app for a 19-team SAFe program: a 20-rule audit engine reads GitLab milestones, issues, and merge requests and flags mis-entered release data for scrum masters and the release train engineer, with OAuth 2.0 PKCE sign-in and read-only access as the signed-in user (TypeScript, React, D3, 87 tests).",
       "Build full-stack features from REST APIs to AngularJS front ends, holding to versioning, backward-compatibility, and security standards on public-facing APIs.",
       "Centralized application secrets in HashiCorp Vault to meet federal compliance requirements.",
     ],
