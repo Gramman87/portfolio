@@ -33,6 +33,7 @@ const experience = [
     location: "Colorado",
     bullets: [
       "Led pre-construction on 15 to 20 bids a year ranging from $5M to $85M, winning roughly 1 in 4, and owned scope development, estimating, business cases, procurement strategy, and risk evaluation before mobilization.",
+      "Ran a 5-month pre-construction engagement on an $80M+ project from start to finish.",
       "Trained junior estimators, superintendents, and new project managers, building the bench that carried projects from bid to field.",
       "Coordinated procurement, engineering, manpower, and scheduling into a delivery plan for each awarded project.",
     ],

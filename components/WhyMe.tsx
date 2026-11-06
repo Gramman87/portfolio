@@ -17,7 +17,7 @@ const reasons = [
   {
     number: "04",
     title: "JVM depth meets cloud-native operations",
-    body: "Nearly 5 years of Java/Spring Boot engineering: services, APIs, and data models that hold up in production, plus hands-on understanding of JVM behavior, concurrency, and data-access patterns. I've modernized legacy enterprise systems end-to-end on AWS, OpenShift, and Kubernetes, and cut deployment time 40% with parallelized, cached CI/CD.",
+    body: "Nearly 5 years of Java/Spring Boot engineering: services, APIs, and data models that hold up in production, plus hands-on understanding of JVM behavior, concurrency, and data-access patterns. I've helped move a multi-component Java application onto Red Hat OpenShift and cut deployment time from 25 to 15 minutes with parallelized, cached CI/CD.",
   },
 ];
 
