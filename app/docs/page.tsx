@@ -34,6 +34,13 @@ const groups = [
     cover: "/cover-letter/rippling-financial-ai",
     posting: "https://ats.rippling.com/rippling/jobs/5fbd346a-7e22-4434-96d6-c73429b84fea",
   },
+  {
+    label: "NVIDIA: Senior Software Engineer, Agentic Systems (NeMo Evaluator)",
+    note: "Colorado remote. 5+ yrs (he has nearly 5), Python-first APIs and SDKs, agent evaluation. L4 $184K to $287.5K; L5 $224K to $356.5K. JR2018875.",
+    resume: "/resume/nvidia-agentic-systems",
+    cover: "/cover-letter/nvidia-agentic-systems",
+    posting: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Agentic-Systems_JR2018875",
+  },
 ];
 
 export default function DocsIndex() {
